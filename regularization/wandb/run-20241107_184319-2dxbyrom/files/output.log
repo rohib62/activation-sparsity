@@ -1,0 +1,9 @@
+You are using a model of type llama to instantiate a model of type llama_sparse. This is not supported for all configurations of models and can yield errors.
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.21it/s]
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 295, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 249, in main
+    trainer = SparsityAwareTrainer(model, regularization_config)
+              ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'SparsityAwareTrainer' is not defined

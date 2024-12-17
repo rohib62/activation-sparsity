@@ -1,0 +1,21 @@
+Loading model with tensor parallelism...
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.30it/s]
+Loading tokenizer...
+Initializing trainer...
+Loading dataset...
+Setting up optimizer and scheduler...
+Starting training...
+Epoch 1:   0%|                                                                                                                | 0/13001 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 333, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 317, in main
+    model = train(
+            ^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 225, in train
+    activation_stats = trainer.get_activation_stats()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 111, in get_activation_stats
+    hook_stats = hook.get_activation_stats()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ActivationHook' object has no attribute 'get_activation_stats'

@@ -1,0 +1,16 @@
+{"time":"2024-11-07T18:47:19.656435488Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T18:47:19.656443728Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_184719-phxpsp4h/logs/debug-core.log"}
+{"time":"2024-11-07T18:47:24.745091064Z","level":"INFO","msg":"created new stream","id":"phxpsp4h"}
+{"time":"2024-11-07T18:47:24.745130653Z","level":"INFO","msg":"stream: started","id":"phxpsp4h"}
+{"time":"2024-11-07T18:47:24.745156371Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"phxpsp4h"}}
+{"time":"2024-11-07T18:47:24.745330579Z","level":"INFO","msg":"handler: started","stream_id":{"value":"phxpsp4h"}}
+{"time":"2024-11-07T18:47:24.74532121Z","level":"INFO","msg":"sender: started","stream_id":"phxpsp4h"}
+{"time":"2024-11-07T18:47:25.194414122Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T18:47:31.622865539Z","level":"INFO","msg":"stream: closing","id":"phxpsp4h"}
+{"time":"2024-11-07T18:47:31.622892136Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T18:47:31.623049083Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T18:47:32.066651385Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T18:47:32.172636488Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"phxpsp4h"}}
+{"time":"2024-11-07T18:47:32.172664042Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"phxpsp4h"}}
+{"time":"2024-11-07T18:47:32.172679551Z","level":"INFO","msg":"sender: closed","stream_id":"phxpsp4h"}
+{"time":"2024-11-07T18:47:32.172716725Z","level":"INFO","msg":"stream: closed","id":"phxpsp4h"}

@@ -1,0 +1,19 @@
+Loading model and tokenizer...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.38it/s]
+Epoch 1:   0%|                                                                                                                                              | 0/13001 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 302, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 286, in main
+    model = train(
+            ^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 147, in train
+    metrics = trainer.train_step(
+              ^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 75, in train_step
+    metrics = self.get_metrics()
+              ^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 86, in get_metrics
+    "task_loss": self.compute_loss.item() if hasattr(self, "compute_loss") else 0.0
+                 ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'item'

@@ -1,0 +1,20 @@
+Loading model from /home/riyasatohib_cohere_com/repos/models/meta-llama/Meta-Llama-3-8B...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.31it/s]
+  0%|                                                                                                                                                       | 0/19503 [00:00<?, ?it/s]/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py:87: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = amp.GradScaler()
+/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py:92: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with amp.autocast():
+  0%|                                                                                                                                             | 3/19503 [00:02<3:56:50,  1.37it/s]Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 200, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 185, in main
+    model = train(
+            ^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 108, in train
+    scaler.unscale_(optimizer)
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/amp/grad_scaler.py", line 338, in unscale_
+    optimizer_state["found_inf_per_device"] = self._unscale_grads_(
+                                              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/amp/grad_scaler.py", line 279, in _unscale_grads_
+    torch._amp_foreach_non_finite_check_and_unscale_(
+RuntimeError: "_amp_foreach_non_finite_check_and_unscale_cuda" not implemented for 'BFloat16'

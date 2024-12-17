@@ -1,0 +1,16 @@
+{"time":"2024-11-07T20:11:25.433497222Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T20:11:25.43350541Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_201125-suuba3xi/logs/debug-core.log"}
+{"time":"2024-11-07T20:11:30.49874132Z","level":"INFO","msg":"created new stream","id":"suuba3xi"}
+{"time":"2024-11-07T20:11:30.498783488Z","level":"INFO","msg":"stream: started","id":"suuba3xi"}
+{"time":"2024-11-07T20:11:30.498825483Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"suuba3xi"}}
+{"time":"2024-11-07T20:11:30.498981269Z","level":"INFO","msg":"sender: started","stream_id":"suuba3xi"}
+{"time":"2024-11-07T20:11:30.499020151Z","level":"INFO","msg":"handler: started","stream_id":{"value":"suuba3xi"}}
+{"time":"2024-11-07T20:11:30.743408264Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T20:16:49.607895772Z","level":"INFO","msg":"stream: closing","id":"suuba3xi"}
+{"time":"2024-11-07T20:16:49.607923565Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T20:16:49.60802375Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T20:16:49.924912635Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T20:16:50.011103128Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"suuba3xi"}}
+{"time":"2024-11-07T20:16:50.011124762Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"suuba3xi"}}
+{"time":"2024-11-07T20:16:50.011137599Z","level":"INFO","msg":"sender: closed","stream_id":"suuba3xi"}
+{"time":"2024-11-07T20:16:50.011197783Z","level":"INFO","msg":"stream: closed","id":"suuba3xi"}

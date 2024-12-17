@@ -1,0 +1,16 @@
+{"time":"2024-11-07T21:27:20.697926084Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T21:27:20.697935418Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_212720-dw1xtu2h/logs/debug-core.log"}
+{"time":"2024-11-07T21:27:20.901528003Z","level":"INFO","msg":"created new stream","id":"dw1xtu2h"}
+{"time":"2024-11-07T21:27:20.901549878Z","level":"INFO","msg":"stream: started","id":"dw1xtu2h"}
+{"time":"2024-11-07T21:27:20.901575953Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dw1xtu2h"}}
+{"time":"2024-11-07T21:27:20.901621846Z","level":"INFO","msg":"handler: started","stream_id":{"value":"dw1xtu2h"}}
+{"time":"2024-11-07T21:27:20.901770957Z","level":"INFO","msg":"sender: started","stream_id":"dw1xtu2h"}
+{"time":"2024-11-07T21:27:21.060754432Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T21:27:28.621536254Z","level":"INFO","msg":"stream: closing","id":"dw1xtu2h"}
+{"time":"2024-11-07T21:27:28.62156054Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T21:27:28.622222643Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T21:27:28.985317302Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T21:27:29.103323467Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"dw1xtu2h"}}
+{"time":"2024-11-07T21:27:29.103349935Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"dw1xtu2h"}}
+{"time":"2024-11-07T21:27:29.103365428Z","level":"INFO","msg":"sender: closed","stream_id":"dw1xtu2h"}
+{"time":"2024-11-07T21:27:29.103399113Z","level":"INFO","msg":"stream: closed","id":"dw1xtu2h"}

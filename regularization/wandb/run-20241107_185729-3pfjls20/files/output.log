@@ -1,0 +1,73 @@
+You are using a model of type llama to instantiate a model of type llama_sparse. This is not supported for all configurations of models and can yield errors.
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.23it/s]
+Epoch 1:   4%|██▎                                                    | 548/13001 [04:59<1:53:36,  1.83it/s, task_loss=nan, reg_loss=nan, sparsity=0.057]
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 512, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 496, in main
+    model = train(
+            ^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 350, in train
+    outputs = trainer.model(**batch)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 1189, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 1001, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 750, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/teal/mlp.py", line 46, in _mlp_forward
+    intermediate_states = self.act_fn(self.gate_proj(x)) * self.up_proj(x)
+                                                           ^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1616, in _call_impl
+    hook_result = hook(self, args, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 174, in _hook_fn
+    self.regularization_loss = self._compute_regularization()
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 186, in _compute_regularization
+    loss = self.regularizer.l1_regularization(self.activation, weight)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 118, in l1_regularization
+    return weight * torch.norm(activations, p=1)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/functional.py", line 1595, in norm
+    if has_torch_function_unary(input):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

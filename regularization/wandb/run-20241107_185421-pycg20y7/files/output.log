@@ -1,0 +1,17 @@
+You are using a model of type llama to instantiate a model of type llama_sparse. This is not supported for all configurations of models and can yield errors.
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.34it/s]
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 474, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 428, in main
+    trainer = SparsityAwareTrainer(model, regularization_config)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 207, in __init__
+    self._initialize_hooks()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 220, in _initialize_hooks
+    hook = SparseActivationHook(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 149, in __init__
+    self.device = next(module.parameters()).device if hasattr(module, 'parameters') else None
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

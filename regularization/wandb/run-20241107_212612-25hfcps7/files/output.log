@@ -1,0 +1,16 @@
+Loading model from /home/riyasatohib_cohere_com/repos/models/meta-llama/Meta-Llama-3-8B...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.15it/s]
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 223, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 177, in main
+    DataLoader(
+    ^^^^^^^^^^
+NameError: name 'DataLoader' is not defined
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 223, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 177, in main
+[rank0]:     DataLoader(
+[rank0]:     ^^^^^^^^^^
+[rank0]: NameError: name 'DataLoader' is not defined

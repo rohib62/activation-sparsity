@@ -1,0 +1,24 @@
+Loading model with tensor parallelism...
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.37it/s]
+Loading tokenizer...
+Initializing trainer...
+Loading dataset...
+Setting up optimizer and scheduler...
+Starting training...
+Epoch 1:   0%|▎                                                                       | 47/13001 [00:13<1:04:16,  3.36it/s, task_loss=nan, reg_loss=nan]
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 356, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 340, in main
+    model = train(
+            ^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 248, in train
+    activation_stats = trainer.get_activation_stats()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 116, in get_activation_stats
+    hook_stats = hook.get_activation_stats()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 178, in get_activation_stats
+    "mean": abs_activation.mean().cpu().item(),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

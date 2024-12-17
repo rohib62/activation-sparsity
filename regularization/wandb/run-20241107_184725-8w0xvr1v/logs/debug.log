@@ -1,0 +1,15 @@
+2024-11-07 18:47:25,251 INFO    MainThread:113656 [wandb_setup.py:_flush():79] Current SDK version is 0.18.6
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_setup.py:_flush():79] Configure stats pid to 113656
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_setup.py:_flush():79] Loading settings from /home/riyasatohib_cohere_com/.config/wandb/settings
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_setup.py:_flush():79] Loading settings from /home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/settings
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_setup.py:_flush():79] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'regularization/act_reg.py', 'program_abspath': '/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py', 'program': '/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py'}
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_init.py:_log_setup():533] Logging user logs to /home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_184725-8w0xvr1v/logs/debug.log
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_init.py:_log_setup():534] Logging internal logs to /home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_184725-8w0xvr1v/logs/debug-internal.log
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_init.py:init():619] calling init triggers
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_init.py:init():626] wandb.init called with sweep_config: {}
+config: {'model_name': '/home/riyasatohib_cohere_com/repos/models/meta-llama/Meta-Llama-3-8B', 'hist_path': '/home/riyasatohib_cohere_com/repos/teal_clone/regularization/reg_hist', 'output_dir': './sparse_finetuned', 'num_epochs': 3, 'batch_size': 4, 'learning_rate': 2e-05, 'warmup_steps': 100, 'max_length': 512, 'gradient_accumulation_steps': 4, 'wandb_project': 'sparse-llama-finetune', 'disable_wandb': False, 'reg_types': ['l1', 'hoyer'], 'reg_weights': [0.01, 0.005], 'threshold': 0.1, 'group_size': 8}
+2024-11-07 18:47:25,252 INFO    MainThread:113656 [wandb_init.py:init():664] wandb.init() called when a run is still active
+2024-11-07 18:47:31,623 WARNING MsgRouterThr:113656 [router.py:message_loop():75] message_loop has been closed

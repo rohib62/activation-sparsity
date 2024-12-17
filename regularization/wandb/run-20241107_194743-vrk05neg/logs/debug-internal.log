@@ -1,0 +1,16 @@
+{"time":"2024-11-07T19:47:43.077686922Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T19:47:43.077695532Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_194743-vrk05neg/logs/debug-core.log"}
+{"time":"2024-11-07T19:47:48.097667507Z","level":"INFO","msg":"created new stream","id":"vrk05neg"}
+{"time":"2024-11-07T19:47:48.097701611Z","level":"INFO","msg":"stream: started","id":"vrk05neg"}
+{"time":"2024-11-07T19:47:48.097733571Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"vrk05neg"}}
+{"time":"2024-11-07T19:47:48.097876367Z","level":"INFO","msg":"handler: started","stream_id":{"value":"vrk05neg"}}
+{"time":"2024-11-07T19:47:48.097930053Z","level":"INFO","msg":"sender: started","stream_id":"vrk05neg"}
+{"time":"2024-11-07T19:47:48.234946754Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T19:48:03.314561624Z","level":"INFO","msg":"stream: closing","id":"vrk05neg"}
+{"time":"2024-11-07T19:48:03.314583701Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T19:48:03.314672746Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T19:48:03.715368413Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T19:48:03.962906102Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"vrk05neg"}}
+{"time":"2024-11-07T19:48:03.962938295Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"vrk05neg"}}
+{"time":"2024-11-07T19:48:03.962986779Z","level":"INFO","msg":"sender: closed","stream_id":"vrk05neg"}
+{"time":"2024-11-07T19:48:03.962992121Z","level":"INFO","msg":"stream: closed","id":"vrk05neg"}

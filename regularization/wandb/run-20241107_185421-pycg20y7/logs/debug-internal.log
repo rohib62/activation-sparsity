@@ -1,0 +1,16 @@
+{"time":"2024-11-07T18:54:21.170024081Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T18:54:21.170052544Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_185421-pycg20y7/logs/debug-core.log"}
+{"time":"2024-11-07T18:54:26.268137668Z","level":"INFO","msg":"created new stream","id":"pycg20y7"}
+{"time":"2024-11-07T18:54:26.268174651Z","level":"INFO","msg":"stream: started","id":"pycg20y7"}
+{"time":"2024-11-07T18:54:26.268206938Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"pycg20y7"}}
+{"time":"2024-11-07T18:54:26.268350208Z","level":"INFO","msg":"sender: started","stream_id":"pycg20y7"}
+{"time":"2024-11-07T18:54:26.26874015Z","level":"INFO","msg":"handler: started","stream_id":{"value":"pycg20y7"}}
+{"time":"2024-11-07T18:54:26.465974739Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T18:54:30.854012844Z","level":"INFO","msg":"stream: closing","id":"pycg20y7"}
+{"time":"2024-11-07T18:54:30.854040803Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T18:54:30.854089934Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T18:54:31.169660809Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T18:54:31.258583557Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"pycg20y7"}}
+{"time":"2024-11-07T18:54:31.258624825Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"pycg20y7"}}
+{"time":"2024-11-07T18:54:31.258688543Z","level":"INFO","msg":"sender: closed","stream_id":"pycg20y7"}
+{"time":"2024-11-07T18:54:31.258696884Z","level":"INFO","msg":"stream: closed","id":"pycg20y7"}

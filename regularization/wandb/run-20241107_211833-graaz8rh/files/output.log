@@ -1,0 +1,139 @@
+Loading model and tokenizer...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.37it/s]
+Epoch 1:   0%|▎                                                                                                                    | 34/13001 [00:04<19:00, 11.37it/s, task_loss=3.33]
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Warning: Loss is NaN, skipping step
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 306, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 290, in main
+    model = train(
+            ^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 151, in train
+    metrics = trainer.train_step(
+              ^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 68, in train_step
+    self.current_loss = self.compute_loss(batch)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 83, in compute_loss
+    outputs = self.model(**batch)
+              ^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/hooks.py", line 171, in new_forward
+    return module._hf_hook.post_forward(module, output)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/hooks.py", line 388, in post_forward
+    output = send_to_device(output, self.input_device, skip_keys=self.skip_keys)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/utils/operations.py", line 184, in send_to_device
+    {
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/utils/operations.py", line 185, in <dictcomp>
+    k: t if k in skip_keys else send_to_device(t, device, non_blocking=non_blocking, skip_keys=skip_keys)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/utils/operations.py", line 156, in send_to_device
+    return tensor.to(device, non_blocking=non_blocking)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

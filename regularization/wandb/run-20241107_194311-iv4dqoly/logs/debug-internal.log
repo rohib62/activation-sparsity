@@ -1,0 +1,16 @@
+{"time":"2024-11-07T19:43:11.318979855Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T19:43:11.318987709Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_194311-iv4dqoly/logs/debug-core.log"}
+{"time":"2024-11-07T19:43:16.410747085Z","level":"INFO","msg":"created new stream","id":"iv4dqoly"}
+{"time":"2024-11-07T19:43:16.410809177Z","level":"INFO","msg":"stream: started","id":"iv4dqoly"}
+{"time":"2024-11-07T19:43:16.410857668Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"iv4dqoly"}}
+{"time":"2024-11-07T19:43:16.410998751Z","level":"INFO","msg":"handler: started","stream_id":{"value":"iv4dqoly"}}
+{"time":"2024-11-07T19:43:16.411085199Z","level":"INFO","msg":"sender: started","stream_id":"iv4dqoly"}
+{"time":"2024-11-07T19:43:16.72687668Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T19:43:28.459729859Z","level":"INFO","msg":"stream: closing","id":"iv4dqoly"}
+{"time":"2024-11-07T19:43:28.459753287Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T19:43:28.459780543Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T19:43:28.710536436Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T19:43:28.814307565Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"iv4dqoly"}}
+{"time":"2024-11-07T19:43:28.814332313Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"iv4dqoly"}}
+{"time":"2024-11-07T19:43:28.814403188Z","level":"INFO","msg":"sender: closed","stream_id":"iv4dqoly"}
+{"time":"2024-11-07T19:43:28.814408904Z","level":"INFO","msg":"stream: closed","id":"iv4dqoly"}

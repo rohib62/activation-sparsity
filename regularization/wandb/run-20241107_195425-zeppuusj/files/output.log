@@ -1,0 +1,46 @@
+Loading model with tensor parallelism...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.23it/s]
+Loading tokenizer...
+Initializing trainer...
+Loading dataset...
+Setting up optimizer and scheduler...
+Starting training...
+Epoch 1:   0%|                                                                                                                                              | 0/13001 [09:20<?, ?it/s]
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(240)[0;36mtrain[0;34m()[0m
+[0;32m    239 [0;31m            [0;32mimport[0m [0mipdb[0m[0;34m;[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 240 [0;31m            [0mreg_loss[0m [0;34m=[0m [0mtrainer[0m[0;34m.[0m[0mget_regularization_loss[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    241 [0;31m[0;34m[0m[0m
+[0m
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(105)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    104 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 105 [0;31m        [0;32mif[0m [0;32mnot[0m [0mlosses[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    106 [0;31m            [0;32mreturn[0m [0mtorch[0m[0;34m.[0m[0mtensor[0m[0;34m([0m[0;36m0.0[0m[0;34m,[0m [0mdevice[0m[0;34m=[0m[0mself[0m[0;34m.[0m[0mprimary_device[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+[tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(104.8159, device='cuda:0', grad_fn=<AddBackward0>), tensor(41.7240, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(195.2552, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(207.0030, device='cuda:0', grad_fn=<AddBackward0>), tensor(65.6290, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(203.6348, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(483.2529, device='cuda:0', grad_fn=<AddBackward0>), tensor(87.6916, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(252.7523, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(565.5026, device='cuda:0', grad_fn=<AddBackward0>), tensor(141.6279, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(280.0022, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(612.5026, device='cuda:0', grad_fn=<AddBackward0>), tensor(174.3777, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<AddBackward0>), tensor(409.2522, device='cuda:0', grad_fn=<AddBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(613.0026, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(198.2527, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(429.0021, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(576.5025, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(214.7526, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(465.0021, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(624.0026, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(282.5026, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(507.0022, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(252.1277, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(481.2522, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(291.0027, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(512.5023, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(nan, devi
+*** NameError: name 'cleatr' is not defined
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/IPython/core/debugger.py", line 179, in BdbQuit_excepthook
+    raise ValueError(
+ValueError: `BdbQuit_excepthook` is deprecated since version 5.1. It is still around only because it is still imported by ipdb.
+
+Original exception was:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 361, in <module>
+    tokenizer.pad_token = tokenizer.eos_token
+^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 345, in main
+    project_name=args.wandb_project,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 240, in train
+
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 105, in get_regularization_loss
+    print(f"Warning: Could not add hook to {name}: {str(e)}")
+^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

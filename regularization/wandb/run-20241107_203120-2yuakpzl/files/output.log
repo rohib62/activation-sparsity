@@ -1,0 +1,6183 @@
+Loading model with tensor parallelism...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.36it/s]
+Loading tokenizer...
+Initializing trainer...
+Loading dataset...
+Setting up optimizer and scheduler...
+Starting training...
+Epoch 1:   0%|                                                                                                                                              | 0/13001 [00:00<?, ?it/s]
+
+Activation stats before reg:
+Mean: 0.782564
+Max: 13.226562
+L1 reg loss: 0.003381
+
+Activation stats before reg:
+Mean: 0.956468
+Max: 14.164062
+L1 reg loss: 0.003961
+
+Activation stats before reg:
+Mean: 0.025044
+Max: 0.473389
+L1 reg loss: 0.000138
+
+Activation stats before reg:
+Mean: 0.002512
+Max: 0.247681
+L1 reg loss: 0.000014
+
+Activation stats before reg:
+Mean: 0.110278
+Max: 3.925781
+L1 reg loss: 0.000606
+
+Activation stats before reg:
+Mean: 0.083817
+Max: 2.332031
+L1 reg loss: 0.000466
+
+Activation stats before reg:
+Mean: 0.012125
+Max: 2.722656
+L1 reg loss: 0.000067
+
+Activation stats before reg:
+Mean: 0.830012
+Max: 11.000000
+L1 reg loss: 0.003545
+
+Activation stats before reg:
+Mean: 1.222262
+Max: 11.000000
+L1 reg loss: 0.004733
+
+Activation stats before reg:
+Mean: 0.050005
+Max: 1.296875
+L1 reg loss: 0.000285
+
+Activation stats before reg:
+Mean: 0.003887
+Max: 0.207397
+L1 reg loss: 0.000022
+
+Activation stats before reg:
+Mean: 0.091136
+Max: 15.585938
+L1 reg loss: 0.000522
+
+Activation stats before reg:
+Mean: 0.072564
+Max: 23.765625
+L1 reg loss: 0.000424
+
+Activation stats before reg:
+Mean: 0.012303
+Max: 225.625000
+L1 reg loss: 0.000067
+
+Activation stats before reg:
+Mean: 0.693997
+Max: 10.804688
+L1 reg loss: 0.002913
+
+Activation stats before reg:
+Mean: 1.149194
+Max: 14.500000
+L1 reg loss: 0.004483
+
+Activation stats before reg:
+Mean: 0.117796
+Max: 1.659180
+L1 reg loss: 0.000654
+
+Activation stats before reg:
+Mean: 0.005016
+Max: 0.492188
+L1 reg loss: 0.000028
+
+Activation stats before reg:
+Mean: 0.123492
+Max: 4.757812
+L1 reg loss: 0.000709
+
+Activation stats before reg:
+Mean: 0.092698
+Max: 1.922852
+L1 reg loss: 0.000543
+
+Activation stats before reg:
+Mean: 0.016191
+Max: 0.415039
+L1 reg loss: 0.000096
+
+Activation stats before reg:
+Mean: 0.675258
+Max: 11.789062
+L1 reg loss: 0.002871
+
+Activation stats before reg:
+Mean: 1.066302
+Max: 16.921875
+L1 reg loss: 0.004198
+
+Activation stats before reg:
+Mean: 0.136846
+Max: 2.160156
+L1 reg loss: 0.000768
+
+Activation stats before reg:
+Mean: 0.009182
+Max: 0.688965
+L1 reg loss: 0.000055
+
+Activation stats before reg:
+Mean: 0.165222
+Max: 4.695312
+L1 reg loss: 0.000926
+
+Activation stats before reg:
+Mean: 0.108650
+Max: 2.435547
+L1 reg loss: 0.000629
+
+Activation stats before reg:
+Mean: 0.017447
+Max: 0.492432
+L1 reg loss: 0.000107
+
+Activation stats before reg:
+Mean: 0.680347
+Max: 10.242188
+L1 reg loss: 0.002893
+
+Activation stats before reg:
+Mean: 1.149132
+Max: 16.218750
+L1 reg loss: 0.004472
+
+Activation stats before reg:
+Mean: 0.146692
+Max: 1.798828
+L1 reg loss: 0.000821
+
+Activation stats before reg:
+Mean: 0.010827
+Max: 0.745605
+L1 reg loss: 0.000065
+
+Activation stats before reg:
+Mean: 0.219094
+Max: 3.644531
+L1 reg loss: 0.001207
+
+Activation stats before reg:
+Mean: 0.122000
+Max: 2.230469
+L1 reg loss: 0.000699
+
+Activation stats before reg:
+Mean: 0.025946
+Max: 0.636719
+L1 reg loss: 0.000156
+
+Activation stats before reg:
+Mean: 0.654236
+Max: 13.156250
+L1 reg loss: 0.002822
+
+Activation stats before reg:
+Mean: 1.165200
+Max: 18.015625
+L1 reg loss: 0.004521
+
+Activation stats before reg:
+Mean: 0.147420
+Max: 2.451172
+L1 reg loss: 0.000816
+
+Activation stats before reg:
+Mean: 0.012491
+Max: 0.828125
+L1 reg loss: 0.000075
+
+Activation stats before reg:
+Mean: 0.245678
+Max: 4.843750
+L1 reg loss: 0.001349
+
+Activation stats before reg:
+Mean: 0.135348
+Max: 3.050781
+L1 reg loss: 0.000772
+
+Activation stats before reg:
+Mean: 0.025658
+Max: 0.797852
+L1 reg loss: 0.000157
+
+Activation stats before reg:
+Mean: 0.624240
+Max: 11.664062
+L1 reg loss: 0.002695
+
+Activation stats before reg:
+Mean: 1.161053
+Max: 18.218750
+L1 reg loss: 0.004421
+
+Activation stats before reg:
+Mean: 0.138157
+Max: 1.795898
+L1 reg loss: 0.000775
+
+Activation stats before reg:
+Mean: 0.013302
+Max: 0.827637
+L1 reg loss: 0.000078
+
+Activation stats before reg:
+Mean: 0.269448
+Max: 4.128906
+L1 reg loss: 0.001458
+
+Activation stats before reg:
+Mean: 0.143577
+Max: 3.277344
+L1 reg loss: 0.000816
+
+Activation stats before reg:
+Mean: 0.028116
+Max: 0.895020
+L1 reg loss: 0.000172
+
+Activation stats before reg:
+Mean: 0.615392
+Max: 11.726562
+L1 reg loss: 0.002658
+
+Activation stats before reg:
+Mean: 1.161068
+Max: 17.171875
+L1 reg loss: 0.004465
+
+Activation stats before reg:
+Mean: 0.149771
+Max: 2.375000
+L1 reg loss: 0.000839
+
+Activation stats before reg:
+Mean: 0.016997
+Max: 1.012695
+L1 reg loss: 0.000101
+
+Activation stats before reg:
+Mean: 0.269249
+Max: 3.513672
+L1 reg loss: 0.001453
+
+Activation stats before reg:
+Mean: 0.151586
+Max: 3.185547
+L1 reg loss: 0.000857
+
+Activation stats before reg:
+Mean: 0.029791
+Max: 1.400391
+L1 reg loss: 0.000181
+
+Activation stats before reg:
+Mean: 0.588205
+Max: 12.703125
+L1 reg loss: 0.002609
+
+Activation stats before reg:
+Mean: 1.135074
+Max: 17.531250
+L1 reg loss: 0.004394
+
+Activation stats before reg:
+Mean: 0.160103
+Max: 2.246094
+L1 reg loss: 0.000892
+
+Activation stats before reg:
+Mean: 0.014925
+Max: 1.018555
+L1 reg loss: 0.000088
+
+Activation stats before reg:
+Mean: 0.277323
+Max: 3.193359
+L1 reg loss: 0.001484
+
+Activation stats before reg:
+Mean: 0.152469
+Max: 2.390625
+L1 reg loss: 0.000864
+
+Activation stats before reg:
+Mean: 0.028484
+Max: 1.414062
+L1 reg loss: 0.000173
+
+Activation stats before reg:
+Mean: 0.566062
+Max: 10.718750
+L1 reg loss: 0.002545
+
+Activation stats before reg:
+Mean: 1.083970
+Max: 17.703125
+L1 reg loss: 0.004272
+
+Activation stats before reg:
+Mean: 0.178969
+Max: 2.287109
+L1 reg loss: 0.000974
+
+Activation stats before reg:
+Mean: 0.017075
+Max: 1.161133
+L1 reg loss: 0.000101
+
+Activation stats before reg:
+Mean: 0.288067
+Max: 4.050781
+L1 reg loss: 0.001532
+
+Activation stats before reg:
+Mean: 0.157159
+Max: 4.007812
+L1 reg loss: 0.000888
+
+Activation stats before reg:
+Mean: 0.030672
+Max: 1.439453
+L1 reg loss: 0.000187
+
+Activation stats before reg:
+Mean: 0.609358
+Max: 10.726562
+L1 reg loss: 0.002715
+
+Activation stats before reg:
+Mean: 1.170966
+Max: 17.453125
+L1 reg loss: 0.004555
+
+Activation stats before reg:
+Mean: 0.166089
+Max: 2.230469
+L1 reg loss: 0.000918
+
+Activation stats before reg:
+Mean: 0.017463
+Max: 1.225586
+L1 reg loss: 0.000104
+
+Activation stats before reg:
+Mean: 0.288761
+Max: 4.628906
+L1 reg loss: 0.001545
+
+Activation stats before reg:
+Mean: 0.159364
+Max: 3.615234
+L1 reg loss: 0.000901
+
+Activation stats before reg:
+Mean: 0.030354
+Max: 1.269531
+L1 reg loss: 0.000184
+
+Activation stats before reg:
+Mean: 0.577723
+Max: 10.375000
+L1 reg loss: 0.002605
+
+Activation stats before reg:
+Mean: 1.082122
+Max: 17.765625
+L1 reg loss: 0.004319
+
+Activation stats before reg:
+Mean: 0.169794
+Max: 2.357422
+L1 reg loss: 0.000945
+
+Activation stats before reg:
+Mean: 0.018507
+Max: 0.918945
+L1 reg loss: 0.000110
+
+Activation stats before reg:
+Mean: 0.298280
+Max: 6.710938
+L1 reg loss: 0.001585
+
+Activation stats before reg:
+Mean: 0.166198
+Max: 4.804688
+L1 reg loss: 0.000938
+
+Activation stats before reg:
+Mean: 0.032379
+Max: 1.769531
+L1 reg loss: 0.000197
+
+Activation stats before reg:
+Mean: 0.590953
+Max: 14.398438
+L1 reg loss: 0.002608
+
+Activation stats before reg:
+Mean: 1.061950
+Max: 16.921875
+L1 reg loss: 0.004143
+
+Activation stats before reg:
+Mean: 0.170296
+Max: 1.691406
+L1 reg loss: 0.000958
+
+Activation stats before reg:
+Mean: 0.020113
+Max: 1.506836
+L1 reg loss: 0.000120
+
+Activation stats before reg:
+Mean: 0.312639
+Max: 3.728516
+L1 reg loss: 0.001654
+
+Activation stats before reg:
+Mean: 0.174219
+Max: 4.039062
+L1 reg loss: 0.000974
+
+Activation stats before reg:
+Mean: 0.035974
+Max: 2.123047
+L1 reg loss: 0.000219
+
+Activation stats before reg:
+Mean: 0.583951
+Max: 12.875000
+L1 reg loss: 0.002605
+
+Activation stats before reg:
+Mean: 1.170935
+Max: 14.007812
+L1 reg loss: 0.004561
+
+Activation stats before reg:
+Mean: 0.173143
+Max: 2.080078
+L1 reg loss: 0.000967
+
+Activation stats before reg:
+Mean: 0.019962
+Max: 2.130859
+L1 reg loss: 0.000115
+
+Activation stats before reg:
+Mean: 0.339183
+Max: 5.644531
+L1 reg loss: 0.001794
+
+Activation stats before reg:
+Mean: 0.178351
+Max: 5.183594
+L1 reg loss: 0.000996
+
+Activation stats before reg:
+Mean: 0.042296
+Max: 1.686523
+L1 reg loss: 0.000256
+
+Activation stats before reg:
+Mean: 0.589871
+Max: 10.039062
+L1 reg loss: 0.002622
+
+Activation stats before reg:
+Mean: 1.180881
+Max: 16.671875
+L1 reg loss: 0.004500
+
+Activation stats before reg:
+Mean: 0.183601
+Max: 2.369141
+L1 reg loss: 0.001014
+
+Activation stats before reg:
+Mean: 0.021499
+Max: 1.392578
+L1 reg loss: 0.000128
+
+Activation stats before reg:
+Mean: 0.359800
+Max: 5.777344
+L1 reg loss: 0.001873
+
+Activation stats before reg:
+Mean: 0.179866
+Max: 2.976562
+L1 reg loss: 0.001004
+
+Activation stats before reg:
+Mean: 0.040163
+Max: 1.844727
+L1 reg loss: 0.000244
+
+Activation stats before reg:
+Mean: 0.639817
+Max: 12.796875
+L1 reg loss: 0.002743
+
+Activation stats before reg:
+Mean: 1.191646
+Max: 17.687500
+L1 reg loss: 0.004615
+
+Activation stats before reg:
+Mean: 0.192369
+Max: 1.819336
+L1 reg loss: 0.001065
+
+Activation stats before reg:
+Mean: 0.019945
+Max: 1.632812
+L1 reg loss: 0.000114
+
+Activation stats before reg:
+Mean: 0.395225
+Max: 5.640625
+L1 reg loss: 0.002052
+
+Activation stats before reg:
+Mean: 0.184552
+Max: 2.923828
+L1 reg loss: 0.001026
+
+Activation stats before reg:
+Mean: 0.047551
+Max: 2.312500
+L1 reg loss: 0.000288
+
+Activation stats before reg:
+Mean: 0.625589
+Max: 12.742188
+L1 reg loss: 0.002724
+
+Activation stats before reg:
+Mean: 1.174664
+Max: 18.750000
+L1 reg loss: 0.004476
+
+Activation stats before reg:
+Mean: 0.191500
+Max: 2.177734
+L1 reg loss: 0.001048
+
+Activation stats before reg:
+Mean: 0.020653
+Max: 2.896484
+L1 reg loss: 0.000118
+
+Activation stats before reg:
+Mean: 0.374940
+Max: 6.804688
+L1 reg loss: 0.001948
+
+Activation stats before reg:
+Mean: 0.186741
+Max: 4.320312
+L1 reg loss: 0.001041
+
+Activation stats before reg:
+Mean: 0.051755
+Max: 2.990234
+L1 reg loss: 0.000311
+
+Activation stats before reg:
+Mean: 0.622526
+Max: 11.867188
+L1 reg loss: 0.002687
+
+Activation stats before reg:
+Mean: 1.136323
+Max: 15.226562
+L1 reg loss: 0.004504
+
+Activation stats before reg:
+Mean: 0.188977
+Max: 1.945312
+L1 reg loss: 0.001035
+
+Activation stats before reg:
+Mean: 0.020795
+Max: 1.555664
+L1 reg loss: 0.000121
+
+Activation stats before reg:
+Mean: 0.389358
+Max: 5.550781
+L1 reg loss: 0.002020
+
+Activation stats before reg:
+Mean: 0.190770
+Max: 3.412109
+L1 reg loss: 0.001065
+
+Activation stats before reg:
+Mean: 0.049118
+Max: 1.847656
+L1 reg loss: 0.000295
+
+Activation stats before reg:
+Mean: 0.597575
+Max: 13.195312
+L1 reg loss: 0.002653
+
+Activation stats before reg:
+Mean: 1.164868
+Max: 16.937500
+L1 reg loss: 0.004558
+
+Activation stats before reg:
+Mean: 0.201692
+Max: 3.826172
+L1 reg loss: 0.001102
+
+Activation stats before reg:
+Mean: 0.015331
+Max: 1.095703
+L1 reg loss: 0.000088
+
+Activation stats before reg:
+Mean: 0.370321
+Max: 6.808594
+L1 reg loss: 0.001938
+
+Activation stats before reg:
+Mean: 0.190279
+Max: 4.128906
+L1 reg loss: 0.001067
+
+Activation stats before reg:
+Mean: 0.045896
+Max: 1.594727
+L1 reg loss: 0.000277
+
+Activation stats before reg:
+Mean: 0.638108
+Max: 13.835938
+L1 reg loss: 0.002777
+
+Activation stats before reg:
+Mean: 1.139894
+Max: 16.875000
+L1 reg loss: 0.004470
+
+Activation stats before reg:
+Mean: 0.224208
+Max: 2.664062
+L1 reg loss: 0.001222
+
+Activation stats before reg:
+Mean: 0.015844
+Max: 1.302734
+L1 reg loss: 0.000089
+
+Activation stats before reg:
+Mean: 0.369885
+Max: 6.171875
+L1 reg loss: 0.001937
+
+Activation stats before reg:
+Mean: 0.192213
+Max: 3.925781
+L1 reg loss: 0.001079
+
+Activation stats before reg:
+Mean: 0.050804
+Max: 2.234375
+L1 reg loss: 0.000304
+
+Activation stats before reg:
+Mean: 0.605144
+Max: 14.304688
+L1 reg loss: 0.002663
+
+Activation stats before reg:
+Mean: 1.190554
+Max: 13.742188
+L1 reg loss: 0.004602
+
+Activation stats before reg:
+Mean: 0.239280
+Max: 2.333984
+L1 reg loss: 0.001278
+
+Activation stats before reg:
+Mean: 0.016031
+Max: 0.893066
+L1 reg loss: 0.000093
+
+Activation stats before reg:
+Mean: 0.369911
+Max: 6.054688
+L1 reg loss: 0.001941
+
+Activation stats before reg:
+Mean: 0.193108
+Max: 4.531250
+L1 reg loss: 0.001084
+
+Activation stats before reg:
+Mean: 0.048510
+Max: 1.503906
+L1 reg loss: 0.000290
+
+Activation stats before reg:
+Mean: 0.644189
+Max: 16.093750
+L1 reg loss: 0.002792
+
+Activation stats before reg:
+Mean: 1.172860
+Max: 17.796875
+L1 reg loss: 0.004515
+
+Activation stats before reg:
+Mean: 0.221536
+Max: 2.904297
+L1 reg loss: 0.001174
+
+Activation stats before reg:
+Mean: 0.019086
+Max: 1.170898
+L1 reg loss: 0.000104
+
+Activation stats before reg:
+Mean: 0.389142
+Max: 6.539062
+L1 reg loss: 0.002027
+
+Activation stats before reg:
+Mean: 0.202521
+Max: 3.746094
+L1 reg loss: 0.001131
+
+Activation stats before reg:
+Mean: 0.053228
+Max: 2.570312
+L1 reg loss: 0.000318
+
+Activation stats before reg:
+Mean: 0.601547
+Max: 15.750000
+L1 reg loss: 0.002657
+
+Activation stats before reg:
+Mean: 1.189103
+Max: 15.812500
+L1 reg loss: 0.004568
+
+Activation stats before reg:
+Mean: 0.256707
+Max: 3.089844
+L1 reg loss: 0.001361
+
+Activation stats before reg:
+Mean: 0.017981
+Max: 0.719238
+L1 reg loss: 0.000099
+
+Activation stats before reg:
+Mean: 0.386766
+Max: 6.683594
+L1 reg loss: 0.002026
+
+Activation stats before reg:
+Mean: 0.202021
+Max: 4.726562
+L1 reg loss: 0.001134
+
+Activation stats before reg:
+Mean: 0.052197
+Max: 2.380859
+L1 reg loss: 0.000311
+
+Activation stats before reg:
+Mean: 0.638172
+Max: 15.406250
+L1 reg loss: 0.002794
+
+Activation stats before reg:
+Mean: 1.169787
+Max: 17.359375
+L1 reg loss: 0.004536
+
+Activation stats before reg:
+Mean: 0.267913
+Max: 3.123047
+L1 reg loss: 0.001411
+
+Activation stats before reg:
+Mean: 0.016305
+Max: 0.778320
+L1 reg loss: 0.000091
+
+Activation stats before reg:
+Mean: 0.378202
+Max: 7.445312
+L1 reg loss: 0.001981
+
+Activation stats before reg:
+Mean: 0.202951
+Max: 4.761719
+L1 reg loss: 0.001139
+
+Activation stats before reg:
+Mean: 0.051470
+Max: 2.517578
+L1 reg loss: 0.000306
+
+Activation stats before reg:
+Mean: 0.645491
+Max: 16.734375
+L1 reg loss: 0.002833
+
+Activation stats before reg:
+Mean: 1.141686
+Max: 17.421875
+L1 reg loss: 0.004387
+
+Activation stats before reg:
+Mean: 0.304026
+Max: 3.941406
+L1 reg loss: 0.001570
+
+Activation stats before reg:
+Mean: 0.016212
+Max: 1.241211
+L1 reg loss: 0.000091
+
+Activation stats before reg:
+Mean: 0.373433
+Max: 7.292969
+L1 reg loss: 0.001957
+
+Activation stats before reg:
+Mean: 0.202824
+Max: 5.781250
+L1 reg loss: 0.001137
+
+Activation stats before reg:
+Mean: 0.052413
+Max: 1.911133
+L1 reg loss: 0.000313
+
+Activation stats before reg:
+Mean: 0.677423
+Max: 20.578125
+L1 reg loss: 0.002931
+
+Activation stats before reg:
+Mean: 1.091592
+Max: 19.000000
+L1 reg loss: 0.004198
+
+Activation stats before reg:
+Mean: 0.308192
+Max: 4.382812
+L1 reg loss: 0.001590
+
+Activation stats before reg:
+Mean: 0.020421
+Max: 1.397461
+L1 reg loss: 0.000116
+
+Activation stats before reg:
+Mean: 0.386108
+Max: 8.226562
+L1 reg loss: 0.002008
+
+Activation stats before reg:
+Mean: 0.211851
+Max: 4.105469
+L1 reg loss: 0.001180
+
+Activation stats before reg:
+Mean: 0.054511
+Max: 2.347656
+L1 reg loss: 0.000326
+
+Activation stats before reg:
+Mean: 0.623523
+Max: 17.140625
+L1 reg loss: 0.002779
+
+Activation stats before reg:
+Mean: 1.150980
+Max: 17.140625
+L1 reg loss: 0.004415
+
+Activation stats before reg:
+Mean: 0.277839
+Max: 2.986328
+L1 reg loss: 0.001425
+
+Activation stats before reg:
+Mean: 0.022612
+Max: 3.710938
+L1 reg loss: 0.000129
+
+Activation stats before reg:
+Mean: 0.409517
+Max: 8.273438
+L1 reg loss: 0.002096
+
+Activation stats before reg:
+Mean: 0.221001
+Max: 4.515625
+L1 reg loss: 0.001225
+
+Activation stats before reg:
+Mean: 0.058342
+Max: 2.058594
+L1 reg loss: 0.000348
+
+Activation stats before reg:
+Mean: 0.628306
+Max: 16.828125
+L1 reg loss: 0.002783
+
+Activation stats before reg:
+Mean: 1.186021
+Max: 17.609375
+L1 reg loss: 0.004517
+
+Activation stats before reg:
+Mean: 0.376143
+Max: 4.496094
+L1 reg loss: 0.001814
+
+Activation stats before reg:
+Mean: 0.023188
+Max: 3.177734
+L1 reg loss: 0.000128
+
+Activation stats before reg:
+Mean: 0.437998
+Max: 7.429688
+L1 reg loss: 0.002197
+
+Activation stats before reg:
+Mean: 0.237127
+Max: 5.074219
+L1 reg loss: 0.001300
+
+Activation stats before reg:
+Mean: 0.066813
+Max: 2.601562
+L1 reg loss: 0.000396
+
+Activation stats before reg:
+Mean: 0.656819
+Max: 14.890625
+L1 reg loss: 0.002876
+
+Activation stats before reg:
+Mean: 1.165992
+Max: 17.921875
+L1 reg loss: 0.004502
+
+Activation stats before reg:
+Mean: 0.295338
+Max: 4.042969
+L1 reg loss: 0.001550
+
+Activation stats before reg:
+Mean: 0.028658
+Max: 4.214844
+L1 reg loss: 0.000162
+
+Activation stats before reg:
+Mean: 0.469338
+Max: 10.164062
+L1 reg loss: 0.002301
+
+Activation stats before reg:
+Mean: 0.263124
+Max: 6.382812
+L1 reg loss: 0.001411
+
+Activation stats before reg:
+Mean: 0.084336
+Max: 2.740234
+L1 reg loss: 0.000498
+
+Activation stats before reg:
+Mean: 0.643777
+Max: 12.609375
+L1 reg loss: 0.002863
+
+Activation stats before reg:
+Mean: 1.157652
+Max: 31.031250
+L1 reg loss: 0.004456
+
+Activation stats before reg:
+Mean: 0.357666
+Max: 5.164062
+L1 reg loss: 0.001803
+
+Activation stats before reg:
+Mean: 0.045416
+Max: 4.394531
+L1 reg loss: 0.000271
+
+Activation stats before reg:
+Mean: 0.479954
+Max: 14.539062
+L1 reg loss: 0.002304
+
+Activation stats before reg:
+Mean: 0.295727
+Max: 10.546875
+L1 reg loss: 0.001555
+
+Activation stats before reg:
+Mean: 0.100232
+Max: 4.902344
+L1 reg loss: 0.000587
+
+Activation stats before reg:
+Mean: 0.648086
+Max: 14.265625
+L1 reg loss: 0.002807
+
+Activation stats before reg:
+Mean: 1.214200
+Max: 15.781250
+L1 reg loss: 0.004691
+
+Activation stats before reg:
+Mean: 0.410984
+Max: 4.238281
+L1 reg loss: 0.002011
+
+Activation stats before reg:
+Mean: 0.051125
+Max: 9.640625
+L1 reg loss: 0.000289
+
+Activation stats before reg:
+Mean: 0.544297
+Max: 18.250000
+L1 reg loss: 0.002514
+
+Activation stats before reg:
+Mean: 0.353999
+Max: 11.078125
+L1 reg loss: 0.001786
+
+Activation stats before reg:
+Mean: 0.156971
+Max: 9.617188
+L1 reg loss: 0.000873
+
+Activation stats before reg:
+Mean: 0.759147
+Max: 34.937500
+L1 reg loss: 0.003094
+
+Activation stats before reg:
+Mean: 1.191098
+Max: 17.640625
+L1 reg loss: 0.004569
+
+Activation stats before reg:
+Mean: 0.384844
+Max: 8.507812
+L1 reg loss: 0.001915
+
+Activation stats before reg:
+Mean: 0.099481
+Max: 8.265625
+L1 reg loss: 0.000550
+
+Activation stats before reg:
+Mean: 0.585221
+Max: 18.656250
+L1 reg loss: 0.002494
+
+Activation stats before reg:
+Mean: 0.481725
+Max: 15.789062
+L1 reg loss: 0.002175
+
+Activation stats before reg:
+Mean: 0.381708
+Max: 224.375000
+L1 reg loss: 0.001833
+
+Layer: model.layers.0.self_attn.q_proj
+Reg loss: 0.006762
+
+Layer: model.layers.0.self_attn.k_proj
+Reg loss: 0.007921
+
+Layer: model.layers.0.self_attn.v_proj
+Reg loss: 0.000277
+
+Layer: model.layers.0.self_attn.o_proj
+Reg loss: 0.000027
+
+Final reg loss: 0.049604
+
+Step 0 - Loss ratio (reg/task): 0.013090
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(315)[0;36mtrain[0;34m()[0m
+[0;32m    314 [0;31m            [0;32mif[0m [0mDEBUG[0m[0;34m:[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 315 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtask_loss[0m [0;34m+[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    316 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtotal_loss[0m [0;34m/[0m [0mgradient_accumulation_steps[0m[0;34m[0m[0;34m[0m[0m
+[0m
+
+Activation stats before reg:
+Mean: 0.799104
+Max: 12.539062
+L1 reg loss: 0.003411
+
+Activation stats before reg:
+Mean: 0.972033
+Max: 14.429688
+L1 reg loss: 0.003995
+
+Activation stats before reg:
+Mean: 0.023241
+Max: 0.478027
+L1 reg loss: 0.000126
+
+Activation stats before reg:
+Mean: 0.002686
+Max: 0.204590
+L1 reg loss: 0.000015
+
+Activation stats before reg:
+Mean: 0.102382
+Max: 3.925781
+L1 reg loss: 0.000567
+
+Activation stats before reg:
+Mean: 0.078058
+Max: 2.332031
+L1 reg loss: 0.000438
+
+Activation stats before reg:
+Mean: 0.010677
+Max: 2.722656
+L1 reg loss: 0.000059
+
+Activation stats before reg:
+Mean: 0.850954
+Max: 11.007812
+L1 reg loss: 0.003599
+
+Activation stats before reg:
+Mean: 1.242743
+Max: 11.296875
+L1 reg loss: 0.004787
+
+Activation stats before reg:
+Mean: 0.048281
+Max: 1.093750
+L1 reg loss: 0.000274
+
+Activation stats before reg:
+Mean: 0.004249
+Max: 0.222778
+L1 reg loss: 0.000024
+
+Activation stats before reg:
+Mean: 0.090560
+Max: 15.585938
+L1 reg loss: 0.000521
+
+Activation stats before reg:
+Mean: 0.072719
+Max: 23.765625
+L1 reg loss: 0.000426
+
+Activation stats before reg:
+Mean: 0.013221
+Max: 225.625000
+L1 reg loss: 0.000066
+
+Activation stats before reg:
+Mean: 0.702653
+Max: 10.382812
+L1 reg loss: 0.002938
+
+Activation stats before reg:
+Mean: 1.157311
+Max: 15.023438
+L1 reg loss: 0.004485
+
+Activation stats before reg:
+Mean: 0.114922
+Max: 1.578125
+L1 reg loss: 0.000639
+
+Activation stats before reg:
+Mean: 0.005831
+Max: 0.474365
+L1 reg loss: 0.000033
+
+Activation stats before reg:
+Mean: 0.124901
+Max: 4.039062
+L1 reg loss: 0.000716
+
+Activation stats before reg:
+Mean: 0.093478
+Max: 1.830078
+L1 reg loss: 0.000547
+
+Activation stats before reg:
+Mean: 0.014655
+Max: 0.376465
+L1 reg loss: 0.000088
+
+Activation stats before reg:
+Mean: 0.675686
+Max: 9.664062
+L1 reg loss: 0.002871
+
+Activation stats before reg:
+Mean: 1.069312
+Max: 17.015625
+L1 reg loss: 0.004186
+
+Activation stats before reg:
+Mean: 0.136523
+Max: 1.992188
+L1 reg loss: 0.000767
+
+Activation stats before reg:
+Mean: 0.008937
+Max: 0.653320
+L1 reg loss: 0.000053
+
+Activation stats before reg:
+Mean: 0.168159
+Max: 4.234375
+L1 reg loss: 0.000944
+
+Activation stats before reg:
+Mean: 0.110814
+Max: 2.333984
+L1 reg loss: 0.000642
+
+Activation stats before reg:
+Mean: 0.017152
+Max: 0.821289
+L1 reg loss: 0.000105
+
+Activation stats before reg:
+Mean: 0.680585
+Max: 10.492188
+L1 reg loss: 0.002889
+
+Activation stats before reg:
+Mean: 1.160385
+Max: 16.546875
+L1 reg loss: 0.004480
+
+Activation stats before reg:
+Mean: 0.145983
+Max: 1.778320
+L1 reg loss: 0.000818
+
+Activation stats before reg:
+Mean: 0.011267
+Max: 0.811035
+L1 reg loss: 0.000067
+
+Activation stats before reg:
+Mean: 0.227467
+Max: 3.445312
+L1 reg loss: 0.001253
+
+Activation stats before reg:
+Mean: 0.124740
+Max: 2.230469
+L1 reg loss: 0.000715
+
+Activation stats before reg:
+Mean: 0.024082
+Max: 0.585938
+L1 reg loss: 0.000146
+
+Activation stats before reg:
+Mean: 0.672262
+Max: 12.835938
+L1 reg loss: 0.002889
+
+Activation stats before reg:
+Mean: 1.195312
+Max: 19.734375
+L1 reg loss: 0.004592
+
+Activation stats before reg:
+Mean: 0.146231
+Max: 2.017578
+L1 reg loss: 0.000812
+
+Activation stats before reg:
+Mean: 0.013388
+Max: 0.723145
+L1 reg loss: 0.000080
+
+Activation stats before reg:
+Mean: 0.252766
+Max: 3.931641
+L1 reg loss: 0.001389
+
+Activation stats before reg:
+Mean: 0.138576
+Max: 2.923828
+L1 reg loss: 0.000791
+
+Activation stats before reg:
+Mean: 0.026101
+Max: 0.781738
+L1 reg loss: 0.000159
+
+Activation stats before reg:
+Mean: 0.633632
+Max: 11.937500
+L1 reg loss: 0.002734
+
+Activation stats before reg:
+Mean: 1.186473
+Max: 16.328125
+L1 reg loss: 0.004499
+
+Activation stats before reg:
+Mean: 0.138824
+Max: 1.929688
+L1 reg loss: 0.000778
+
+Activation stats before reg:
+Mean: 0.013993
+Max: 0.798340
+L1 reg loss: 0.000083
+
+Activation stats before reg:
+Mean: 0.278559
+Max: 5.675781
+L1 reg loss: 0.001509
+
+Activation stats before reg:
+Mean: 0.147743
+Max: 3.193359
+L1 reg loss: 0.000839
+
+Activation stats before reg:
+Mean: 0.028526
+Max: 0.934082
+L1 reg loss: 0.000174
+
+Activation stats before reg:
+Mean: 0.633049
+Max: 11.515625
+L1 reg loss: 0.002734
+
+Activation stats before reg:
+Mean: 1.192355
+Max: 16.015625
+L1 reg loss: 0.004545
+
+Activation stats before reg:
+Mean: 0.151432
+Max: 1.773438
+L1 reg loss: 0.000847
+
+Activation stats before reg:
+Mean: 0.017859
+Max: 0.869141
+L1 reg loss: 0.000107
+
+Activation stats before reg:
+Mean: 0.277920
+Max: 3.724609
+L1 reg loss: 0.001503
+
+Activation stats before reg:
+Mean: 0.156130
+Max: 3.593750
+L1 reg loss: 0.000881
+
+Activation stats before reg:
+Mean: 0.030483
+Max: 1.393555
+L1 reg loss: 0.000185
+
+Activation stats before reg:
+Mean: 0.608358
+Max: 11.562500
+L1 reg loss: 0.002699
+
+Activation stats before reg:
+Mean: 1.155292
+Max: 14.804688
+L1 reg loss: 0.004451
+
+Activation stats before reg:
+Mean: 0.162816
+Max: 2.246094
+L1 reg loss: 0.000902
+
+Activation stats before reg:
+Mean: 0.016386
+Max: 0.958008
+L1 reg loss: 0.000097
+
+Activation stats before reg:
+Mean: 0.287415
+Max: 3.240234
+L1 reg loss: 0.001538
+
+Activation stats before reg:
+Mean: 0.157915
+Max: 2.500000
+L1 reg loss: 0.000892
+
+Activation stats before reg:
+Mean: 0.030046
+Max: 1.218750
+L1 reg loss: 0.000182
+
+Activation stats before reg:
+Mean: 0.578888
+Max: 9.015625
+L1 reg loss: 0.002602
+
+Activation stats before reg:
+Mean: 1.086907
+Max: 17.593750
+L1 reg loss: 0.004283
+
+Activation stats before reg:
+Mean: 0.180985
+Max: 2.527344
+L1 reg loss: 0.000987
+
+Activation stats before reg:
+Mean: 0.018166
+Max: 1.337891
+L1 reg loss: 0.000109
+
+Activation stats before reg:
+Mean: 0.300058
+Max: 3.742188
+L1 reg loss: 0.001600
+
+Activation stats before reg:
+Mean: 0.163396
+Max: 3.716797
+L1 reg loss: 0.000921
+
+Activation stats before reg:
+Mean: 0.032068
+Max: 1.337891
+L1 reg loss: 0.000194
+
+Activation stats before reg:
+Mean: 0.627698
+Max: 10.523438
+L1 reg loss: 0.002794
+
+Activation stats before reg:
+Mean: 1.193326
+Max: 17.390625
+L1 reg loss: 0.004608
+
+Activation stats before reg:
+Mean: 0.168964
+Max: 1.955078
+L1 reg loss: 0.000932
+
+Activation stats before reg:
+Mean: 0.017870
+Max: 0.921875
+L1 reg loss: 0.000107
+
+Activation stats before reg:
+Mean: 0.294307
+Max: 3.591797
+L1 reg loss: 0.001581
+
+Activation stats before reg:
+Mean: 0.165197
+Max: 3.437500
+L1 reg loss: 0.000932
+
+Activation stats before reg:
+Mean: 0.032029
+Max: 1.218750
+L1 reg loss: 0.000194
+
+Activation stats before reg:
+Mean: 0.596897
+Max: 10.851562
+L1 reg loss: 0.002678
+
+Activation stats before reg:
+Mean: 1.109682
+Max: 16.328125
+L1 reg loss: 0.004393
+
+Activation stats before reg:
+Mean: 0.173398
+Max: 2.439453
+L1 reg loss: 0.000961
+
+Activation stats before reg:
+Mean: 0.018033
+Max: 0.874023
+L1 reg loss: 0.000108
+
+Activation stats before reg:
+Mean: 0.297090
+Max: 4.304688
+L1 reg loss: 0.001589
+
+Activation stats before reg:
+Mean: 0.169590
+Max: 4.804688
+L1 reg loss: 0.000956
+
+Activation stats before reg:
+Mean: 0.033044
+Max: 1.607422
+L1 reg loss: 0.000200
+
+Activation stats before reg:
+Mean: 0.608639
+Max: 13.351562
+L1 reg loss: 0.002670
+
+Activation stats before reg:
+Mean: 1.087984
+Max: 16.171875
+L1 reg loss: 0.004202
+
+Activation stats before reg:
+Mean: 0.175461
+Max: 1.654297
+L1 reg loss: 0.000981
+
+Activation stats before reg:
+Mean: 0.020760
+Max: 1.589844
+L1 reg loss: 0.000124
+
+Activation stats before reg:
+Mean: 0.310750
+Max: 3.533203
+L1 reg loss: 0.001649
+
+Activation stats before reg:
+Mean: 0.177825
+Max: 3.896484
+L1 reg loss: 0.000993
+
+Activation stats before reg:
+Mean: 0.036608
+Max: 2.029297
+L1 reg loss: 0.000222
+
+Activation stats before reg:
+Mean: 0.592076
+Max: 11.875000
+L1 reg loss: 0.002654
+
+Activation stats before reg:
+Mean: 1.183188
+Max: 16.203125
+L1 reg loss: 0.004571
+
+Activation stats before reg:
+Mean: 0.180821
+Max: 1.837891
+L1 reg loss: 0.001007
+
+Activation stats before reg:
+Mean: 0.020196
+Max: 1.996094
+L1 reg loss: 0.000119
+
+Activation stats before reg:
+Mean: 0.339254
+Max: 5.742188
+L1 reg loss: 0.001796
+
+Activation stats before reg:
+Mean: 0.181381
+Max: 4.773438
+L1 reg loss: 0.001013
+
+Activation stats before reg:
+Mean: 0.042287
+Max: 1.497070
+L1 reg loss: 0.000256
+
+Activation stats before reg:
+Mean: 0.602805
+Max: 10.203125
+L1 reg loss: 0.002680
+
+Activation stats before reg:
+Mean: 1.201728
+Max: 17.359375
+L1 reg loss: 0.004524
+
+Activation stats before reg:
+Mean: 0.189608
+Max: 1.991211
+L1 reg loss: 0.001045
+
+Activation stats before reg:
+Mean: 0.022596
+Max: 1.219727
+L1 reg loss: 0.000134
+
+Activation stats before reg:
+Mean: 0.359838
+Max: 6.132812
+L1 reg loss: 0.001876
+
+Activation stats before reg:
+Mean: 0.182600
+Max: 2.896484
+L1 reg loss: 0.001019
+
+Activation stats before reg:
+Mean: 0.041380
+Max: 1.357422
+L1 reg loss: 0.000250
+
+Activation stats before reg:
+Mean: 0.651745
+Max: 12.414062
+L1 reg loss: 0.002787
+
+Activation stats before reg:
+Mean: 1.211448
+Max: 17.375000
+L1 reg loss: 0.004655
+
+Activation stats before reg:
+Mean: 0.191231
+Max: 1.842773
+L1 reg loss: 0.001054
+
+Activation stats before reg:
+Mean: 0.021569
+Max: 1.433594
+L1 reg loss: 0.000124
+
+Activation stats before reg:
+Mean: 0.397275
+Max: 6.277344
+L1 reg loss: 0.002068
+
+Activation stats before reg:
+Mean: 0.186961
+Max: 2.431641
+L1 reg loss: 0.001040
+
+Activation stats before reg:
+Mean: 0.046915
+Max: 1.955078
+L1 reg loss: 0.000283
+
+Activation stats before reg:
+Mean: 0.636810
+Max: 12.632812
+L1 reg loss: 0.002769
+
+Activation stats before reg:
+Mean: 1.199182
+Max: 19.093750
+L1 reg loss: 0.004545
+
+Activation stats before reg:
+Mean: 0.191293
+Max: 2.082031
+L1 reg loss: 0.001048
+
+Activation stats before reg:
+Mean: 0.021019
+Max: 1.995117
+L1 reg loss: 0.000121
+
+Activation stats before reg:
+Mean: 0.377803
+Max: 6.593750
+L1 reg loss: 0.001967
+
+Activation stats before reg:
+Mean: 0.189027
+Max: 4.003906
+L1 reg loss: 0.001053
+
+Activation stats before reg:
+Mean: 0.052222
+Max: 2.392578
+L1 reg loss: 0.000314
+
+Activation stats before reg:
+Mean: 0.638763
+Max: 12.421875
+L1 reg loss: 0.002745
+
+Activation stats before reg:
+Mean: 1.159515
+Max: 15.695312
+L1 reg loss: 0.004546
+
+Activation stats before reg:
+Mean: 0.183888
+Max: 1.692383
+L1 reg loss: 0.001010
+
+Activation stats before reg:
+Mean: 0.021533
+Max: 1.577148
+L1 reg loss: 0.000126
+
+Activation stats before reg:
+Mean: 0.393781
+Max: 6.152344
+L1 reg loss: 0.002047
+
+Activation stats before reg:
+Mean: 0.192982
+Max: 4.207031
+L1 reg loss: 0.001077
+
+Activation stats before reg:
+Mean: 0.050680
+Max: 1.636719
+L1 reg loss: 0.000304
+
+Activation stats before reg:
+Mean: 0.614457
+Max: 13.882812
+L1 reg loss: 0.002721
+
+Activation stats before reg:
+Mean: 1.192428
+Max: 15.320312
+L1 reg loss: 0.004631
+
+Activation stats before reg:
+Mean: 0.199093
+Max: 3.552734
+L1 reg loss: 0.001088
+
+Activation stats before reg:
+Mean: 0.016215
+Max: 0.886230
+L1 reg loss: 0.000094
+
+Activation stats before reg:
+Mean: 0.369841
+Max: 7.773438
+L1 reg loss: 0.001933
+
+Activation stats before reg:
+Mean: 0.193488
+Max: 4.152344
+L1 reg loss: 0.001083
+
+Activation stats before reg:
+Mean: 0.048205
+Max: 1.734375
+L1 reg loss: 0.000289
+
+Activation stats before reg:
+Mean: 0.647466
+Max: 12.085938
+L1 reg loss: 0.002821
+
+Activation stats before reg:
+Mean: 1.154828
+Max: 16.171875
+L1 reg loss: 0.004503
+
+Activation stats before reg:
+Mean: 0.221987
+Max: 2.626953
+L1 reg loss: 0.001207
+
+Activation stats before reg:
+Mean: 0.015039
+Max: 0.619141
+L1 reg loss: 0.000085
+
+Activation stats before reg:
+Mean: 0.364583
+Max: 4.968750
+L1 reg loss: 0.001909
+
+Activation stats before reg:
+Mean: 0.194168
+Max: 4.152344
+L1 reg loss: 0.001088
+
+Activation stats before reg:
+Mean: 0.051500
+Max: 2.033203
+L1 reg loss: 0.000308
+
+Activation stats before reg:
+Mean: 0.615734
+Max: 12.101562
+L1 reg loss: 0.002714
+
+Activation stats before reg:
+Mean: 1.219433
+Max: 14.664062
+L1 reg loss: 0.004664
+
+Activation stats before reg:
+Mean: 0.233296
+Max: 2.289062
+L1 reg loss: 0.001247
+
+Activation stats before reg:
+Mean: 0.016949
+Max: 1.073242
+L1 reg loss: 0.000097
+
+Activation stats before reg:
+Mean: 0.360264
+Max: 5.058594
+L1 reg loss: 0.001892
+
+Activation stats before reg:
+Mean: 0.194630
+Max: 4.824219
+L1 reg loss: 0.001091
+
+Activation stats before reg:
+Mean: 0.049666
+Max: 1.335938
+L1 reg loss: 0.000297
+
+Activation stats before reg:
+Mean: 0.654843
+Max: 15.812500
+L1 reg loss: 0.002834
+
+Activation stats before reg:
+Mean: 1.175567
+Max: 16.687500
+L1 reg loss: 0.004515
+
+Activation stats before reg:
+Mean: 0.213496
+Max: 2.941406
+L1 reg loss: 0.001132
+
+Activation stats before reg:
+Mean: 0.018987
+Max: 1.186523
+L1 reg loss: 0.000107
+
+Activation stats before reg:
+Mean: 0.371508
+Max: 6.960938
+L1 reg loss: 0.001941
+
+Activation stats before reg:
+Mean: 0.202454
+Max: 3.443359
+L1 reg loss: 0.001130
+
+Activation stats before reg:
+Mean: 0.053809
+Max: 2.673828
+L1 reg loss: 0.000321
+
+Activation stats before reg:
+Mean: 0.610658
+Max: 15.507812
+L1 reg loss: 0.002700
+
+Activation stats before reg:
+Mean: 1.197057
+Max: 15.000000
+L1 reg loss: 0.004586
+
+Activation stats before reg:
+Mean: 0.251258
+Max: 2.695312
+L1 reg loss: 0.001330
+
+Activation stats before reg:
+Mean: 0.019254
+Max: 0.754883
+L1 reg loss: 0.000108
+
+Activation stats before reg:
+Mean: 0.366487
+Max: 8.187500
+L1 reg loss: 0.001927
+
+Activation stats before reg:
+Mean: 0.201498
+Max: 3.724609
+L1 reg loss: 0.001129
+
+Activation stats before reg:
+Mean: 0.052142
+Max: 2.318359
+L1 reg loss: 0.000311
+
+Activation stats before reg:
+Mean: 0.648168
+Max: 16.296875
+L1 reg loss: 0.002838
+
+Activation stats before reg:
+Mean: 1.171671
+Max: 17.656250
+L1 reg loss: 0.004541
+
+Activation stats before reg:
+Mean: 0.260077
+Max: 2.986328
+L1 reg loss: 0.001370
+
+Activation stats before reg:
+Mean: 0.015880
+Max: 0.767578
+L1 reg loss: 0.000088
+
+Activation stats before reg:
+Mean: 0.360719
+Max: 7.839844
+L1 reg loss: 0.001895
+
+Activation stats before reg:
+Mean: 0.201855
+Max: 4.890625
+L1 reg loss: 0.001131
+
+Activation stats before reg:
+Mean: 0.051521
+Max: 2.796875
+L1 reg loss: 0.000307
+
+Activation stats before reg:
+Mean: 0.654738
+Max: 17.671875
+L1 reg loss: 0.002870
+
+Activation stats before reg:
+Mean: 1.143814
+Max: 17.984375
+L1 reg loss: 0.004385
+
+Activation stats before reg:
+Mean: 0.298475
+Max: 3.464844
+L1 reg loss: 0.001542
+
+Activation stats before reg:
+Mean: 0.019155
+Max: 1.205078
+L1 reg loss: 0.000103
+
+Activation stats before reg:
+Mean: 0.358064
+Max: 8.460938
+L1 reg loss: 0.001881
+
+Activation stats before reg:
+Mean: 0.202163
+Max: 5.828125
+L1 reg loss: 0.001132
+
+Activation stats before reg:
+Mean: 0.052139
+Max: 1.765625
+L1 reg loss: 0.000311
+
+Activation stats before reg:
+Mean: 0.685769
+Max: 17.390625
+L1 reg loss: 0.002958
+
+Activation stats before reg:
+Mean: 1.101012
+Max: 19.031250
+L1 reg loss: 0.004230
+
+Activation stats before reg:
+Mean: 0.299853
+Max: 4.382812
+L1 reg loss: 0.001550
+
+Activation stats before reg:
+Mean: 0.022655
+Max: 1.561523
+L1 reg loss: 0.000126
+
+Activation stats before reg:
+Mean: 0.373971
+Max: 8.914062
+L1 reg loss: 0.001950
+
+Activation stats before reg:
+Mean: 0.209388
+Max: 5.117188
+L1 reg loss: 0.001166
+
+Activation stats before reg:
+Mean: 0.056124
+Max: 2.513672
+L1 reg loss: 0.000334
+
+Activation stats before reg:
+Mean: 0.636138
+Max: 17.328125
+L1 reg loss: 0.002833
+
+Activation stats before reg:
+Mean: 1.162784
+Max: 16.250000
+L1 reg loss: 0.004462
+
+Activation stats before reg:
+Mean: 0.269746
+Max: 2.958984
+L1 reg loss: 0.001389
+
+Activation stats before reg:
+Mean: 0.024748
+Max: 3.054688
+L1 reg loss: 0.000139
+
+Activation stats before reg:
+Mean: 0.405604
+Max: 8.195312
+L1 reg loss: 0.002074
+
+Activation stats before reg:
+Mean: 0.221009
+Max: 4.933594
+L1 reg loss: 0.001222
+
+Activation stats before reg:
+Mean: 0.060539
+Max: 2.470703
+L1 reg loss: 0.000359
+
+Activation stats before reg:
+Mean: 0.639305
+Max: 17.921875
+L1 reg loss: 0.002824
+
+Activation stats before reg:
+Mean: 1.184070
+Max: 17.062500
+L1 reg loss: 0.004521
+
+Activation stats before reg:
+Mean: 0.365438
+Max: 3.570312
+L1 reg loss: 0.001781
+
+Activation stats before reg:
+Mean: 0.025289
+Max: 2.925781
+L1 reg loss: 0.000134
+
+Activation stats before reg:
+Mean: 0.441281
+Max: 7.253906
+L1 reg loss: 0.002213
+
+Activation stats before reg:
+Mean: 0.237808
+Max: 4.644531
+L1 reg loss: 0.001299
+
+Activation stats before reg:
+Mean: 0.072222
+Max: 3.457031
+L1 reg loss: 0.000425
+
+Activation stats before reg:
+Mean: 0.673716
+Max: 14.960938
+L1 reg loss: 0.002934
+
+Activation stats before reg:
+Mean: 1.163830
+Max: 16.687500
+L1 reg loss: 0.004481
+
+Activation stats before reg:
+Mean: 0.291843
+Max: 4.058594
+L1 reg loss: 0.001524
+
+Activation stats before reg:
+Mean: 0.030695
+Max: 4.972656
+L1 reg loss: 0.000171
+
+Activation stats before reg:
+Mean: 0.478901
+Max: 9.679688
+L1 reg loss: 0.002346
+
+Activation stats before reg:
+Mean: 0.264972
+Max: 6.417969
+L1 reg loss: 0.001416
+
+Activation stats before reg:
+Mean: 0.088979
+Max: 3.351562
+L1 reg loss: 0.000523
+
+Activation stats before reg:
+Mean: 0.660257
+Max: 11.968750
+L1 reg loss: 0.002918
+
+Activation stats before reg:
+Mean: 1.156551
+Max: 32.343750
+L1 reg loss: 0.004434
+
+Activation stats before reg:
+Mean: 0.347717
+Max: 5.167969
+L1 reg loss: 0.001756
+
+Activation stats before reg:
+Mean: 0.050286
+Max: 5.042969
+L1 reg loss: 0.000296
+
+Activation stats before reg:
+Mean: 0.501309
+Max: 14.539062
+L1 reg loss: 0.002408
+
+Activation stats before reg:
+Mean: 0.300646
+Max: 10.757812
+L1 reg loss: 0.001572
+
+Activation stats before reg:
+Mean: 0.108064
+Max: 6.187500
+L1 reg loss: 0.000629
+
+Activation stats before reg:
+Mean: 0.658422
+Max: 14.375000
+L1 reg loss: 0.002856
+
+Activation stats before reg:
+Mean: 1.199081
+Max: 15.625000
+L1 reg loss: 0.004640
+
+Activation stats before reg:
+Mean: 0.396722
+Max: 4.343750
+L1 reg loss: 0.001949
+
+Activation stats before reg:
+Mean: 0.053452
+Max: 8.820312
+L1 reg loss: 0.000299
+
+Activation stats before reg:
+Mean: 0.574654
+Max: 18.250000
+L1 reg loss: 0.002656
+
+Activation stats before reg:
+Mean: 0.365310
+Max: 10.421875
+L1 reg loss: 0.001822
+
+Activation stats before reg:
+Mean: 0.176996
+Max: 10.296875
+L1 reg loss: 0.000971
+
+Activation stats before reg:
+Mean: 0.780324
+Max: 30.156250
+L1 reg loss: 0.003158
+
+Activation stats before reg:
+Mean: 1.192618
+Max: 18.578125
+L1 reg loss: 0.004555
+
+Activation stats before reg:
+Mean: 0.381118
+Max: 8.578125
+L1 reg loss: 0.001888
+
+Activation stats before reg:
+Mean: 0.106322
+Max: 10.718750
+L1 reg loss: 0.000584
+
+Activation stats before reg:
+Mean: 0.611472
+Max: 21.281250
+L1 reg loss: 0.002592
+
+Activation stats before reg:
+Mean: 0.499159
+Max: 15.789062
+L1 reg loss: 0.002220
+
+Activation stats before reg:
+Mean: 0.440655
+Max: 224.375000
+L1 reg loss: 0.002035
+
+Layer: model.layers.0.self_attn.q_proj
+Reg loss: 0.006822
+
+Layer: model.layers.0.self_attn.k_proj
+Reg loss: 0.007990
+
+Layer: model.layers.0.self_attn.v_proj
+Reg loss: 0.000252
+
+Layer: model.layers.0.self_attn.o_proj
+Reg loss: 0.000029
+
+Final reg loss: 0.050062
+
+Step 1 - Loss ratio (reg/task): 0.014011
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(315)[0;36mtrain[0;34m()[0m
+[0;32m    314 [0;31m            [0;32mif[0m [0mDEBUG[0m[0;34m:[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 315 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtask_loss[0m [0;34m+[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    316 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtotal_loss[0m [0;34m/[0m [0mgradient_accumulation_steps[0m[0;34m[0m[0;34m[0m[0m
+[0m
+
+Activation stats before reg:
+Mean: 0.786272
+Max: 14.015625
+L1 reg loss: 0.003403
+
+Activation stats before reg:
+Mean: 0.955619
+Max: 14.531250
+L1 reg loss: 0.003959
+
+Activation stats before reg:
+Mean: 0.025344
+Max: 0.486816
+L1 reg loss: 0.000142
+
+Activation stats before reg:
+Mean: 0.002500
+Max: 0.261963
+L1 reg loss: 0.000014
+
+Activation stats before reg:
+Mean: 0.112689
+Max: 3.925781
+L1 reg loss: 0.000620
+
+Activation stats before reg:
+Mean: 0.086531
+Max: 2.332031
+L1 reg loss: 0.000481
+
+Activation stats before reg:
+Mean: 0.012230
+Max: 2.722656
+L1 reg loss: 0.000068
+
+Activation stats before reg:
+Mean: 0.842973
+Max: 11.882812
+L1 reg loss: 0.003589
+
+Activation stats before reg:
+Mean: 1.225151
+Max: 11.664062
+L1 reg loss: 0.004739
+
+Activation stats before reg:
+Mean: 0.049296
+Max: 1.202148
+L1 reg loss: 0.000282
+
+Activation stats before reg:
+Mean: 0.003820
+Max: 0.226929
+L1 reg loss: 0.000021
+
+Activation stats before reg:
+Mean: 0.090370
+Max: 15.585938
+L1 reg loss: 0.000519
+
+Activation stats before reg:
+Mean: 0.072185
+Max: 23.765625
+L1 reg loss: 0.000423
+
+Activation stats before reg:
+Mean: 0.010885
+Max: 225.625000
+L1 reg loss: 0.000062
+
+Activation stats before reg:
+Mean: 0.700861
+Max: 11.671875
+L1 reg loss: 0.002927
+
+Activation stats before reg:
+Mean: 1.142615
+Max: 15.851562
+L1 reg loss: 0.004471
+
+Activation stats before reg:
+Mean: 0.115952
+Max: 1.931641
+L1 reg loss: 0.000647
+
+Activation stats before reg:
+Mean: 0.005133
+Max: 0.663086
+L1 reg loss: 0.000029
+
+Activation stats before reg:
+Mean: 0.123828
+Max: 5.636719
+L1 reg loss: 0.000712
+
+Activation stats before reg:
+Mean: 0.092459
+Max: 2.033203
+L1 reg loss: 0.000542
+
+Activation stats before reg:
+Mean: 0.016289
+Max: 0.542480
+L1 reg loss: 0.000097
+
+Activation stats before reg:
+Mean: 0.683466
+Max: 12.648438
+L1 reg loss: 0.002891
+
+Activation stats before reg:
+Mean: 1.072096
+Max: 18.265625
+L1 reg loss: 0.004206
+
+Activation stats before reg:
+Mean: 0.136285
+Max: 2.199219
+L1 reg loss: 0.000767
+
+Activation stats before reg:
+Mean: 0.008886
+Max: 0.979980
+L1 reg loss: 0.000053
+
+Activation stats before reg:
+Mean: 0.160220
+Max: 5.316406
+L1 reg loss: 0.000900
+
+Activation stats before reg:
+Mean: 0.108292
+Max: 2.384766
+L1 reg loss: 0.000628
+
+Activation stats before reg:
+Mean: 0.017192
+Max: 0.637695
+L1 reg loss: 0.000105
+
+Activation stats before reg:
+Mean: 0.681986
+Max: 11.265625
+L1 reg loss: 0.002889
+
+Activation stats before reg:
+Mean: 1.152928
+Max: 18.531250
+L1 reg loss: 0.004489
+
+Activation stats before reg:
+Mean: 0.147967
+Max: 1.804688
+L1 reg loss: 0.000834
+
+Activation stats before reg:
+Mean: 0.010681
+Max: 0.763672
+L1 reg loss: 0.000064
+
+Activation stats before reg:
+Mean: 0.212521
+Max: 3.720703
+L1 reg loss: 0.001172
+
+Activation stats before reg:
+Mean: 0.122871
+Max: 2.539062
+L1 reg loss: 0.000705
+
+Activation stats before reg:
+Mean: 0.025014
+Max: 0.816895
+L1 reg loss: 0.000151
+
+Activation stats before reg:
+Mean: 0.661617
+Max: 14.562500
+L1 reg loss: 0.002841
+
+Activation stats before reg:
+Mean: 1.186527
+Max: 19.984375
+L1 reg loss: 0.004574
+
+Activation stats before reg:
+Mean: 0.148617
+Max: 2.388672
+L1 reg loss: 0.000828
+
+Activation stats before reg:
+Mean: 0.012376
+Max: 0.943848
+L1 reg loss: 0.000075
+
+Activation stats before reg:
+Mean: 0.238078
+Max: 4.781250
+L1 reg loss: 0.001306
+
+Activation stats before reg:
+Mean: 0.136420
+Max: 2.894531
+L1 reg loss: 0.000779
+
+Activation stats before reg:
+Mean: 0.025461
+Max: 0.910156
+L1 reg loss: 0.000156
+
+Activation stats before reg:
+Mean: 0.624654
+Max: 15.984375
+L1 reg loss: 0.002683
+
+Activation stats before reg:
+Mean: 1.172638
+Max: 17.921875
+L1 reg loss: 0.004457
+
+Activation stats before reg:
+Mean: 0.137553
+Max: 2.105469
+L1 reg loss: 0.000775
+
+Activation stats before reg:
+Mean: 0.012413
+Max: 1.193359
+L1 reg loss: 0.000073
+
+Activation stats before reg:
+Mean: 0.260723
+Max: 4.589844
+L1 reg loss: 0.001414
+
+Activation stats before reg:
+Mean: 0.144617
+Max: 3.267578
+L1 reg loss: 0.000824
+
+Activation stats before reg:
+Mean: 0.027537
+Max: 1.397461
+L1 reg loss: 0.000168
+
+Activation stats before reg:
+Mean: 0.624003
+Max: 13.843750
+L1 reg loss: 0.002680
+
+Activation stats before reg:
+Mean: 1.174802
+Max: 19.578125
+L1 reg loss: 0.004510
+
+Activation stats before reg:
+Mean: 0.150886
+Max: 2.277344
+L1 reg loss: 0.000848
+
+Activation stats before reg:
+Mean: 0.016613
+Max: 1.371094
+L1 reg loss: 0.000099
+
+Activation stats before reg:
+Mean: 0.261167
+Max: 4.832031
+L1 reg loss: 0.001411
+
+Activation stats before reg:
+Mean: 0.153061
+Max: 3.271484
+L1 reg loss: 0.000866
+
+Activation stats before reg:
+Mean: 0.030172
+Max: 1.462891
+L1 reg loss: 0.000184
+
+Activation stats before reg:
+Mean: 0.591431
+Max: 14.304688
+L1 reg loss: 0.002615
+
+Activation stats before reg:
+Mean: 1.173681
+Max: 17.328125
+L1 reg loss: 0.004491
+
+Activation stats before reg:
+Mean: 0.165337
+Max: 2.246094
+L1 reg loss: 0.000925
+
+Activation stats before reg:
+Mean: 0.014830
+Max: 1.156250
+L1 reg loss: 0.000087
+
+Activation stats before reg:
+Mean: 0.271892
+Max: 3.562500
+L1 reg loss: 0.001455
+
+Activation stats before reg:
+Mean: 0.153646
+Max: 3.308594
+L1 reg loss: 0.000871
+
+Activation stats before reg:
+Mean: 0.029300
+Max: 1.696289
+L1 reg loss: 0.000179
+
+Activation stats before reg:
+Mean: 0.578462
+Max: 11.242188
+L1 reg loss: 0.002576
+
+Activation stats before reg:
+Mean: 1.121722
+Max: 18.984375
+L1 reg loss: 0.004367
+
+Activation stats before reg:
+Mean: 0.184509
+Max: 2.267578
+L1 reg loss: 0.001000
+
+Activation stats before reg:
+Mean: 0.016573
+Max: 1.217773
+L1 reg loss: 0.000098
+
+Activation stats before reg:
+Mean: 0.281187
+Max: 3.634766
+L1 reg loss: 0.001498
+
+Activation stats before reg:
+Mean: 0.159259
+Max: 3.998047
+L1 reg loss: 0.000901
+
+Activation stats before reg:
+Mean: 0.030830
+Max: 1.472656
+L1 reg loss: 0.000188
+
+Activation stats before reg:
+Mean: 0.612720
+Max: 13.445312
+L1 reg loss: 0.002708
+
+Activation stats before reg:
+Mean: 1.201902
+Max: 18.625000
+L1 reg loss: 0.004630
+
+Activation stats before reg:
+Mean: 0.167536
+Max: 1.955078
+L1 reg loss: 0.000932
+
+Activation stats before reg:
+Mean: 0.016655
+Max: 1.092773
+L1 reg loss: 0.000099
+
+Activation stats before reg:
+Mean: 0.274213
+Max: 5.070312
+L1 reg loss: 0.001471
+
+Activation stats before reg:
+Mean: 0.159740
+Max: 3.632812
+L1 reg loss: 0.000905
+
+Activation stats before reg:
+Mean: 0.029538
+Max: 1.402344
+L1 reg loss: 0.000179
+
+Activation stats before reg:
+Mean: 0.581844
+Max: 11.812500
+L1 reg loss: 0.002602
+
+Activation stats before reg:
+Mean: 1.106361
+Max: 20.984375
+L1 reg loss: 0.004378
+
+Activation stats before reg:
+Mean: 0.173774
+Max: 2.333984
+L1 reg loss: 0.000972
+
+Activation stats before reg:
+Mean: 0.016786
+Max: 1.100586
+L1 reg loss: 0.000099
+
+Activation stats before reg:
+Mean: 0.282853
+Max: 6.707031
+L1 reg loss: 0.001511
+
+Activation stats before reg:
+Mean: 0.166808
+Max: 5.121094
+L1 reg loss: 0.000943
+
+Activation stats before reg:
+Mean: 0.032010
+Max: 1.554688
+L1 reg loss: 0.000195
+
+Activation stats before reg:
+Mean: 0.601966
+Max: 14.984375
+L1 reg loss: 0.002641
+
+Activation stats before reg:
+Mean: 1.061953
+Max: 19.078125
+L1 reg loss: 0.004145
+
+Activation stats before reg:
+Mean: 0.176328
+Max: 2.158203
+L1 reg loss: 0.000992
+
+Activation stats before reg:
+Mean: 0.018870
+Max: 1.608398
+L1 reg loss: 0.000111
+
+Activation stats before reg:
+Mean: 0.298051
+Max: 4.644531
+L1 reg loss: 0.001587
+
+Activation stats before reg:
+Mean: 0.173986
+Max: 4.003906
+L1 reg loss: 0.000976
+
+Activation stats before reg:
+Mean: 0.035718
+Max: 1.913086
+L1 reg loss: 0.000218
+
+Activation stats before reg:
+Mean: 0.593718
+Max: 13.625000
+L1 reg loss: 0.002611
+
+Activation stats before reg:
+Mean: 1.193022
+Max: 16.843750
+L1 reg loss: 0.004597
+
+Activation stats before reg:
+Mean: 0.179251
+Max: 2.046875
+L1 reg loss: 0.001003
+
+Activation stats before reg:
+Mean: 0.019051
+Max: 1.964844
+L1 reg loss: 0.000109
+
+Activation stats before reg:
+Mean: 0.325670
+Max: 6.152344
+L1 reg loss: 0.001729
+
+Activation stats before reg:
+Mean: 0.178424
+Max: 5.011719
+L1 reg loss: 0.001000
+
+Activation stats before reg:
+Mean: 0.042286
+Max: 1.587891
+L1 reg loss: 0.000256
+
+Activation stats before reg:
+Mean: 0.593351
+Max: 11.828125
+L1 reg loss: 0.002627
+
+Activation stats before reg:
+Mean: 1.204088
+Max: 18.765625
+L1 reg loss: 0.004555
+
+Activation stats before reg:
+Mean: 0.191431
+Max: 2.371094
+L1 reg loss: 0.001063
+
+Activation stats before reg:
+Mean: 0.021253
+Max: 1.416016
+L1 reg loss: 0.000125
+
+Activation stats before reg:
+Mean: 0.347444
+Max: 6.160156
+L1 reg loss: 0.001816
+
+Activation stats before reg:
+Mean: 0.179957
+Max: 3.339844
+L1 reg loss: 0.001007
+
+Activation stats before reg:
+Mean: 0.040056
+Max: 1.518555
+L1 reg loss: 0.000243
+
+Activation stats before reg:
+Mean: 0.645464
+Max: 14.312500
+L1 reg loss: 0.002747
+
+Activation stats before reg:
+Mean: 1.193990
+Max: 19.546875
+L1 reg loss: 0.004589
+
+Activation stats before reg:
+Mean: 0.195711
+Max: 2.445312
+L1 reg loss: 0.001083
+
+Activation stats before reg:
+Mean: 0.018736
+Max: 1.458008
+L1 reg loss: 0.000105
+
+Activation stats before reg:
+Mean: 0.382486
+Max: 7.808594
+L1 reg loss: 0.001994
+
+Activation stats before reg:
+Mean: 0.184702
+Max: 2.988281
+L1 reg loss: 0.001031
+
+Activation stats before reg:
+Mean: 0.046147
+Max: 2.634766
+L1 reg loss: 0.000279
+
+Activation stats before reg:
+Mean: 0.633647
+Max: 13.406250
+L1 reg loss: 0.002747
+
+Activation stats before reg:
+Mean: 1.184240
+Max: 20.093750
+L1 reg loss: 0.004495
+
+Activation stats before reg:
+Mean: 0.195469
+Max: 2.351562
+L1 reg loss: 0.001075
+
+Activation stats before reg:
+Mean: 0.019958
+Max: 2.933594
+L1 reg loss: 0.000112
+
+Activation stats before reg:
+Mean: 0.366796
+Max: 7.046875
+L1 reg loss: 0.001917
+
+Activation stats before reg:
+Mean: 0.187938
+Max: 4.308594
+L1 reg loss: 0.001050
+
+Activation stats before reg:
+Mean: 0.051530
+Max: 2.048828
+L1 reg loss: 0.000311
+
+Activation stats before reg:
+Mean: 0.632153
+Max: 13.132812
+L1 reg loss: 0.002721
+
+Activation stats before reg:
+Mean: 1.158521
+Max: 17.218750
+L1 reg loss: 0.004556
+
+Activation stats before reg:
+Mean: 0.190706
+Max: 1.993164
+L1 reg loss: 0.001051
+
+Activation stats before reg:
+Mean: 0.018044
+Max: 1.645508
+L1 reg loss: 0.000104
+
+Activation stats before reg:
+Mean: 0.379825
+Max: 6.058594
+L1 reg loss: 0.001977
+
+Activation stats before reg:
+Mean: 0.192539
+Max: 3.410156
+L1 reg loss: 0.001076
+
+Activation stats before reg:
+Mean: 0.049340
+Max: 1.593750
+L1 reg loss: 0.000297
+
+Activation stats before reg:
+Mean: 0.611773
+Max: 13.843750
+L1 reg loss: 0.002708
+
+Activation stats before reg:
+Mean: 1.203522
+Max: 17.875000
+L1 reg loss: 0.004669
+
+Activation stats before reg:
+Mean: 0.206109
+Max: 3.642578
+L1 reg loss: 0.001131
+
+Activation stats before reg:
+Mean: 0.015083
+Max: 1.334961
+L1 reg loss: 0.000085
+
+Activation stats before reg:
+Mean: 0.357870
+Max: 7.457031
+L1 reg loss: 0.001876
+
+Activation stats before reg:
+Mean: 0.193942
+Max: 4.554688
+L1 reg loss: 0.001088
+
+Activation stats before reg:
+Mean: 0.047095
+Max: 2.044922
+L1 reg loss: 0.000283
+
+Activation stats before reg:
+Mean: 0.646063
+Max: 14.265625
+L1 reg loss: 0.002805
+
+Activation stats before reg:
+Mean: 1.155772
+Max: 17.531250
+L1 reg loss: 0.004527
+
+Activation stats before reg:
+Mean: 0.229833
+Max: 2.693359
+L1 reg loss: 0.001257
+
+Activation stats before reg:
+Mean: 0.014330
+Max: 1.082031
+L1 reg loss: 0.000080
+
+Activation stats before reg:
+Mean: 0.361532
+Max: 9.023438
+L1 reg loss: 0.001895
+
+Activation stats before reg:
+Mean: 0.197039
+Max: 4.042969
+L1 reg loss: 0.001106
+
+Activation stats before reg:
+Mean: 0.052523
+Max: 2.035156
+L1 reg loss: 0.000315
+
+Activation stats before reg:
+Mean: 0.612826
+Max: 13.851562
+L1 reg loss: 0.002698
+
+Activation stats before reg:
+Mean: 1.215001
+Max: 16.312500
+L1 reg loss: 0.004671
+
+Activation stats before reg:
+Mean: 0.241596
+Max: 2.255859
+L1 reg loss: 0.001292
+
+Activation stats before reg:
+Mean: 0.014835
+Max: 0.968262
+L1 reg loss: 0.000086
+
+Activation stats before reg:
+Mean: 0.360634
+Max: 7.437500
+L1 reg loss: 0.001897
+
+Activation stats before reg:
+Mean: 0.197587
+Max: 4.890625
+L1 reg loss: 0.001110
+
+Activation stats before reg:
+Mean: 0.048844
+Max: 1.802734
+L1 reg loss: 0.000293
+
+Activation stats before reg:
+Mean: 0.653574
+Max: 16.828125
+L1 reg loss: 0.002825
+
+Activation stats before reg:
+Mean: 1.197691
+Max: 21.343750
+L1 reg loss: 0.004602
+
+Activation stats before reg:
+Mean: 0.223347
+Max: 3.187500
+L1 reg loss: 0.001189
+
+Activation stats before reg:
+Mean: 0.018041
+Max: 1.375977
+L1 reg loss: 0.000099
+
+Activation stats before reg:
+Mean: 0.378755
+Max: 7.285156
+L1 reg loss: 0.001975
+
+Activation stats before reg:
+Mean: 0.206781
+Max: 3.707031
+L1 reg loss: 0.001154
+
+Activation stats before reg:
+Mean: 0.054593
+Max: 2.650391
+L1 reg loss: 0.000327
+
+Activation stats before reg:
+Mean: 0.618250
+Max: 16.562500
+L1 reg loss: 0.002725
+
+Activation stats before reg:
+Mean: 1.209141
+Max: 18.687500
+L1 reg loss: 0.004620
+
+Activation stats before reg:
+Mean: 0.259883
+Max: 3.343750
+L1 reg loss: 0.001388
+
+Activation stats before reg:
+Mean: 0.015658
+Max: 1.144531
+L1 reg loss: 0.000086
+
+Activation stats before reg:
+Mean: 0.374220
+Max: 9.140625
+L1 reg loss: 0.001961
+
+Activation stats before reg:
+Mean: 0.208022
+Max: 5.425781
+L1 reg loss: 0.001166
+
+Activation stats before reg:
+Mean: 0.054030
+Max: 2.416016
+L1 reg loss: 0.000322
+
+Activation stats before reg:
+Mean: 0.650048
+Max: 16.343750
+L1 reg loss: 0.002839
+
+Activation stats before reg:
+Mean: 1.185626
+Max: 18.203125
+L1 reg loss: 0.004585
+
+Activation stats before reg:
+Mean: 0.271985
+Max: 3.347656
+L1 reg loss: 0.001447
+
+Activation stats before reg:
+Mean: 0.015106
+Max: 0.830078
+L1 reg loss: 0.000086
+
+Activation stats before reg:
+Mean: 0.370999
+Max: 19.093750
+L1 reg loss: 0.001941
+
+Activation stats before reg:
+Mean: 0.211055
+Max: 4.933594
+L1 reg loss: 0.001181
+
+Activation stats before reg:
+Mean: 0.053405
+Max: 2.677734
+L1 reg loss: 0.000317
+
+Activation stats before reg:
+Mean: 0.658561
+Max: 20.281250
+L1 reg loss: 0.002887
+
+Activation stats before reg:
+Mean: 1.161644
+Max: 18.640625
+L1 reg loss: 0.004450
+
+Activation stats before reg:
+Mean: 0.313822
+Max: 4.167969
+L1 reg loss: 0.001628
+
+Activation stats before reg:
+Mean: 0.015046
+Max: 1.285156
+L1 reg loss: 0.000081
+
+Activation stats before reg:
+Mean: 0.368561
+Max: 9.132812
+L1 reg loss: 0.001932
+
+Activation stats before reg:
+Mean: 0.211925
+Max: 5.851562
+L1 reg loss: 0.001185
+
+Activation stats before reg:
+Mean: 0.054681
+Max: 1.935547
+L1 reg loss: 0.000324
+
+Activation stats before reg:
+Mean: 0.689070
+Max: 19.140625
+L1 reg loss: 0.002980
+
+Activation stats before reg:
+Mean: 1.105762
+Max: 20.046875
+L1 reg loss: 0.004252
+
+Activation stats before reg:
+Mean: 0.313061
+Max: 4.636719
+L1 reg loss: 0.001624
+
+Activation stats before reg:
+Mean: 0.019587
+Max: 1.664062
+L1 reg loss: 0.000109
+
+Activation stats before reg:
+Mean: 0.383145
+Max: 8.695312
+L1 reg loss: 0.001991
+
+Activation stats before reg:
+Mean: 0.221956
+Max: 4.304688
+L1 reg loss: 0.001232
+
+Activation stats before reg:
+Mean: 0.057380
+Max: 2.837891
+L1 reg loss: 0.000341
+
+Activation stats before reg:
+Mean: 0.633797
+Max: 18.687500
+L1 reg loss: 0.002819
+
+Activation stats before reg:
+Mean: 1.168806
+Max: 18.953125
+L1 reg loss: 0.004468
+
+Activation stats before reg:
+Mean: 0.288453
+Max: 3.378906
+L1 reg loss: 0.001484
+
+Activation stats before reg:
+Mean: 0.023191
+Max: 4.121094
+L1 reg loss: 0.000133
+
+Activation stats before reg:
+Mean: 0.412778
+Max: 10.023438
+L1 reg loss: 0.002105
+
+Activation stats before reg:
+Mean: 0.233299
+Max: 5.277344
+L1 reg loss: 0.001287
+
+Activation stats before reg:
+Mean: 0.060975
+Max: 2.427734
+L1 reg loss: 0.000362
+
+Activation stats before reg:
+Mean: 0.648000
+Max: 17.078125
+L1 reg loss: 0.002856
+
+Activation stats before reg:
+Mean: 1.208720
+Max: 19.187500
+L1 reg loss: 0.004593
+
+Activation stats before reg:
+Mean: 0.388668
+Max: 3.527344
+L1 reg loss: 0.001884
+
+Activation stats before reg:
+Mean: 0.026563
+Max: 3.306641
+L1 reg loss: 0.000145
+
+Activation stats before reg:
+Mean: 0.442667
+Max: 9.109375
+L1 reg loss: 0.002217
+
+Activation stats before reg:
+Mean: 0.249925
+Max: 4.968750
+L1 reg loss: 0.001366
+
+Activation stats before reg:
+Mean: 0.071237
+Max: 3.355469
+L1 reg loss: 0.000421
+
+Activation stats before reg:
+Mean: 0.673455
+Max: 16.812500
+L1 reg loss: 0.002932
+
+Activation stats before reg:
+Mean: 1.181081
+Max: 18.890625
+L1 reg loss: 0.004559
+
+Activation stats before reg:
+Mean: 0.309950
+Max: 4.187500
+L1 reg loss: 0.001633
+
+Activation stats before reg:
+Mean: 0.029355
+Max: 5.328125
+L1 reg loss: 0.000164
+
+Activation stats before reg:
+Mean: 0.474296
+Max: 9.734375
+L1 reg loss: 0.002321
+
+Activation stats before reg:
+Mean: 0.275422
+Max: 6.511719
+L1 reg loss: 0.001475
+
+Activation stats before reg:
+Mean: 0.086060
+Max: 4.273438
+L1 reg loss: 0.000507
+
+Activation stats before reg:
+Mean: 0.658133
+Max: 13.210938
+L1 reg loss: 0.002913
+
+Activation stats before reg:
+Mean: 1.173595
+Max: 31.359375
+L1 reg loss: 0.004498
+
+Activation stats before reg:
+Mean: 0.374221
+Max: 5.347656
+L1 reg loss: 0.001894
+
+Activation stats before reg:
+Mean: 0.049472
+Max: 5.679688
+L1 reg loss: 0.000292
+
+Activation stats before reg:
+Mean: 0.488794
+Max: 14.539062
+L1 reg loss: 0.002346
+
+Activation stats before reg:
+Mean: 0.305569
+Max: 11.507812
+L1 reg loss: 0.001604
+
+Activation stats before reg:
+Mean: 0.102363
+Max: 6.808594
+L1 reg loss: 0.000598
+
+Activation stats before reg:
+Mean: 0.666333
+Max: 15.625000
+L1 reg loss: 0.002887
+
+Activation stats before reg:
+Mean: 1.237123
+Max: 18.234375
+L1 reg loss: 0.004759
+
+Activation stats before reg:
+Mean: 0.434694
+Max: 4.925781
+L1 reg loss: 0.002136
+
+Activation stats before reg:
+Mean: 0.052717
+Max: 8.882812
+L1 reg loss: 0.000292
+
+Activation stats before reg:
+Mean: 0.553709
+Max: 18.250000
+L1 reg loss: 0.002557
+
+Activation stats before reg:
+Mean: 0.364497
+Max: 11.890625
+L1 reg loss: 0.001840
+
+Activation stats before reg:
+Mean: 0.154154
+Max: 11.687500
+L1 reg loss: 0.000860
+
+Activation stats before reg:
+Mean: 0.761199
+Max: 32.625000
+L1 reg loss: 0.003116
+
+Activation stats before reg:
+Mean: 1.192404
+Max: 19.968750
+L1 reg loss: 0.004583
+
+Activation stats before reg:
+Mean: 0.387193
+Max: 8.648438
+L1 reg loss: 0.001944
+
+Activation stats before reg:
+Mean: 0.094723
+Max: 9.726562
+L1 reg loss: 0.000523
+
+Activation stats before reg:
+Mean: 0.577890
+Max: 18.656250
+L1 reg loss: 0.002498
+
+Activation stats before reg:
+Mean: 0.473626
+Max: 15.789062
+L1 reg loss: 0.002167
+
+Activation stats before reg:
+Mean: 0.333457
+Max: 224.375000
+L1 reg loss: 0.001619
+
+Layer: model.layers.0.self_attn.q_proj
+Reg loss: 0.006807
+
+Layer: model.layers.0.self_attn.k_proj
+Reg loss: 0.007918
+
+Layer: model.layers.0.self_attn.v_proj
+Reg loss: 0.000283
+
+Layer: model.layers.0.self_attn.o_proj
+Reg loss: 0.000027
+
+Final reg loss: 0.049995
+
+Step 2 - Loss ratio (reg/task): 0.014959
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(315)[0;36mtrain[0;34m()[0m
+[0;32m    314 [0;31m            [0;32mif[0m [0mDEBUG[0m[0;34m:[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 315 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtask_loss[0m [0;34m+[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    316 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtotal_loss[0m [0;34m/[0m [0mgradient_accumulation_steps[0m[0;34m[0m[0;34m[0m[0m
+[0m
+
+Activation stats before reg:
+Mean: 0.785099
+Max: 12.921875
+L1 reg loss: 0.003382
+
+Activation stats before reg:
+Mean: 0.963161
+Max: 14.429688
+L1 reg loss: 0.003981
+
+Activation stats before reg:
+Mean: 0.024855
+Max: 0.484863
+L1 reg loss: 0.000136
+
+Activation stats before reg:
+Mean: 0.002629
+Max: 0.195923
+L1 reg loss: 0.000014
+
+Activation stats before reg:
+Mean: 0.106505
+Max: 3.925781
+L1 reg loss: 0.000587
+
+Activation stats before reg:
+Mean: 0.081238
+Max: 2.332031
+L1 reg loss: 0.000453
+
+Activation stats before reg:
+Mean: 0.010968
+Max: 2.722656
+L1 reg loss: 0.000061
+
+Activation stats before reg:
+Mean: 0.853146
+Max: 11.296875
+L1 reg loss: 0.003610
+
+Activation stats before reg:
+Mean: 1.254266
+Max: 11.164062
+L1 reg loss: 0.004825
+
+Activation stats before reg:
+Mean: 0.050208
+Max: 0.954102
+L1 reg loss: 0.000288
+
+Activation stats before reg:
+Mean: 0.004042
+Max: 0.247803
+L1 reg loss: 0.000023
+
+Activation stats before reg:
+Mean: 0.090519
+Max: 15.585938
+L1 reg loss: 0.000520
+
+Activation stats before reg:
+Mean: 0.072664
+Max: 23.765625
+L1 reg loss: 0.000426
+
+Activation stats before reg:
+Mean: 0.010560
+Max: 225.625000
+L1 reg loss: 0.000059
+
+Activation stats before reg:
+Mean: 0.717942
+Max: 12.179688
+L1 reg loss: 0.002979
+
+Activation stats before reg:
+Mean: 1.162518
+Max: 15.265625
+L1 reg loss: 0.004503
+
+Activation stats before reg:
+Mean: 0.116634
+Max: 1.760742
+L1 reg loss: 0.000653
+
+Activation stats before reg:
+Mean: 0.005236
+Max: 0.527832
+L1 reg loss: 0.000029
+
+Activation stats before reg:
+Mean: 0.124933
+Max: 5.648438
+L1 reg loss: 0.000717
+
+Activation stats before reg:
+Mean: 0.092417
+Max: 2.070312
+L1 reg loss: 0.000541
+
+Activation stats before reg:
+Mean: 0.014589
+Max: 0.490234
+L1 reg loss: 0.000088
+
+Activation stats before reg:
+Mean: 0.696600
+Max: 13.335938
+L1 reg loss: 0.002924
+
+Activation stats before reg:
+Mean: 1.094571
+Max: 17.250000
+L1 reg loss: 0.004271
+
+Activation stats before reg:
+Mean: 0.139581
+Max: 2.160156
+L1 reg loss: 0.000785
+
+Activation stats before reg:
+Mean: 0.008712
+Max: 0.652832
+L1 reg loss: 0.000051
+
+Activation stats before reg:
+Mean: 0.167549
+Max: 4.906250
+L1 reg loss: 0.000939
+
+Activation stats before reg:
+Mean: 0.109721
+Max: 2.435547
+L1 reg loss: 0.000636
+
+Activation stats before reg:
+Mean: 0.017063
+Max: 0.495361
+L1 reg loss: 0.000104
+
+Activation stats before reg:
+Mean: 0.700674
+Max: 10.382812
+L1 reg loss: 0.002949
+
+Activation stats before reg:
+Mean: 1.175107
+Max: 17.453125
+L1 reg loss: 0.004544
+
+Activation stats before reg:
+Mean: 0.148077
+Max: 1.796875
+L1 reg loss: 0.000832
+
+Activation stats before reg:
+Mean: 0.010442
+Max: 0.730469
+L1 reg loss: 0.000062
+
+Activation stats before reg:
+Mean: 0.221698
+Max: 3.835938
+L1 reg loss: 0.001218
+
+Activation stats before reg:
+Mean: 0.123817
+Max: 2.373047
+L1 reg loss: 0.000710
+
+Activation stats before reg:
+Mean: 0.024115
+Max: 0.634277
+L1 reg loss: 0.000146
+
+Activation stats before reg:
+Mean: 0.683035
+Max: 14.460938
+L1 reg loss: 0.002913
+
+Activation stats before reg:
+Mean: 1.198090
+Max: 16.312500
+L1 reg loss: 0.004619
+
+Activation stats before reg:
+Mean: 0.146868
+Max: 2.203125
+L1 reg loss: 0.000822
+
+Activation stats before reg:
+Mean: 0.012079
+Max: 0.999512
+L1 reg loss: 0.000072
+
+Activation stats before reg:
+Mean: 0.248104
+Max: 3.996094
+L1 reg loss: 0.001359
+
+Activation stats before reg:
+Mean: 0.136793
+Max: 2.818359
+L1 reg loss: 0.000781
+
+Activation stats before reg:
+Mean: 0.025772
+Max: 0.708496
+L1 reg loss: 0.000157
+
+Activation stats before reg:
+Mean: 0.645810
+Max: 13.242188
+L1 reg loss: 0.002765
+
+Activation stats before reg:
+Mean: 1.200927
+Max: 17.140625
+L1 reg loss: 0.004540
+
+Activation stats before reg:
+Mean: 0.140501
+Max: 1.832031
+L1 reg loss: 0.000789
+
+Activation stats before reg:
+Mean: 0.013389
+Max: 0.883301
+L1 reg loss: 0.000079
+
+Activation stats before reg:
+Mean: 0.274349
+Max: 4.589844
+L1 reg loss: 0.001484
+
+Activation stats before reg:
+Mean: 0.145210
+Max: 3.195312
+L1 reg loss: 0.000826
+
+Activation stats before reg:
+Mean: 0.027911
+Max: 1.039062
+L1 reg loss: 0.000170
+
+Activation stats before reg:
+Mean: 0.638693
+Max: 11.843750
+L1 reg loss: 0.002734
+
+Activation stats before reg:
+Mean: 1.199817
+Max: 16.906250
+L1 reg loss: 0.004566
+
+Activation stats before reg:
+Mean: 0.153859
+Max: 2.332031
+L1 reg loss: 0.000861
+
+Activation stats before reg:
+Mean: 0.017032
+Max: 1.106445
+L1 reg loss: 0.000101
+
+Activation stats before reg:
+Mean: 0.275223
+Max: 3.646484
+L1 reg loss: 0.001483
+
+Activation stats before reg:
+Mean: 0.153883
+Max: 3.085938
+L1 reg loss: 0.000870
+
+Activation stats before reg:
+Mean: 0.030125
+Max: 1.384766
+L1 reg loss: 0.000184
+
+Activation stats before reg:
+Mean: 0.611960
+Max: 12.679688
+L1 reg loss: 0.002688
+
+Activation stats before reg:
+Mean: 1.171790
+Max: 16.046875
+L1 reg loss: 0.004481
+
+Activation stats before reg:
+Mean: 0.163857
+Max: 2.246094
+L1 reg loss: 0.000912
+
+Activation stats before reg:
+Mean: 0.015625
+Max: 1.163086
+L1 reg loss: 0.000092
+
+Activation stats before reg:
+Mean: 0.284064
+Max: 3.900391
+L1 reg loss: 0.001514
+
+Activation stats before reg:
+Mean: 0.154493
+Max: 2.777344
+L1 reg loss: 0.000874
+
+Activation stats before reg:
+Mean: 0.029329
+Max: 1.301758
+L1 reg loss: 0.000179
+
+Activation stats before reg:
+Mean: 0.589410
+Max: 10.937500
+L1 reg loss: 0.002618
+
+Activation stats before reg:
+Mean: 1.126601
+Max: 17.937500
+L1 reg loss: 0.004386
+
+Activation stats before reg:
+Mean: 0.183931
+Max: 2.867188
+L1 reg loss: 0.000995
+
+Activation stats before reg:
+Mean: 0.017303
+Max: 1.222656
+L1 reg loss: 0.000102
+
+Activation stats before reg:
+Mean: 0.294621
+Max: 3.904297
+L1 reg loss: 0.001561
+
+Activation stats before reg:
+Mean: 0.159185
+Max: 4.101562
+L1 reg loss: 0.000900
+
+Activation stats before reg:
+Mean: 0.030958
+Max: 1.540039
+L1 reg loss: 0.000188
+
+Activation stats before reg:
+Mean: 0.628973
+Max: 12.296875
+L1 reg loss: 0.002771
+
+Activation stats before reg:
+Mean: 1.199978
+Max: 17.031250
+L1 reg loss: 0.004618
+
+Activation stats before reg:
+Mean: 0.167909
+Max: 1.968750
+L1 reg loss: 0.000931
+
+Activation stats before reg:
+Mean: 0.016272
+Max: 1.227539
+L1 reg loss: 0.000096
+
+Activation stats before reg:
+Mean: 0.286991
+Max: 6.812500
+L1 reg loss: 0.001532
+
+Activation stats before reg:
+Mean: 0.159584
+Max: 3.683594
+L1 reg loss: 0.000903
+
+Activation stats before reg:
+Mean: 0.029782
+Max: 1.306641
+L1 reg loss: 0.000180
+
+Activation stats before reg:
+Mean: 0.593541
+Max: 11.234375
+L1 reg loss: 0.002642
+
+Activation stats before reg:
+Mean: 1.112245
+Max: 15.390625
+L1 reg loss: 0.004388
+
+Activation stats before reg:
+Mean: 0.170754
+Max: 2.189453
+L1 reg loss: 0.000953
+
+Activation stats before reg:
+Mean: 0.016559
+Max: 0.868652
+L1 reg loss: 0.000098
+
+Activation stats before reg:
+Mean: 0.294484
+Max: 6.582031
+L1 reg loss: 0.001563
+
+Activation stats before reg:
+Mean: 0.164891
+Max: 4.753906
+L1 reg loss: 0.000931
+
+Activation stats before reg:
+Mean: 0.032013
+Max: 1.582031
+L1 reg loss: 0.000195
+
+Activation stats before reg:
+Mean: 0.611371
+Max: 13.804688
+L1 reg loss: 0.002669
+
+Activation stats before reg:
+Mean: 1.084485
+Max: 16.578125
+L1 reg loss: 0.004202
+
+Activation stats before reg:
+Mean: 0.170745
+Max: 1.858398
+L1 reg loss: 0.000959
+
+Activation stats before reg:
+Mean: 0.019793
+Max: 1.835938
+L1 reg loss: 0.000118
+
+Activation stats before reg:
+Mean: 0.302754
+Max: 3.771484
+L1 reg loss: 0.001603
+
+Activation stats before reg:
+Mean: 0.172102
+Max: 4.058594
+L1 reg loss: 0.000965
+
+Activation stats before reg:
+Mean: 0.035494
+Max: 1.990234
+L1 reg loss: 0.000216
+
+Activation stats before reg:
+Mean: 0.588037
+Max: 13.023438
+L1 reg loss: 0.002601
+
+Activation stats before reg:
+Mean: 1.176942
+Max: 16.140625
+L1 reg loss: 0.004560
+
+Activation stats before reg:
+Mean: 0.176948
+Max: 2.957031
+L1 reg loss: 0.000988
+
+Activation stats before reg:
+Mean: 0.019941
+Max: 1.944336
+L1 reg loss: 0.000114
+
+Activation stats before reg:
+Mean: 0.332026
+Max: 5.917969
+L1 reg loss: 0.001757
+
+Activation stats before reg:
+Mean: 0.176646
+Max: 5.183594
+L1 reg loss: 0.000989
+
+Activation stats before reg:
+Mean: 0.040806
+Max: 1.477539
+L1 reg loss: 0.000247
+
+Activation stats before reg:
+Mean: 0.599073
+Max: 10.335938
+L1 reg loss: 0.002644
+
+Activation stats before reg:
+Mean: 1.191848
+Max: 17.171875
+L1 reg loss: 0.004508
+
+Activation stats before reg:
+Mean: 0.183852
+Max: 2.568359
+L1 reg loss: 0.001017
+
+Activation stats before reg:
+Mean: 0.020730
+Max: 1.646484
+L1 reg loss: 0.000120
+
+Activation stats before reg:
+Mean: 0.355743
+Max: 6.074219
+L1 reg loss: 0.001852
+
+Activation stats before reg:
+Mean: 0.178893
+Max: 3.134766
+L1 reg loss: 0.000999
+
+Activation stats before reg:
+Mean: 0.039831
+Max: 1.676758
+L1 reg loss: 0.000242
+
+Activation stats before reg:
+Mean: 0.649441
+Max: 12.867188
+L1 reg loss: 0.002765
+
+Activation stats before reg:
+Mean: 1.206324
+Max: 16.296875
+L1 reg loss: 0.004642
+
+Activation stats before reg:
+Mean: 0.189195
+Max: 2.216797
+L1 reg loss: 0.001045
+
+Activation stats before reg:
+Mean: 0.020081
+Max: 1.501953
+L1 reg loss: 0.000114
+
+Activation stats before reg:
+Mean: 0.391087
+Max: 6.042969
+L1 reg loss: 0.002022
+
+Activation stats before reg:
+Mean: 0.184748
+Max: 3.169922
+L1 reg loss: 0.001029
+
+Activation stats before reg:
+Mean: 0.045875
+Max: 2.683594
+L1 reg loss: 0.000277
+
+Activation stats before reg:
+Mean: 0.637709
+Max: 12.992188
+L1 reg loss: 0.002754
+
+Activation stats before reg:
+Mean: 1.193246
+Max: 18.968750
+L1 reg loss: 0.004497
+
+Activation stats before reg:
+Mean: 0.191236
+Max: 1.978516
+L1 reg loss: 0.001047
+
+Activation stats before reg:
+Mean: 0.020893
+Max: 2.921875
+L1 reg loss: 0.000119
+
+Activation stats before reg:
+Mean: 0.380260
+Max: 7.070312
+L1 reg loss: 0.001969
+
+Activation stats before reg:
+Mean: 0.188198
+Max: 4.273438
+L1 reg loss: 0.001050
+
+Activation stats before reg:
+Mean: 0.050118
+Max: 2.562500
+L1 reg loss: 0.000302
+
+Activation stats before reg:
+Mean: 0.639762
+Max: 12.773438
+L1 reg loss: 0.002728
+
+Activation stats before reg:
+Mean: 1.159232
+Max: 16.015625
+L1 reg loss: 0.004523
+
+Activation stats before reg:
+Mean: 0.190165
+Max: 1.790039
+L1 reg loss: 0.001050
+
+Activation stats before reg:
+Mean: 0.019767
+Max: 1.895508
+L1 reg loss: 0.000113
+
+Activation stats before reg:
+Mean: 0.392687
+Max: 6.226562
+L1 reg loss: 0.002026
+
+Activation stats before reg:
+Mean: 0.194265
+Max: 3.425781
+L1 reg loss: 0.001084
+
+Activation stats before reg:
+Mean: 0.050571
+Max: 1.759766
+L1 reg loss: 0.000304
+
+Activation stats before reg:
+Mean: 0.616875
+Max: 13.531250
+L1 reg loss: 0.002711
+
+Activation stats before reg:
+Mean: 1.192141
+Max: 17.437500
+L1 reg loss: 0.004613
+
+Activation stats before reg:
+Mean: 0.202951
+Max: 3.580078
+L1 reg loss: 0.001110
+
+Activation stats before reg:
+Mean: 0.015801
+Max: 0.838379
+L1 reg loss: 0.000090
+
+Activation stats before reg:
+Mean: 0.373686
+Max: 6.808594
+L1 reg loss: 0.001946
+
+Activation stats before reg:
+Mean: 0.194471
+Max: 4.378906
+L1 reg loss: 0.001089
+
+Activation stats before reg:
+Mean: 0.047704
+Max: 1.375000
+L1 reg loss: 0.000287
+
+Activation stats before reg:
+Mean: 0.653063
+Max: 13.976562
+L1 reg loss: 0.002816
+
+Activation stats before reg:
+Mean: 1.167104
+Max: 16.265625
+L1 reg loss: 0.004526
+
+Activation stats before reg:
+Mean: 0.227341
+Max: 2.443359
+L1 reg loss: 0.001240
+
+Activation stats before reg:
+Mean: 0.015432
+Max: 1.123047
+L1 reg loss: 0.000086
+
+Activation stats before reg:
+Mean: 0.375094
+Max: 5.343750
+L1 reg loss: 0.001955
+
+Activation stats before reg:
+Mean: 0.197072
+Max: 4.121094
+L1 reg loss: 0.001105
+
+Activation stats before reg:
+Mean: 0.051093
+Max: 2.097656
+L1 reg loss: 0.000306
+
+Activation stats before reg:
+Mean: 0.627560
+Max: 14.039062
+L1 reg loss: 0.002737
+
+Activation stats before reg:
+Mean: 1.221811
+Max: 14.343750
+L1 reg loss: 0.004687
+
+Activation stats before reg:
+Mean: 0.238524
+Max: 2.406250
+L1 reg loss: 0.001277
+
+Activation stats before reg:
+Mean: 0.014911
+Max: 1.263672
+L1 reg loss: 0.000084
+
+Activation stats before reg:
+Mean: 0.374743
+Max: 5.058594
+L1 reg loss: 0.001958
+
+Activation stats before reg:
+Mean: 0.198932
+Max: 4.832031
+L1 reg loss: 0.001115
+
+Activation stats before reg:
+Mean: 0.050594
+Max: 1.516602
+L1 reg loss: 0.000303
+
+Activation stats before reg:
+Mean: 0.661052
+Max: 16.468750
+L1 reg loss: 0.002840
+
+Activation stats before reg:
+Mean: 1.190797
+Max: 18.718750
+L1 reg loss: 0.004550
+
+Activation stats before reg:
+Mean: 0.221259
+Max: 2.873047
+L1 reg loss: 0.001180
+
+Activation stats before reg:
+Mean: 0.019356
+Max: 1.177734
+L1 reg loss: 0.000106
+
+Activation stats before reg:
+Mean: 0.392617
+Max: 6.347656
+L1 reg loss: 0.002036
+
+Activation stats before reg:
+Mean: 0.208338
+Max: 3.636719
+L1 reg loss: 0.001161
+
+Activation stats before reg:
+Mean: 0.055226
+Max: 2.757812
+L1 reg loss: 0.000330
+
+Activation stats before reg:
+Mean: 0.620863
+Max: 16.390625
+L1 reg loss: 0.002719
+
+Activation stats before reg:
+Mean: 1.198839
+Max: 16.734375
+L1 reg loss: 0.004590
+
+Activation stats before reg:
+Mean: 0.252782
+Max: 2.695312
+L1 reg loss: 0.001348
+
+Activation stats before reg:
+Mean: 0.017739
+Max: 0.902344
+L1 reg loss: 0.000100
+
+Activation stats before reg:
+Mean: 0.391432
+Max: 5.113281
+L1 reg loss: 0.002041
+
+Activation stats before reg:
+Mean: 0.208812
+Max: 5.406250
+L1 reg loss: 0.001168
+
+Activation stats before reg:
+Mean: 0.054211
+Max: 2.044922
+L1 reg loss: 0.000323
+
+Activation stats before reg:
+Mean: 0.655789
+Max: 16.953125
+L1 reg loss: 0.002847
+
+Activation stats before reg:
+Mean: 1.194707
+Max: 18.015625
+L1 reg loss: 0.004597
+
+Activation stats before reg:
+Mean: 0.266808
+Max: 3.300781
+L1 reg loss: 0.001414
+
+Activation stats before reg:
+Mean: 0.018081
+Max: 0.979980
+L1 reg loss: 0.000100
+
+Activation stats before reg:
+Mean: 0.381941
+Max: 6.824219
+L1 reg loss: 0.001991
+
+Activation stats before reg:
+Mean: 0.209858
+Max: 5.277344
+L1 reg loss: 0.001173
+
+Activation stats before reg:
+Mean: 0.053680
+Max: 2.761719
+L1 reg loss: 0.000319
+
+Activation stats before reg:
+Mean: 0.662093
+Max: 16.515625
+L1 reg loss: 0.002890
+
+Activation stats before reg:
+Mean: 1.154534
+Max: 17.187500
+L1 reg loss: 0.004413
+
+Activation stats before reg:
+Mean: 0.299959
+Max: 3.867188
+L1 reg loss: 0.001557
+
+Activation stats before reg:
+Mean: 0.015405
+Max: 0.838867
+L1 reg loss: 0.000085
+
+Activation stats before reg:
+Mean: 0.377204
+Max: 8.914062
+L1 reg loss: 0.001968
+
+Activation stats before reg:
+Mean: 0.210277
+Max: 5.851562
+L1 reg loss: 0.001175
+
+Activation stats before reg:
+Mean: 0.054887
+Max: 2.220703
+L1 reg loss: 0.000326
+
+Activation stats before reg:
+Mean: 0.691722
+Max: 18.281250
+L1 reg loss: 0.002973
+
+Activation stats before reg:
+Mean: 1.108599
+Max: 18.468750
+L1 reg loss: 0.004240
+
+Activation stats before reg:
+Mean: 0.305763
+Max: 4.109375
+L1 reg loss: 0.001588
+
+Activation stats before reg:
+Mean: 0.020123
+Max: 1.430664
+L1 reg loss: 0.000111
+
+Activation stats before reg:
+Mean: 0.389862
+Max: 11.257812
+L1 reg loss: 0.002021
+
+Activation stats before reg:
+Mean: 0.218919
+Max: 4.199219
+L1 reg loss: 0.001216
+
+Activation stats before reg:
+Mean: 0.057399
+Max: 2.828125
+L1 reg loss: 0.000341
+
+Activation stats before reg:
+Mean: 0.641309
+Max: 17.031250
+L1 reg loss: 0.002835
+
+Activation stats before reg:
+Mean: 1.178646
+Max: 18.484375
+L1 reg loss: 0.004488
+
+Activation stats before reg:
+Mean: 0.277160
+Max: 3.345703
+L1 reg loss: 0.001430
+
+Activation stats before reg:
+Mean: 0.023488
+Max: 3.763672
+L1 reg loss: 0.000134
+
+Activation stats before reg:
+Mean: 0.415020
+Max: 8.312500
+L1 reg loss: 0.002110
+
+Activation stats before reg:
+Mean: 0.229757
+Max: 4.890625
+L1 reg loss: 0.001269
+
+Activation stats before reg:
+Mean: 0.060820
+Max: 2.396484
+L1 reg loss: 0.000362
+
+Activation stats before reg:
+Mean: 0.648500
+Max: 17.453125
+L1 reg loss: 0.002850
+
+Activation stats before reg:
+Mean: 1.199357
+Max: 17.343750
+L1 reg loss: 0.004556
+
+Activation stats before reg:
+Mean: 0.367885
+Max: 3.802734
+L1 reg loss: 0.001803
+
+Activation stats before reg:
+Mean: 0.024373
+Max: 3.212891
+L1 reg loss: 0.000132
+
+Activation stats before reg:
+Mean: 0.446249
+Max: 8.140625
+L1 reg loss: 0.002224
+
+Activation stats before reg:
+Mean: 0.246432
+Max: 4.839844
+L1 reg loss: 0.001348
+
+Activation stats before reg:
+Mean: 0.071121
+Max: 2.826172
+L1 reg loss: 0.000421
+
+Activation stats before reg:
+Mean: 0.675480
+Max: 16.656250
+L1 reg loss: 0.002931
+
+Activation stats before reg:
+Mean: 1.185900
+Max: 19.218750
+L1 reg loss: 0.004565
+
+Activation stats before reg:
+Mean: 0.301062
+Max: 3.697266
+L1 reg loss: 0.001585
+
+Activation stats before reg:
+Mean: 0.030854
+Max: 4.730469
+L1 reg loss: 0.000174
+
+Activation stats before reg:
+Mean: 0.478361
+Max: 10.671875
+L1 reg loss: 0.002333
+
+Activation stats before reg:
+Mean: 0.271623
+Max: 6.867188
+L1 reg loss: 0.001454
+
+Activation stats before reg:
+Mean: 0.086754
+Max: 2.296875
+L1 reg loss: 0.000511
+
+Activation stats before reg:
+Mean: 0.660525
+Max: 11.664062
+L1 reg loss: 0.002909
+
+Activation stats before reg:
+Mean: 1.171522
+Max: 31.859375
+L1 reg loss: 0.004472
+
+Activation stats before reg:
+Mean: 0.363439
+Max: 5.800781
+L1 reg loss: 0.001839
+
+Activation stats before reg:
+Mean: 0.047428
+Max: 5.621094
+L1 reg loss: 0.000281
+
+Activation stats before reg:
+Mean: 0.491014
+Max: 14.539062
+L1 reg loss: 0.002345
+
+Activation stats before reg:
+Mean: 0.305420
+Max: 10.882812
+L1 reg loss: 0.001603
+
+Activation stats before reg:
+Mean: 0.103610
+Max: 5.027344
+L1 reg loss: 0.000604
+
+Activation stats before reg:
+Mean: 0.670611
+Max: 15.265625
+L1 reg loss: 0.002886
+
+Activation stats before reg:
+Mean: 1.218190
+Max: 16.062500
+L1 reg loss: 0.004682
+
+Activation stats before reg:
+Mean: 0.402898
+Max: 3.976562
+L1 reg loss: 0.001990
+
+Activation stats before reg:
+Mean: 0.052610
+Max: 10.742188
+L1 reg loss: 0.000293
+
+Activation stats before reg:
+Mean: 0.555656
+Max: 18.250000
+L1 reg loss: 0.002553
+
+Activation stats before reg:
+Mean: 0.363557
+Max: 11.421875
+L1 reg loss: 0.001831
+
+Activation stats before reg:
+Mean: 0.162793
+Max: 9.492188
+L1 reg loss: 0.000898
+
+Activation stats before reg:
+Mean: 0.767703
+Max: 32.468750
+L1 reg loss: 0.003110
+
+Activation stats before reg:
+Mean: 1.191959
+Max: 17.859375
+L1 reg loss: 0.004567
+
+Activation stats before reg:
+Mean: 0.384621
+Max: 9.390625
+L1 reg loss: 0.001908
+
+Activation stats before reg:
+Mean: 0.102961
+Max: 9.335938
+L1 reg loss: 0.000566
+
+Activation stats before reg:
+Mean: 0.579986
+Max: 18.656250
+L1 reg loss: 0.002464
+
+Activation stats before reg:
+Mean: 0.480451
+Max: 15.789062
+L1 reg loss: 0.002173
+
+Activation stats before reg:
+Mean: 0.372182
+Max: 224.375000
+L1 reg loss: 0.001780
+
+Layer: model.layers.0.self_attn.q_proj
+Reg loss: 0.006765
+
+Layer: model.layers.0.self_attn.k_proj
+Reg loss: 0.007962
+
+Layer: model.layers.0.self_attn.v_proj
+Reg loss: 0.000273
+
+Layer: model.layers.0.self_attn.o_proj
+Reg loss: 0.000028
+
+Final reg loss: 0.050178
+
+Step 3 - Loss ratio (reg/task): 0.015091
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(315)[0;36mtrain[0;34m()[0m
+[0;32m    314 [0;31m            [0;32mif[0m [0mDEBUG[0m[0;34m:[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 315 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtask_loss[0m [0;34m+[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    316 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtotal_loss[0m [0;34m/[0m [0mgradient_accumulation_steps[0m[0;34m[0m[0;34m[0m[0m
+[0m
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Activation stats before reg:
+Mean: nan
+Max: nan
+L1 reg loss: nan
+Warning: Bad value in l1 regularization
+Warning: Bad value in hoyer regularization
+
+Layer: model.layers.0.self_attn.q_proj
+Reg loss: 0.000000
+
+Layer: model.layers.0.self_attn.k_proj
+Reg loss: 0.000000
+
+Layer: model.layers.0.self_attn.v_proj
+Reg loss: 0.000000
+
+Layer: model.layers.0.self_attn.o_proj
+Reg loss: 0.000000
+
+Final reg loss: 0.000000
+
+Step 4 - Loss ratio (reg/task): 0.000000
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(315)[0;36mtrain[0;34m()[0m
+[0;32m    314 [0;31m            [0;32mif[0m [0mDEBUG[0m[0;34m:[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 315 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtask_loss[0m [0;34m+[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    316 [0;31m            [0mtotal_loss[0m [0;34m=[0m [0mtotal_loss[0m [0;34m/[0m [0mgradient_accumulation_steps[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/IPython/core/debugger.py", line 179, in BdbQuit_excepthook
+    raise ValueError(
+ValueError: `BdbQuit_excepthook` is deprecated since version 5.1. It is still around only because it is still imported by ipdb.
+
+Original exception was:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 438, in <module>
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 422, in main
+    optimizer,
+        ^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 315, in train
+    total_loss = task_loss + 1e-6 * reg_loss
+                 ^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

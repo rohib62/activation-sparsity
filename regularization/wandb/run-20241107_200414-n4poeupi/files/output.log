@@ -1,0 +1,2960 @@
+Loading model with tensor parallelism...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.36it/s]
+Loading tokenizer...
+Initializing trainer...
+Loading dataset...
+Setting up optimizer and scheduler...
+Starting training...
+Epoch 1:   0%|                                                                                                                                              | 0/13001 [00:00<?, ?it/s]
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.7912
+Max: 13.8750
+Has NaN: False
+L1 reg stats - Mean: 0.7910, Max: 13.8750
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.9577
+Max: 14.4297
+Has NaN: False
+L1 reg stats - Mean: 0.9575, Max: 14.4297
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.0241
+Max: 0.5024
+Has NaN: False
+L1 reg stats - Mean: 0.0241, Max: 0.5024
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0025
+Max: 0.2695
+Has NaN: False
+L1 reg stats - Mean: 0.0025, Max: 0.2695
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1076
+Max: 3.9258
+Has NaN: False
+L1 reg stats - Mean: 0.1077, Max: 3.9258
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.0825
+Max: 2.3320
+Has NaN: False
+L1 reg stats - Mean: 0.0825, Max: 2.3320
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0113
+Max: 2.7227
+Has NaN: False
+L1 reg stats - Mean: 0.0113, Max: 2.7227
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.8436
+Max: 10.8672
+Has NaN: False
+L1 reg stats - Mean: 0.8438, Max: 10.8672
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.2275
+Max: 12.0078
+Has NaN: False
+L1 reg stats - Mean: 1.2275, Max: 12.0078
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.0480
+Max: 1.3047
+Has NaN: False
+L1 reg stats - Mean: 0.0480, Max: 1.3047
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0040
+Max: 0.2488
+Has NaN: False
+L1 reg stats - Mean: 0.0040, Max: 0.2488
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.0875
+Max: 15.5859
+Has NaN: False
+L1 reg stats - Mean: 0.0875, Max: 15.5859
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.0700
+Max: 23.7656
+Has NaN: False
+L1 reg stats - Mean: 0.0701, Max: 23.7656
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0104
+Max: 225.6250
+Has NaN: False
+L1 reg stats - Mean: 0.0104, Max: 225.6250
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.7076
+Max: 11.4297
+Has NaN: False
+L1 reg stats - Mean: 0.7075, Max: 11.4297
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1449
+Max: 15.3828
+Has NaN: False
+L1 reg stats - Mean: 1.1445, Max: 15.3828
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1146
+Max: 1.7373
+Has NaN: False
+L1 reg stats - Mean: 0.1146, Max: 1.7373
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0054
+Max: 0.5732
+Has NaN: False
+L1 reg stats - Mean: 0.0054, Max: 0.5732
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1227
+Max: 5.9219
+Has NaN: False
+L1 reg stats - Mean: 0.1227, Max: 5.9219
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.0912
+Max: 2.0703
+Has NaN: False
+L1 reg stats - Mean: 0.0912, Max: 2.0703
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0149
+Max: 0.4519
+Has NaN: False
+L1 reg stats - Mean: 0.0149, Max: 0.4519
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6937
+Max: 10.4531
+Has NaN: False
+L1 reg stats - Mean: 0.6938, Max: 10.4531
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.0821
+Max: 17.9688
+Has NaN: False
+L1 reg stats - Mean: 1.0820, Max: 17.9688
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1355
+Max: 2.1797
+Has NaN: False
+L1 reg stats - Mean: 0.1355, Max: 2.1797
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0089
+Max: 0.8721
+Has NaN: False
+L1 reg stats - Mean: 0.0089, Max: 0.8721
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1605
+Max: 4.7344
+Has NaN: False
+L1 reg stats - Mean: 0.1605, Max: 4.7344
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1077
+Max: 1.9766
+Has NaN: False
+L1 reg stats - Mean: 0.1077, Max: 1.9766
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0169
+Max: 0.6494
+Has NaN: False
+L1 reg stats - Mean: 0.0169, Max: 0.6494
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6901
+Max: 10.8750
+Has NaN: False
+L1 reg stats - Mean: 0.6899, Max: 10.8750
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1692
+Max: 17.9531
+Has NaN: False
+L1 reg stats - Mean: 1.1689, Max: 17.9531
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1462
+Max: 1.8975
+Has NaN: False
+L1 reg stats - Mean: 0.1462, Max: 1.8975
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0104
+Max: 0.7939
+Has NaN: False
+L1 reg stats - Mean: 0.0104, Max: 0.7939
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2105
+Max: 3.4375
+Has NaN: False
+L1 reg stats - Mean: 0.2106, Max: 3.4375
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1217
+Max: 2.3672
+Has NaN: False
+L1 reg stats - Mean: 0.1217, Max: 2.3672
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0237
+Max: 0.8872
+Has NaN: False
+L1 reg stats - Mean: 0.0237, Max: 0.8872
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6635
+Max: 14.5312
+Has NaN: False
+L1 reg stats - Mean: 0.6636, Max: 14.5312
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1957
+Max: 19.7500
+Has NaN: False
+L1 reg stats - Mean: 1.1953, Max: 19.7500
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1474
+Max: 1.7383
+Has NaN: False
+L1 reg stats - Mean: 0.1475, Max: 1.7383
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0130
+Max: 0.9785
+Has NaN: False
+L1 reg stats - Mean: 0.0130, Max: 0.9785
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2388
+Max: 4.1875
+Has NaN: False
+L1 reg stats - Mean: 0.2388, Max: 4.1875
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1364
+Max: 3.5645
+Has NaN: False
+L1 reg stats - Mean: 0.1364, Max: 3.5645
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0261
+Max: 1.0479
+Has NaN: False
+L1 reg stats - Mean: 0.0261, Max: 1.0479
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6275
+Max: 14.7656
+Has NaN: False
+L1 reg stats - Mean: 0.6274, Max: 14.7656
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1821
+Max: 17.6094
+Has NaN: False
+L1 reg stats - Mean: 1.1826, Max: 17.6094
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1369
+Max: 2.1016
+Has NaN: False
+L1 reg stats - Mean: 0.1370, Max: 2.1016
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0126
+Max: 0.9917
+Has NaN: False
+L1 reg stats - Mean: 0.0126, Max: 0.9917
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2623
+Max: 4.3008
+Has NaN: False
+L1 reg stats - Mean: 0.2622, Max: 4.3008
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1455
+Max: 3.3125
+Has NaN: False
+L1 reg stats - Mean: 0.1455, Max: 3.3125
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0285
+Max: 1.4639
+Has NaN: False
+L1 reg stats - Mean: 0.0285, Max: 1.4639
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6265
+Max: 12.5938
+Has NaN: False
+L1 reg stats - Mean: 0.6265, Max: 12.5938
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1792
+Max: 18.0469
+Has NaN: False
+L1 reg stats - Mean: 1.1787, Max: 18.0469
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1503
+Max: 2.3691
+Has NaN: False
+L1 reg stats - Mean: 0.1503, Max: 2.3691
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0167
+Max: 1.2939
+Has NaN: False
+L1 reg stats - Mean: 0.0167, Max: 1.2939
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2621
+Max: 6.1680
+Has NaN: False
+L1 reg stats - Mean: 0.2622, Max: 6.1680
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1546
+Max: 3.4805
+Has NaN: False
+L1 reg stats - Mean: 0.1545, Max: 3.4805
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0308
+Max: 1.5820
+Has NaN: False
+L1 reg stats - Mean: 0.0308, Max: 1.5820
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.5982
+Max: 13.5469
+Has NaN: False
+L1 reg stats - Mean: 0.5981, Max: 13.5469
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1731
+Max: 16.0312
+Has NaN: False
+L1 reg stats - Mean: 1.1729, Max: 16.0312
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1648
+Max: 2.2461
+Has NaN: False
+L1 reg stats - Mean: 0.1648, Max: 2.2461
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0155
+Max: 1.1426
+Has NaN: False
+L1 reg stats - Mean: 0.0155, Max: 1.1426
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2718
+Max: 5.0586
+Has NaN: False
+L1 reg stats - Mean: 0.2717, Max: 5.0586
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1558
+Max: 2.4453
+Has NaN: False
+L1 reg stats - Mean: 0.1558, Max: 2.4453
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0297
+Max: 1.6279
+Has NaN: False
+L1 reg stats - Mean: 0.0297, Max: 1.6279
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.5778
+Max: 10.5859
+Has NaN: False
+L1 reg stats - Mean: 0.5776, Max: 10.5859
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1046
+Max: 18.5625
+Has NaN: False
+L1 reg stats - Mean: 1.1045, Max: 18.5625
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1791
+Max: 2.2676
+Has NaN: False
+L1 reg stats - Mean: 0.1791, Max: 2.2676
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0166
+Max: 1.0938
+Has NaN: False
+L1 reg stats - Mean: 0.0166, Max: 1.0938
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2787
+Max: 3.8008
+Has NaN: False
+L1 reg stats - Mean: 0.2788, Max: 3.8008
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1605
+Max: 3.9336
+Has NaN: False
+L1 reg stats - Mean: 0.1605, Max: 3.9336
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0314
+Max: 1.5137
+Has NaN: False
+L1 reg stats - Mean: 0.0315, Max: 1.5137
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6140
+Max: 12.6797
+Has NaN: False
+L1 reg stats - Mean: 0.6138, Max: 12.6797
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1872
+Max: 16.2188
+Has NaN: False
+L1 reg stats - Mean: 1.1875, Max: 16.2188
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1649
+Max: 2.2637
+Has NaN: False
+L1 reg stats - Mean: 0.1649, Max: 2.2637
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0160
+Max: 1.2734
+Has NaN: False
+L1 reg stats - Mean: 0.0160, Max: 1.2734
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2753
+Max: 4.5469
+Has NaN: False
+L1 reg stats - Mean: 0.2754, Max: 4.5469
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1629
+Max: 3.6191
+Has NaN: False
+L1 reg stats - Mean: 0.1630, Max: 3.6191
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0308
+Max: 1.1621
+Has NaN: False
+L1 reg stats - Mean: 0.0308, Max: 1.1621
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.5845
+Max: 11.9688
+Has NaN: False
+L1 reg stats - Mean: 0.5845, Max: 11.9688
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1045
+Max: 15.0781
+Has NaN: False
+L1 reg stats - Mean: 1.1045, Max: 15.0781
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1707
+Max: 2.1973
+Has NaN: False
+L1 reg stats - Mean: 0.1707, Max: 2.1973
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0164
+Max: 0.8940
+Has NaN: False
+L1 reg stats - Mean: 0.0164, Max: 0.8940
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2811
+Max: 8.0547
+Has NaN: False
+L1 reg stats - Mean: 0.2810, Max: 8.0547
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1680
+Max: 4.6289
+Has NaN: False
+L1 reg stats - Mean: 0.1680, Max: 4.6289
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0326
+Max: 1.3584
+Has NaN: False
+L1 reg stats - Mean: 0.0327, Max: 1.3584
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6027
+Max: 14.0078
+Has NaN: False
+L1 reg stats - Mean: 0.6025, Max: 14.0078
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.0752
+Max: 16.7969
+Has NaN: False
+L1 reg stats - Mean: 1.0752, Max: 16.7969
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1729
+Max: 2.0098
+Has NaN: False
+L1 reg stats - Mean: 0.1730, Max: 2.0098
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0189
+Max: 1.3252
+Has NaN: False
+L1 reg stats - Mean: 0.0189, Max: 1.3252
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2986
+Max: 4.3359
+Has NaN: False
+L1 reg stats - Mean: 0.2986, Max: 4.3359
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1759
+Max: 4.0547
+Has NaN: False
+L1 reg stats - Mean: 0.1759, Max: 4.0547
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0363
+Max: 2.2168
+Has NaN: False
+L1 reg stats - Mean: 0.0363, Max: 2.2168
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.5927
+Max: 12.3828
+Has NaN: False
+L1 reg stats - Mean: 0.5928, Max: 12.3828
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1872
+Max: 15.0781
+Has NaN: False
+L1 reg stats - Mean: 1.1875, Max: 15.0781
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1776
+Max: 2.1777
+Has NaN: False
+L1 reg stats - Mean: 0.1776, Max: 2.1777
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0183
+Max: 2.0664
+Has NaN: False
+L1 reg stats - Mean: 0.0184, Max: 2.0664
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3232
+Max: 6.1406
+Has NaN: False
+L1 reg stats - Mean: 0.3232, Max: 6.1406
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1788
+Max: 5.2188
+Has NaN: False
+L1 reg stats - Mean: 0.1788, Max: 5.2188
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0423
+Max: 1.8096
+Has NaN: False
+L1 reg stats - Mean: 0.0423, Max: 1.8096
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.5970
+Max: 11.3125
+Has NaN: False
+L1 reg stats - Mean: 0.5972, Max: 11.3125
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1956
+Max: 18.2500
+Has NaN: False
+L1 reg stats - Mean: 1.1953, Max: 18.2500
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1888
+Max: 2.1934
+Has NaN: False
+L1 reg stats - Mean: 0.1887, Max: 2.1934
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0197
+Max: 1.1748
+Has NaN: False
+L1 reg stats - Mean: 0.0197, Max: 1.1748
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3414
+Max: 6.6992
+Has NaN: False
+L1 reg stats - Mean: 0.3413, Max: 6.6992
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1800
+Max: 2.6094
+Has NaN: False
+L1 reg stats - Mean: 0.1799, Max: 2.6094
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0403
+Max: 1.5410
+Has NaN: False
+L1 reg stats - Mean: 0.0403, Max: 1.5410
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6499
+Max: 12.9453
+Has NaN: False
+L1 reg stats - Mean: 0.6499, Max: 12.9453
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1951
+Max: 17.1094
+Has NaN: False
+L1 reg stats - Mean: 1.1953, Max: 17.1094
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1909
+Max: 1.9258
+Has NaN: False
+L1 reg stats - Mean: 0.1909, Max: 1.9258
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0178
+Max: 1.4053
+Has NaN: False
+L1 reg stats - Mean: 0.0178, Max: 1.4053
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3716
+Max: 6.5117
+Has NaN: False
+L1 reg stats - Mean: 0.3716, Max: 6.5117
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1837
+Max: 2.7930
+Has NaN: False
+L1 reg stats - Mean: 0.1836, Max: 2.7930
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0456
+Max: 2.3672
+Has NaN: False
+L1 reg stats - Mean: 0.0456, Max: 2.3672
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6355
+Max: 13.2266
+Has NaN: False
+L1 reg stats - Mean: 0.6353, Max: 13.2266
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1839
+Max: 19.5000
+Has NaN: False
+L1 reg stats - Mean: 1.1836, Max: 19.5000
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1914
+Max: 2.0781
+Has NaN: False
+L1 reg stats - Mean: 0.1914, Max: 2.0781
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0187
+Max: 2.5156
+Has NaN: False
+L1 reg stats - Mean: 0.0187, Max: 2.5156
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3577
+Max: 6.7188
+Has NaN: False
+L1 reg stats - Mean: 0.3577, Max: 6.7188
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1875
+Max: 4.1641
+Has NaN: False
+L1 reg stats - Mean: 0.1875, Max: 4.1641
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0518
+Max: 2.6934
+Has NaN: False
+L1 reg stats - Mean: 0.0518, Max: 2.6934
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6353
+Max: 12.7734
+Has NaN: False
+L1 reg stats - Mean: 0.6353, Max: 12.7734
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1507
+Max: 16.5156
+Has NaN: False
+L1 reg stats - Mean: 1.1504, Max: 16.5156
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.1835
+Max: 1.8379
+Has NaN: False
+L1 reg stats - Mean: 0.1836, Max: 1.8379
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0177
+Max: 1.8633
+Has NaN: False
+L1 reg stats - Mean: 0.0177, Max: 1.8633
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3699
+Max: 6.6250
+Has NaN: False
+L1 reg stats - Mean: 0.3699, Max: 6.6250
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1908
+Max: 3.5840
+Has NaN: False
+L1 reg stats - Mean: 0.1908, Max: 3.5840
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0488
+Max: 1.5146
+Has NaN: False
+L1 reg stats - Mean: 0.0488, Max: 1.5146
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6136
+Max: 13.7578
+Has NaN: False
+L1 reg stats - Mean: 0.6138, Max: 13.7578
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1942
+Max: 16.1719
+Has NaN: False
+L1 reg stats - Mean: 1.1943, Max: 16.1719
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.2033
+Max: 3.5430
+Has NaN: False
+L1 reg stats - Mean: 0.2034, Max: 3.5430
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0151
+Max: 0.9624
+Has NaN: False
+L1 reg stats - Mean: 0.0151, Max: 0.9624
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3469
+Max: 6.8086
+Has NaN: False
+L1 reg stats - Mean: 0.3469, Max: 6.8086
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1932
+Max: 4.0625
+Has NaN: False
+L1 reg stats - Mean: 0.1931, Max: 4.0625
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0466
+Max: 1.8555
+Has NaN: False
+L1 reg stats - Mean: 0.0466, Max: 1.8555
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6524
+Max: 13.0781
+Has NaN: False
+L1 reg stats - Mean: 0.6523, Max: 13.0781
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1472
+Max: 17.0469
+Has NaN: False
+L1 reg stats - Mean: 1.1475, Max: 17.0469
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.2261
+Max: 2.6250
+Has NaN: False
+L1 reg stats - Mean: 0.2261, Max: 2.6250
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0139
+Max: 0.7847
+Has NaN: False
+L1 reg stats - Mean: 0.0139, Max: 0.7847
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3457
+Max: 6.7344
+Has NaN: False
+L1 reg stats - Mean: 0.3457, Max: 6.7344
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1960
+Max: 3.4062
+Has NaN: False
+L1 reg stats - Mean: 0.1960, Max: 3.4062
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0505
+Max: 1.8184
+Has NaN: False
+L1 reg stats - Mean: 0.0505, Max: 1.8184
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6185
+Max: 14.4609
+Has NaN: False
+L1 reg stats - Mean: 0.6187, Max: 14.4609
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.2212
+Max: 15.5469
+Has NaN: False
+L1 reg stats - Mean: 1.2207, Max: 15.5469
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.2414
+Max: 2.5352
+Has NaN: False
+L1 reg stats - Mean: 0.2415, Max: 2.5352
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0149
+Max: 0.8413
+Has NaN: False
+L1 reg stats - Mean: 0.0149, Max: 0.8413
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3441
+Max: 5.1133
+Has NaN: False
+L1 reg stats - Mean: 0.3442, Max: 5.1133
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.1966
+Max: 4.5273
+Has NaN: False
+L1 reg stats - Mean: 0.1965, Max: 4.5273
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0480
+Max: 1.7295
+Has NaN: False
+L1 reg stats - Mean: 0.0480, Max: 1.7295
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6589
+Max: 18.1250
+Has NaN: False
+L1 reg stats - Mean: 0.6587, Max: 18.1250
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1841
+Max: 18.4844
+Has NaN: False
+L1 reg stats - Mean: 1.1836, Max: 18.4844
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.2177
+Max: 2.7871
+Has NaN: False
+L1 reg stats - Mean: 0.2178, Max: 2.7871
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0160
+Max: 0.8579
+Has NaN: False
+L1 reg stats - Mean: 0.0160, Max: 0.8579
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3566
+Max: 6.5703
+Has NaN: False
+L1 reg stats - Mean: 0.3564, Max: 6.5703
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2055
+Max: 3.7598
+Has NaN: False
+L1 reg stats - Mean: 0.2056, Max: 3.7598
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0524
+Max: 2.3223
+Has NaN: False
+L1 reg stats - Mean: 0.0524, Max: 2.3223
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6192
+Max: 16.3750
+Has NaN: False
+L1 reg stats - Mean: 0.6191, Max: 16.3750
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.2072
+Max: 17.1875
+Has NaN: False
+L1 reg stats - Mean: 1.2070, Max: 17.1875
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.2587
+Max: 2.6953
+Has NaN: False
+L1 reg stats - Mean: 0.2588, Max: 2.6953
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0164
+Max: 0.7319
+Has NaN: False
+L1 reg stats - Mean: 0.0164, Max: 0.7319
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3526
+Max: 8.0156
+Has NaN: False
+L1 reg stats - Mean: 0.3525, Max: 8.0156
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2063
+Max: 3.4453
+Has NaN: False
+L1 reg stats - Mean: 0.2063, Max: 3.4453
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0511
+Max: 2.4648
+Has NaN: False
+L1 reg stats - Mean: 0.0511, Max: 2.4648
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6517
+Max: 15.9766
+Has NaN: False
+L1 reg stats - Mean: 0.6519, Max: 15.9766
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1835
+Max: 17.9688
+Has NaN: False
+L1 reg stats - Mean: 1.1836, Max: 17.9688
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.2736
+Max: 2.8516
+Has NaN: False
+L1 reg stats - Mean: 0.2737, Max: 2.8516
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0137
+Max: 0.8491
+Has NaN: False
+L1 reg stats - Mean: 0.0137, Max: 0.8491
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3492
+Max: 5.8867
+Has NaN: False
+L1 reg stats - Mean: 0.3491, Max: 5.8867
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2093
+Max: 4.4219
+Has NaN: False
+L1 reg stats - Mean: 0.2094, Max: 4.4219
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0515
+Max: 2.7148
+Has NaN: False
+L1 reg stats - Mean: 0.0515, Max: 2.7148
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6600
+Max: 16.2656
+Has NaN: False
+L1 reg stats - Mean: 0.6602, Max: 16.2656
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1564
+Max: 19.0469
+Has NaN: False
+L1 reg stats - Mean: 1.1562, Max: 19.0469
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.3160
+Max: 3.6152
+Has NaN: False
+L1 reg stats - Mean: 0.3159, Max: 3.6152
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0169
+Max: 1.0820
+Has NaN: False
+L1 reg stats - Mean: 0.0169, Max: 1.0820
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3483
+Max: 10.4922
+Has NaN: False
+L1 reg stats - Mean: 0.3484, Max: 10.4922
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2103
+Max: 5.1562
+Has NaN: False
+L1 reg stats - Mean: 0.2103, Max: 5.1562
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0522
+Max: 1.7314
+Has NaN: False
+L1 reg stats - Mean: 0.0522, Max: 1.7314
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6896
+Max: 17.9375
+Has NaN: False
+L1 reg stats - Mean: 0.6895, Max: 17.9375
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.0974
+Max: 19.3281
+Has NaN: False
+L1 reg stats - Mean: 1.0977, Max: 19.3281
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.3119
+Max: 4.3828
+Has NaN: False
+L1 reg stats - Mean: 0.3120, Max: 4.3828
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0197
+Max: 1.8457
+Has NaN: False
+L1 reg stats - Mean: 0.0197, Max: 1.8457
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3660
+Max: 8.4688
+Has NaN: False
+L1 reg stats - Mean: 0.3660, Max: 8.4688
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2199
+Max: 4.0078
+Has NaN: False
+L1 reg stats - Mean: 0.2200, Max: 4.0078
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0575
+Max: 2.4590
+Has NaN: False
+L1 reg stats - Mean: 0.0575, Max: 2.4590
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6400
+Max: 16.2031
+Has NaN: False
+L1 reg stats - Mean: 0.6401, Max: 16.2031
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1695
+Max: 18.3594
+Has NaN: False
+L1 reg stats - Mean: 1.1699, Max: 18.3594
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.2903
+Max: 3.6152
+Has NaN: False
+L1 reg stats - Mean: 0.2903, Max: 3.6152
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0228
+Max: 3.3438
+Has NaN: False
+L1 reg stats - Mean: 0.0228, Max: 3.3438
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3975
+Max: 8.6641
+Has NaN: False
+L1 reg stats - Mean: 0.3975, Max: 8.6641
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2319
+Max: 4.5508
+Has NaN: False
+L1 reg stats - Mean: 0.2318, Max: 4.5508
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0613
+Max: 2.0879
+Has NaN: False
+L1 reg stats - Mean: 0.0613, Max: 2.0879
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6466
+Max: 17.0312
+Has NaN: False
+L1 reg stats - Mean: 0.6465, Max: 17.0312
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.2004
+Max: 18.7031
+Has NaN: False
+L1 reg stats - Mean: 1.2002, Max: 18.7031
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.3892
+Max: 3.9512
+Has NaN: False
+L1 reg stats - Mean: 0.3892, Max: 3.9512
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0237
+Max: 3.7012
+Has NaN: False
+L1 reg stats - Mean: 0.0237, Max: 3.7012
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.4257
+Max: 7.7305
+Has NaN: False
+L1 reg stats - Mean: 0.4258, Max: 7.7305
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2481
+Max: 4.7109
+Has NaN: False
+L1 reg stats - Mean: 0.2482, Max: 4.7109
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0709
+Max: 3.0352
+Has NaN: False
+L1 reg stats - Mean: 0.0709, Max: 3.0352
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6756
+Max: 14.9375
+Has NaN: False
+L1 reg stats - Mean: 0.6758, Max: 14.9375
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1791
+Max: 18.7969
+Has NaN: False
+L1 reg stats - Mean: 1.1787, Max: 18.7969
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.3095
+Max: 3.6973
+Has NaN: False
+L1 reg stats - Mean: 0.3096, Max: 3.6973
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0302
+Max: 5.1680
+Has NaN: False
+L1 reg stats - Mean: 0.0302, Max: 5.1680
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.4621
+Max: 10.6953
+Has NaN: False
+L1 reg stats - Mean: 0.4622, Max: 10.6953
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.2736
+Max: 6.1250
+Has NaN: False
+L1 reg stats - Mean: 0.2737, Max: 6.1250
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0884
+Max: 3.1016
+Has NaN: False
+L1 reg stats - Mean: 0.0884, Max: 3.1016
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6660
+Max: 11.6328
+Has NaN: False
+L1 reg stats - Mean: 0.6660, Max: 11.6328
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.1748
+Max: 32.7812
+Has NaN: False
+L1 reg stats - Mean: 1.1748, Max: 32.7812
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.3724
+Max: 6.0391
+Has NaN: False
+L1 reg stats - Mean: 0.3723, Max: 6.0391
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0500
+Max: 5.0625
+Has NaN: False
+L1 reg stats - Mean: 0.0500, Max: 5.0625
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.4818
+Max: 14.5391
+Has NaN: False
+L1 reg stats - Mean: 0.4819, Max: 14.5391
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3054
+Max: 11.5156
+Has NaN: False
+L1 reg stats - Mean: 0.3054, Max: 11.5156
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.1053
+Max: 7.6094
+Has NaN: False
+L1 reg stats - Mean: 0.1053, Max: 7.6094
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.6663
+Max: 15.2578
+Has NaN: False
+L1 reg stats - Mean: 0.6665, Max: 15.2578
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.2329
+Max: 17.0469
+Has NaN: False
+L1 reg stats - Mean: 1.2324, Max: 17.0469
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.4330
+Max: 4.7891
+Has NaN: False
+L1 reg stats - Mean: 0.4331, Max: 4.7891
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0524
+Max: 9.3750
+Has NaN: False
+L1 reg stats - Mean: 0.0524, Max: 9.3750
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.5496
+Max: 18.2500
+Has NaN: False
+L1 reg stats - Mean: 0.5498, Max: 18.2500
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.3625
+Max: 11.4766
+Has NaN: False
+L1 reg stats - Mean: 0.3625, Max: 11.4766
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.1555
+Max: 9.1328
+Has NaN: False
+L1 reg stats - Mean: 0.1555, Max: 9.1328
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.7692
+Max: 31.1094
+Has NaN: False
+L1 reg stats - Mean: 0.7690, Max: 31.1094
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 1.2173
+Max: 19.5781
+Has NaN: False
+L1 reg stats - Mean: 1.2178, Max: 19.5781
+
+Activation stats:
+Shape: torch.Size([4, 237, 1024])
+Mean: 0.3867
+Max: 8.0781
+Has NaN: False
+L1 reg stats - Mean: 0.3867, Max: 8.0781
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.0989
+Max: 10.6484
+Has NaN: False
+L1 reg stats - Mean: 0.0989, Max: 10.6484
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.5797
+Max: 30.6094
+Has NaN: False
+L1 reg stats - Mean: 0.5796, Max: 30.6094
+
+Activation stats:
+Shape: torch.Size([4, 237, 14336])
+Mean: 0.4661
+Max: 19.5312
+Has NaN: False
+L1 reg stats - Mean: 0.4661, Max: 19.5312
+
+Activation stats:
+Shape: torch.Size([4, 237, 4096])
+Mean: 0.3306
+Max: 224.3750
+Has NaN: False
+L1 reg stats - Mean: 0.3306, Max: 224.3750
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(292)[0;36mtrain[0;34m()[0m
+[0;32m    291 [0;31m            [0;32mimport[0m [0mipdb[0m[0;34m;[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 292 [0;31m            [0mreg_loss[0m [0;34m=[0m [0mtrainer[0m[0;34m.[0m[0mget_regularization_loss[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    293 [0;31m[0;34m[0m[0m
+[0m
+*** NameError: name 'losses' is not defined
+
+Regularization loss debug info:
+
+Layer: model.layers.0.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.791015625
+Activation max: 13.875
+
+Layer: model.layers.0.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.95751953125
+Activation max: 14.4296875
+
+Layer: model.layers.0.self_attn.v_proj
+Loss: 0.0034824623726308346
+Activation shape: (4, 237, 1024)
+Activation mean: 0.024078369140625
+Activation max: 0.50244140625
+
+Layer: model.layers.0.self_attn.o_proj
+Loss: 0.005318691488355398
+Activation shape: (4, 237, 4096)
+Activation mean: 0.002521514892578125
+Activation max: 0.26953125
+
+Layer: model.layers.0.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.107666015625
+Activation max: 3.92578125
+
+Layer: model.layers.0.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.08245849609375
+Activation max: 2.33203125
+
+Layer: model.layers.0.mlp.down_proj
+Loss: 0.004785570781677961
+Activation shape: (4, 237, 4096)
+Activation mean: 0.011322021484375
+Activation max: 2.72265625
+
+Layer: model.layers.1.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.84375
+Activation max: 10.8671875
+
+Layer: model.layers.1.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.2275390625
+Activation max: 12.0078125
+
+Layer: model.layers.1.self_attn.v_proj
+Loss: 0.0031116281170397997
+Activation shape: (4, 237, 1024)
+Activation mean: 0.048004150390625
+Activation max: 1.3046875
+
+Layer: model.layers.1.self_attn.o_proj
+Loss: 0.003988428507000208
+Activation shape: (4, 237, 4096)
+Activation mean: 0.004047393798828125
+Activation max: 0.248779296875
+
+Layer: model.layers.1.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.0875244140625
+Activation max: 15.5859375
+
+Layer: model.layers.1.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.070068359375
+Activation max: 23.765625
+
+Layer: model.layers.1.mlp.down_proj
+Loss: 0.009725981391966343
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01043701171875
+Activation max: 225.625
+
+Layer: model.layers.2.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.70751953125
+Activation max: 11.4296875
+
+Layer: model.layers.2.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.14453125
+Activation max: 15.3828125
+
+Layer: model.layers.2.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.11456298828125
+Activation max: 1.7373046875
+
+Layer: model.layers.2.self_attn.o_proj
+Loss: 0.0043590739369392395
+Activation shape: (4, 237, 4096)
+Activation mean: 0.005374908447265625
+Activation max: 0.5732421875
+
+Layer: model.layers.2.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1226806640625
+Activation max: 5.921875
+
+Layer: model.layers.2.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.0911865234375
+Activation max: 2.0703125
+
+Layer: model.layers.2.mlp.down_proj
+Loss: 0.0024956902489066124
+Activation shape: (4, 237, 4096)
+Activation mean: 0.014862060546875
+Activation max: 0.451904296875
+
+Layer: model.layers.3.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.69384765625
+Activation max: 10.453125
+
+Layer: model.layers.3.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.08203125
+Activation max: 17.96875
+
+Layer: model.layers.3.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.135498046875
+Activation max: 2.1796875
+
+Layer: model.layers.3.self_attn.o_proj
+Loss: 0.003033888293430209
+Activation shape: (4, 237, 4096)
+Activation mean: 0.00890350341796875
+Activation max: 0.8720703125
+
+Layer: model.layers.3.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1605224609375
+Activation max: 4.734375
+
+Layer: model.layers.3.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.10772705078125
+Activation max: 1.9765625
+
+Layer: model.layers.3.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.016876220703125
+Activation max: 0.6494140625
+
+Layer: model.layers.4.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.68994140625
+Activation max: 10.875
+
+Layer: model.layers.4.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1689453125
+Activation max: 17.953125
+
+Layer: model.layers.4.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.146240234375
+Activation max: 1.8974609375
+
+Layer: model.layers.4.self_attn.o_proj
+Loss: 0.0028967999387532473
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0103912353515625
+Activation max: 0.7939453125
+
+Layer: model.layers.4.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.2105712890625
+Activation max: 3.4375
+
+Layer: model.layers.4.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1217041015625
+Activation max: 2.3671875
+
+Layer: model.layers.4.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0237274169921875
+Activation max: 0.88720703125
+
+Layer: model.layers.5.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.66357421875
+Activation max: 14.53125
+
+Layer: model.layers.5.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1953125
+Activation max: 19.75
+
+Layer: model.layers.5.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.1474609375
+Activation max: 1.73828125
+
+Layer: model.layers.5.self_attn.o_proj
+Loss: 0.002739402698352933
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01297760009765625
+Activation max: 0.978515625
+
+Layer: model.layers.5.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.23876953125
+Activation max: 4.1875
+
+Layer: model.layers.5.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1363525390625
+Activation max: 3.564453125
+
+Layer: model.layers.5.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.026092529296875
+Activation max: 1.0478515625
+
+Layer: model.layers.6.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.62744140625
+Activation max: 14.765625
+
+Layer: model.layers.6.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1826171875
+Activation max: 17.609375
+
+Layer: model.layers.6.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.136962890625
+Activation max: 2.1015625
+
+Layer: model.layers.6.self_attn.o_proj
+Loss: 0.0028206398710608482
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01262664794921875
+Activation max: 0.99169921875
+
+Layer: model.layers.6.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.26220703125
+Activation max: 4.30078125
+
+Layer: model.layers.6.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1455078125
+Activation max: 3.3125
+
+Layer: model.layers.6.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.028472900390625
+Activation max: 1.4638671875
+
+Layer: model.layers.7.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.62646484375
+Activation max: 12.59375
+
+Layer: model.layers.7.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1787109375
+Activation max: 18.046875
+
+Layer: model.layers.7.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.1502685546875
+Activation max: 2.369140625
+
+Layer: model.layers.7.self_attn.o_proj
+Loss: 0.0027190931141376495
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01666259765625
+Activation max: 1.2939453125
+
+Layer: model.layers.7.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.26220703125
+Activation max: 6.16796875
+
+Layer: model.layers.7.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.154541015625
+Activation max: 3.48046875
+
+Layer: model.layers.7.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.030792236328125
+Activation max: 1.58203125
+
+Layer: model.layers.8.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.59814453125
+Activation max: 13.546875
+
+Layer: model.layers.8.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1728515625
+Activation max: 16.03125
+
+Layer: model.layers.8.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.164794921875
+Activation max: 2.24609375
+
+Layer: model.layers.8.self_attn.o_proj
+Loss: 0.002739402698352933
+Activation shape: (4, 237, 4096)
+Activation mean: 0.015472412109375
+Activation max: 1.142578125
+
+Layer: model.layers.8.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.271728515625
+Activation max: 5.05859375
+
+Layer: model.layers.8.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.15576171875
+Activation max: 2.4453125
+
+Layer: model.layers.8.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0296630859375
+Activation max: 1.6279296875
+
+Layer: model.layers.9.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.57763671875
+Activation max: 10.5859375
+
+Layer: model.layers.9.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1044921875
+Activation max: 18.5625
+
+Layer: model.layers.9.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.1790771484375
+Activation max: 2.267578125
+
+Layer: model.layers.9.self_attn.o_proj
+Loss: 0.00267847441136837
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0166015625
+Activation max: 1.09375
+
+Layer: model.layers.9.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.27880859375
+Activation max: 3.80078125
+
+Layer: model.layers.9.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1605224609375
+Activation max: 3.93359375
+
+Layer: model.layers.9.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.031463623046875
+Activation max: 1.513671875
+
+Layer: model.layers.10.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.61376953125
+Activation max: 12.6796875
+
+Layer: model.layers.10.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1875
+Activation max: 16.21875
+
+Layer: model.layers.10.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.1649169921875
+Activation max: 2.263671875
+
+Layer: model.layers.10.self_attn.o_proj
+Loss: 0.0025870823301374912
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0159912109375
+Activation max: 1.2734375
+
+Layer: model.layers.10.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.275390625
+Activation max: 4.546875
+
+Layer: model.layers.10.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1629638671875
+Activation max: 3.619140625
+
+Layer: model.layers.10.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.03076171875
+Activation max: 1.162109375
+
+Layer: model.layers.11.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.58447265625
+Activation max: 11.96875
+
+Layer: model.layers.11.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1044921875
+Activation max: 15.078125
+
+Layer: model.layers.11.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.170654296875
+Activation max: 2.197265625
+
+Layer: model.layers.11.self_attn.o_proj
+Loss: 0.002439839532598853
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01641845703125
+Activation max: 0.89404296875
+
+Layer: model.layers.11.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.281005859375
+Activation max: 8.0546875
+
+Layer: model.layers.11.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.16796875
+Activation max: 4.62890625
+
+Layer: model.layers.11.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.03265380859375
+Activation max: 1.3583984375
+
+Layer: model.layers.12.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.6025390625
+Activation max: 14.0078125
+
+Layer: model.layers.12.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.0751953125
+Activation max: 16.796875
+
+Layer: model.layers.12.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.1729736328125
+Activation max: 2.009765625
+
+Layer: model.layers.12.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0189056396484375
+Activation max: 1.3251953125
+
+Layer: model.layers.12.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.298583984375
+Activation max: 4.3359375
+
+Layer: model.layers.12.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1759033203125
+Activation max: 4.0546875
+
+Layer: model.layers.12.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0362548828125
+Activation max: 2.216796875
+
+Layer: model.layers.13.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.5927734375
+Activation max: 12.3828125
+
+Layer: model.layers.13.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1875
+Activation max: 15.078125
+
+Layer: model.layers.13.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.1776123046875
+Activation max: 2.177734375
+
+Layer: model.layers.13.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0183563232421875
+Activation max: 2.06640625
+
+Layer: model.layers.13.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.3232421875
+Activation max: 6.140625
+
+Layer: model.layers.13.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1788330078125
+Activation max: 5.21875
+
+Layer: model.layers.13.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.042327880859375
+Activation max: 1.8095703125
+
+Layer: model.layers.14.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.59716796875
+Activation max: 11.3125
+
+Layer: model.layers.14.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1953125
+Activation max: 18.25
+
+Layer: model.layers.14.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.188720703125
+Activation max: 2.193359375
+
+Layer: model.layers.14.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0196685791015625
+Activation max: 1.1748046875
+
+Layer: model.layers.14.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.34130859375
+Activation max: 6.69921875
+
+Layer: model.layers.14.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.179931640625
+Activation max: 2.609375
+
+Layer: model.layers.14.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.040313720703125
+Activation max: 1.541015625
+
+Layer: model.layers.15.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.64990234375
+Activation max: 12.9453125
+
+Layer: model.layers.15.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1953125
+Activation max: 17.109375
+
+Layer: model.layers.15.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.19091796875
+Activation max: 1.92578125
+
+Layer: model.layers.15.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.017791748046875
+Activation max: 1.4052734375
+
+Layer: model.layers.15.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.37158203125
+Activation max: 6.51171875
+
+Layer: model.layers.15.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.18359375
+Activation max: 2.79296875
+
+Layer: model.layers.15.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.04559326171875
+Activation max: 2.3671875
+
+Layer: model.layers.16.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.63525390625
+Activation max: 13.2265625
+
+Layer: model.layers.16.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.18359375
+Activation max: 19.5
+
+Layer: model.layers.16.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.19140625
+Activation max: 2.078125
+
+Layer: model.layers.16.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.018707275390625
+Activation max: 2.515625
+
+Layer: model.layers.16.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.357666015625
+Activation max: 6.71875
+
+Layer: model.layers.16.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1875
+Activation max: 4.1640625
+
+Layer: model.layers.16.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.051788330078125
+Activation max: 2.693359375
+
+Layer: model.layers.17.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.63525390625
+Activation max: 12.7734375
+
+Layer: model.layers.17.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.150390625
+Activation max: 16.515625
+
+Layer: model.layers.17.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.18359375
+Activation max: 1.837890625
+
+Layer: model.layers.17.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.017730712890625
+Activation max: 1.86328125
+
+Layer: model.layers.17.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.369873046875
+Activation max: 6.625
+
+Layer: model.layers.17.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.1907958984375
+Activation max: 3.583984375
+
+Layer: model.layers.17.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.048797607421875
+Activation max: 1.5146484375
+
+Layer: model.layers.18.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.61376953125
+Activation max: 13.7578125
+
+Layer: model.layers.18.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1943359375
+Activation max: 16.171875
+
+Layer: model.layers.18.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.203369140625
+Activation max: 3.54296875
+
+Layer: model.layers.18.self_attn.o_proj
+Loss: 0.003099893918260932
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01514434814453125
+Activation max: 0.96240234375
+
+Layer: model.layers.18.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.346923828125
+Activation max: 6.80859375
+
+Layer: model.layers.18.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.193115234375
+Activation max: 4.0625
+
+Layer: model.layers.18.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.046630859375
+Activation max: 1.85546875
+
+Layer: model.layers.19.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.65234375
+Activation max: 13.078125
+
+Layer: model.layers.19.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1474609375
+Activation max: 17.046875
+
+Layer: model.layers.19.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.22607421875
+Activation max: 2.625
+
+Layer: model.layers.19.self_attn.o_proj
+Loss: 0.0033029874321073294
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01392364501953125
+Activation max: 0.78466796875
+
+Layer: model.layers.19.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.345703125
+Activation max: 6.734375
+
+Layer: model.layers.19.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.196044921875
+Activation max: 3.40625
+
+Layer: model.layers.19.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.050537109375
+Activation max: 1.818359375
+
+Layer: model.layers.20.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.61865234375
+Activation max: 14.4609375
+
+Layer: model.layers.20.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.220703125
+Activation max: 15.546875
+
+Layer: model.layers.20.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.241455078125
+Activation max: 2.53515625
+
+Layer: model.layers.20.self_attn.o_proj
+Loss: 0.003120203036814928
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01491546630859375
+Activation max: 0.84130859375
+
+Layer: model.layers.20.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.34423828125
+Activation max: 5.11328125
+
+Layer: model.layers.20.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.196533203125
+Activation max: 4.52734375
+
+Layer: model.layers.20.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.048004150390625
+Activation max: 1.7294921875
+
+Layer: model.layers.21.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.65869140625
+Activation max: 18.125
+
+Layer: model.layers.21.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.18359375
+Activation max: 18.484375
+
+Layer: model.layers.21.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.2177734375
+Activation max: 2.787109375
+
+Layer: model.layers.21.self_attn.o_proj
+Loss: 0.0034451528917998075
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0160064697265625
+Activation max: 0.85791015625
+
+Layer: model.layers.21.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.3564453125
+Activation max: 6.5703125
+
+Layer: model.layers.21.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.20556640625
+Activation max: 3.759765625
+
+Layer: model.layers.21.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0523681640625
+Activation max: 2.322265625
+
+Layer: model.layers.22.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.619140625
+Activation max: 16.375
+
+Layer: model.layers.22.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.20703125
+Activation max: 17.1875
+
+Layer: model.layers.22.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.2587890625
+Activation max: 2.6953125
+
+Layer: model.layers.22.self_attn.o_proj
+Loss: 0.0034603849053382874
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01641845703125
+Activation max: 0.73193359375
+
+Layer: model.layers.22.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.3525390625
+Activation max: 8.015625
+
+Layer: model.layers.22.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.206298828125
+Activation max: 3.4453125
+
+Layer: model.layers.22.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.051055908203125
+Activation max: 2.46484375
+
+Layer: model.layers.23.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.65185546875
+Activation max: 15.9765625
+
+Layer: model.layers.23.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.18359375
+Activation max: 17.96875
+
+Layer: model.layers.23.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.273681640625
+Activation max: 2.8515625
+
+Layer: model.layers.23.self_attn.o_proj
+Loss: 0.003556854324415326
+Activation shape: (4, 237, 4096)
+Activation mean: 0.01371002197265625
+Activation max: 0.84912109375
+
+Layer: model.layers.23.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.34912109375
+Activation max: 5.88671875
+
+Layer: model.layers.23.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.2093505859375
+Activation max: 4.421875
+
+Layer: model.layers.23.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.051513671875
+Activation max: 2.71484375
+
+Layer: model.layers.24.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.66015625
+Activation max: 16.265625
+
+Layer: model.layers.24.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.15625
+Activation max: 19.046875
+
+Layer: model.layers.24.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.31591796875
+Activation max: 3.615234375
+
+Layer: model.layers.24.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0168914794921875
+Activation max: 1.08203125
+
+Layer: model.layers.24.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.348388671875
+Activation max: 10.4921875
+
+Layer: model.layers.24.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.2103271484375
+Activation max: 5.15625
+
+Layer: model.layers.24.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.052215576171875
+Activation max: 1.7314453125
+
+Layer: model.layers.25.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.689453125
+Activation max: 17.9375
+
+Layer: model.layers.25.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.09765625
+Activation max: 19.328125
+
+Layer: model.layers.25.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.31201171875
+Activation max: 4.3828125
+
+Layer: model.layers.25.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0196990966796875
+Activation max: 1.845703125
+
+Layer: model.layers.25.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.365966796875
+Activation max: 8.46875
+
+Layer: model.layers.25.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.219970703125
+Activation max: 4.0078125
+
+Layer: model.layers.25.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.057464599609375
+Activation max: 2.458984375
+
+Layer: model.layers.26.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.64013671875
+Activation max: 16.203125
+
+Layer: model.layers.26.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.169921875
+Activation max: 18.359375
+
+Layer: model.layers.26.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.290283203125
+Activation max: 3.615234375
+
+Layer: model.layers.26.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.0228118896484375
+Activation max: 3.34375
+
+Layer: model.layers.26.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.3974609375
+Activation max: 8.6640625
+
+Layer: model.layers.26.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.2318115234375
+Activation max: 4.55078125
+
+Layer: model.layers.26.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.06134033203125
+Activation max: 2.087890625
+
+Layer: model.layers.27.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.646484375
+Activation max: 17.03125
+
+Layer: model.layers.27.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.2001953125
+Activation max: 18.703125
+
+Layer: model.layers.27.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.38916015625
+Activation max: 3.951171875
+
+Layer: model.layers.27.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.023651123046875
+Activation max: 3.701171875
+
+Layer: model.layers.27.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.42578125
+Activation max: 7.73046875
+
+Layer: model.layers.27.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.2481689453125
+Activation max: 4.7109375
+
+Layer: model.layers.27.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.07086181640625
+Activation max: 3.03515625
+
+Layer: model.layers.28.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.67578125
+Activation max: 14.9375
+
+Layer: model.layers.28.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1787109375
+Activation max: 18.796875
+
+Layer: model.layers.28.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.3095703125
+Activation max: 3.697265625
+
+Layer: model.layers.28.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.03021240234375
+Activation max: 5.16796875
+
+Layer: model.layers.28.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.462158203125
+Activation max: 10.6953125
+
+Layer: model.layers.28.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.273681640625
+Activation max: 6.125
+
+Layer: model.layers.28.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.08837890625
+Activation max: 3.1015625
+
+Layer: model.layers.29.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.666015625
+Activation max: 11.6328125
+
+Layer: model.layers.29.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.1748046875
+Activation max: 32.78125
+
+Layer: model.layers.29.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.372314453125
+Activation max: 6.0390625
+
+Layer: model.layers.29.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.04998779296875
+Activation max: 5.0625
+
+Layer: model.layers.29.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.48193359375
+Activation max: 14.5390625
+
+Layer: model.layers.29.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.305419921875
+Activation max: 11.515625
+
+Layer: model.layers.29.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.10528564453125
+Activation max: 7.609375
+
+Layer: model.layers.30.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.66650390625
+Activation max: 15.2578125
+
+Layer: model.layers.30.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.232421875
+Activation max: 17.046875
+
+Layer: model.layers.30.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.43310546875
+Activation max: 4.7890625
+
+Layer: model.layers.30.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.05242919921875
+Activation max: 9.375
+
+Layer: model.layers.30.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.5498046875
+Activation max: 18.25
+
+Layer: model.layers.30.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.362548828125
+Activation max: 11.4765625
+
+Layer: model.layers.30.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.155517578125
+Activation max: 9.1328125
+
+Layer: model.layers.31.self_attn.q_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.76904296875
+Activation max: 31.109375
+
+Layer: model.layers.31.self_attn.k_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 1.2177734375
+Activation max: 19.578125
+
+Layer: model.layers.31.self_attn.v_proj
+Loss: -inf
+Activation shape: (4, 237, 1024)
+Activation mean: 0.38671875
+Activation max: 8.078125
+
+Layer: model.layers.31.self_attn.o_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.09893798828125
+Activation max: 10.6484375
+
+Layer: model.layers.31.mlp.gate_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.57958984375
+Activation max: 30.609375
+
+Layer: model.layers.31.mlp.up_proj
+Loss: -inf
+Activation shape: (4, 237, 14336)
+Activation mean: 0.466064453125
+Activation max: 19.53125
+
+Layer: model.layers.31.mlp.down_proj
+Loss: -inf
+Activation shape: (4, 237, 4096)
+Activation mean: 0.33056640625
+Activation max: 224.375
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(136)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    135 [0;31m        [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 136 [0;31m        [0;32mif[0m [0;32mnot[0m [0mlosses[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    137 [0;31m            [0;32mreturn[0m [0mtorch[0m[0;34m.[0m[0mtensor[0m[0;34m([0m[0;36m0.0[0m[0;34m,[0m [0mdevice[0m[0;34m=[0m[0mself[0m[0;34m.[0m[0mprimary_device[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+[tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0035, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0053, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0048, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0031, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0040, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0097, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0044, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0025, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0030, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(0.0029, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<AddBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(0.0027, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(0.0028, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(0.0027, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(0.0027, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(0.0027, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackward0>), tensor(-inf, device='cuda:0', grad_fn=<ToCopyBackwar
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/IPython/core/debugger.py", line 179, in BdbQuit_excepthook
+    raise ValueError(
+ValueError: `BdbQuit_excepthook` is deprecated since version 5.1. It is still around only because it is still imported by ipdb.
+
+Original exception was:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 413, in <module>
+    wandb_logger=wandb_logger
+^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 397, in main
+    optimizer = torch.optim.AdamW(model.parameters(), lr=args.learning_rate)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 292, in train
+
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 136, in get_regularization_loss
+    for info in loss_info:
+           ^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

@@ -1,0 +1,16 @@
+{"time":"2024-11-07T21:26:12.976424595Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T21:26:12.97643274Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_212612-a0g7ehz9/logs/debug-core.log"}
+{"time":"2024-11-07T21:26:13.180878778Z","level":"INFO","msg":"created new stream","id":"a0g7ehz9"}
+{"time":"2024-11-07T21:26:13.180910772Z","level":"INFO","msg":"stream: started","id":"a0g7ehz9"}
+{"time":"2024-11-07T21:26:13.180945006Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"a0g7ehz9"}}
+{"time":"2024-11-07T21:26:13.181069212Z","level":"INFO","msg":"handler: started","stream_id":{"value":"a0g7ehz9"}}
+{"time":"2024-11-07T21:26:13.181102345Z","level":"INFO","msg":"sender: started","stream_id":"a0g7ehz9"}
+{"time":"2024-11-07T21:26:13.298143519Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T21:26:20.784842161Z","level":"INFO","msg":"stream: closing","id":"a0g7ehz9"}
+{"time":"2024-11-07T21:26:20.784863534Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T21:26:20.785539952Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T21:26:21.710887459Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T21:26:21.791108865Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"a0g7ehz9"}}
+{"time":"2024-11-07T21:26:21.791130164Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"a0g7ehz9"}}
+{"time":"2024-11-07T21:26:21.791147478Z","level":"INFO","msg":"sender: closed","stream_id":"a0g7ehz9"}
+{"time":"2024-11-07T21:26:21.791213648Z","level":"INFO","msg":"stream: closed","id":"a0g7ehz9"}

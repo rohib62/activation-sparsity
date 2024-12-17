@@ -1,0 +1,8 @@
+{"time":"2024-11-07T21:31:51.442052994Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T21:31:51.442061221Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_213151-9chhtf2v/logs/debug-core.log"}
+{"time":"2024-11-07T21:31:56.449819791Z","level":"INFO","msg":"created new stream","id":"9chhtf2v"}
+{"time":"2024-11-07T21:31:56.449854781Z","level":"INFO","msg":"stream: started","id":"9chhtf2v"}
+{"time":"2024-11-07T21:31:56.449924807Z","level":"INFO","msg":"sender: started","stream_id":"9chhtf2v"}
+{"time":"2024-11-07T21:31:56.449890312Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"9chhtf2v"}}
+{"time":"2024-11-07T21:31:56.449955277Z","level":"INFO","msg":"handler: started","stream_id":{"value":"9chhtf2v"}}
+{"time":"2024-11-07T21:31:56.715613548Z","level":"INFO","msg":"Starting system monitor"}

@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 298, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 216, in main
+    wandb_logger = WandBLogger(
+                   ^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 39, in __init__
+    self.setup_custom_plots()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 49, in setup_custom_plots
+    wandb.run.log_config({
+    ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Run' object has no attribute 'log_config'

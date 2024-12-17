@@ -1,0 +1,44 @@
+{
+  "os": "Linux-5.10.0-31-cloud-amd64-x86_64-with-glibc2.31",
+  "python": "3.11.10",
+  "startedAt": "2024-11-07T19:43:11.318446Z",
+  "args": [
+    "--output_dir",
+    "./out_dir",
+    "--reg_types",
+    "l1",
+    "hoyer",
+    "--reg_weights",
+    "0.01",
+    "0.01",
+    "--batch_size",
+    "4"
+  ],
+  "program": "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py",
+  "codePath": "regularization/act_reg.py",
+  "git": {
+    "remote": "git@github.com:riohib/teal_clone.git",
+    "commit": "b4024a82c03d8211a86481ee7f6e0232435422ac"
+  },
+  "email": "riyasat.ohib@gmail.com",
+  "root": "/home/riyasatohib_cohere_com/repos/teal_clone/regularization",
+  "host": "ekagra-8xh100",
+  "username": "riyasatohib_cohere_com",
+  "executable": "/home/riyasatohib_cohere_com/.conda/envs/teal/bin/python",
+  "codePathLocal": "act_reg.py",
+  "cpu_count": 104,
+  "cpu_count_logical": 208,
+  "disk": {
+    "/": {
+      "total": "3170404401152",
+      "used": "2810848284672"
+    }
+  },
+  "memory": {
+    "total": "1978478436352"
+  },
+  "cpu": {
+    "count": 104,
+    "countLogical": 208
+  }
+}

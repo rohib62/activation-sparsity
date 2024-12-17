@@ -1,0 +1,1239 @@
+Loading model with tensor parallelism...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:02<00:00,  1.33it/s]
+Loading tokenizer...
+Initializing trainer...
+Loading dataset...
+Setting up optimizer and scheduler...
+Starting training...
+Epoch 1:   0%|                                                                                                                                              | 0/13001 [00:00<?, ?it/s]
+
+model.layers.0.self_attn.q_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.0.self_attn.k_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.0.self_attn.v_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.0.self_attn.o_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.0.mlp.gate_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.0.mlp.up_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.0.mlp.down_proj - Pre-activation stats:
+Input shape: [(4, 107, 14336)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.1.self_attn.q_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.1.self_attn.k_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.1.self_attn.v_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.1.self_attn.o_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.1.mlp.gate_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.1.mlp.up_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+
+model.layers.1.mlp.down_proj - Pre-activation stats:
+Input shape: [(4, 107, 14336)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m            [0;32mreturn[0m [0mreg_loss[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.1.mlp.down_proj:
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.2.self_attn.q_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.2.self_attn.q_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.2.self_attn.k_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.2.self_attn.k_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.2.self_attn.v_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.2.self_attn.v_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.2.self_attn.o_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.2.self_attn.o_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.2.mlp.gate_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.2.mlp.gate_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.2.mlp.up_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.2.mlp.up_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.2.mlp.down_proj - Pre-activation stats:
+Input shape: [(4, 107, 14336)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.2.mlp.down_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.3.self_attn.q_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.3.self_attn.q_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.3.self_attn.k_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.3.self_attn.k_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.3.self_attn.v_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.3.self_attn.v_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.3.self_attn.o_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.3.self_attn.o_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.3.mlp.gate_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.3.mlp.gate_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.3.mlp.up_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.3.mlp.up_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.3.mlp.down_proj - Pre-activation stats:
+Input shape: [(4, 107, 14336)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.3.mlp.down_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.4.self_attn.q_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.4.self_attn.q_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.4.self_attn.k_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.4.self_attn.k_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.4.self_attn.v_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.4.self_attn.v_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.4.self_attn.o_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.4.self_attn.o_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.4.mlp.gate_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.4.mlp.gate_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.4.mlp.up_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.4.mlp.up_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.4.mlp.down_proj - Pre-activation stats:
+Input shape: [(4, 107, 14336)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:0
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.4.mlp.down_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.5.self_attn.q_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.5.self_attn.q_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.5.self_attn.k_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.5.self_attn.k_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.5.self_attn.v_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.5.self_attn.v_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.5.self_attn.o_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.5.self_attn.o_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.5.mlp.gate_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.5.mlp.gate_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.5.mlp.up_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.5.mlp.up_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.5.mlp.down_proj - Pre-activation stats:
+Input shape: [(4, 107, 14336)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.5.mlp.down_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.6.self_attn.q_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.6.self_attn.q_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.6.self_attn.k_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.6.self_attn.k_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.6.self_attn.v_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.6.self_attn.v_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.6.self_attn.o_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.6.self_attn.o_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.6.mlp.gate_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.6.mlp.gate_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.6.mlp.up_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.6.mlp.up_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.6.mlp.down_proj - Pre-activation stats:
+Input shape: [(4, 107, 14336)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.6.mlp.down_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.7.self_attn.q_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.7.self_attn.q_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.7.self_attn.k_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.7.self_attn.k_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.7.self_attn.v_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 1024)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.7.self_attn.v_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.7.self_attn.o_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.7.self_attn.o_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.7.mlp.gate_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.7.mlp.gate_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.7.mlp.up_proj - Pre-activation stats:
+Input shape: [(4, 107, 4096)]
+Output shape: (4, 107, 14336)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+Error in regularization computation for model.layers.7.mlp.up_proj:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 228, in _compute_regularization
+    except Exception as e:
+               ^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit
+
+model.layers.7.mlp.down_proj - Pre-activation stats:
+Input shape: [(4, 107, 14336)]
+Output shape: (4, 107, 4096)
+Output has NaN: False
+Output has Inf: False
+Output dtype: torch.float16
+Output device: cuda:1
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(228)[0;36m_compute_regularization[0;34m()[0m
+[0;32m    227 [0;31m[0;34m[0m[0m
+[0m[0;32m--> 228 [0;31m        [0;32mexcept[0m [0mException[0m [0;32mas[0m [0me[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    229 [0;31m            [0mprint[0m[0;34m([0m[0;34mf"Error in regularization computation for {self.name}: {str(e)}"[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m

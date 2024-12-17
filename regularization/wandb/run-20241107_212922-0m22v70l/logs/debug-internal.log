@@ -1,0 +1,16 @@
+{"time":"2024-11-07T21:29:22.055035869Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T21:29:22.055044Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_212922-0m22v70l/logs/debug-core.log"}
+{"time":"2024-11-07T21:29:22.360248773Z","level":"INFO","msg":"created new stream","id":"0m22v70l"}
+{"time":"2024-11-07T21:29:22.360281082Z","level":"INFO","msg":"stream: started","id":"0m22v70l"}
+{"time":"2024-11-07T21:29:22.360326516Z","level":"INFO","msg":"handler: started","stream_id":{"value":"0m22v70l"}}
+{"time":"2024-11-07T21:29:22.360414199Z","level":"INFO","msg":"sender: started","stream_id":"0m22v70l"}
+{"time":"2024-11-07T21:29:22.360310958Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"0m22v70l"}}
+{"time":"2024-11-07T21:29:22.517047788Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T21:29:35.283730753Z","level":"INFO","msg":"stream: closing","id":"0m22v70l"}
+{"time":"2024-11-07T21:29:35.283752253Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T21:29:35.284479487Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T21:29:36.224002159Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T21:29:36.302248681Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"0m22v70l"}}
+{"time":"2024-11-07T21:29:36.302276059Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"0m22v70l"}}
+{"time":"2024-11-07T21:29:36.302343721Z","level":"INFO","msg":"sender: closed","stream_id":"0m22v70l"}
+{"time":"2024-11-07T21:29:36.302349554Z","level":"INFO","msg":"stream: closed","id":"0m22v70l"}

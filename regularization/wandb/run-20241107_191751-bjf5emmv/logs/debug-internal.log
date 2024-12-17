@@ -1,0 +1,16 @@
+{"time":"2024-11-07T19:17:51.648718216Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T19:17:51.648727279Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_191751-bjf5emmv/logs/debug-core.log"}
+{"time":"2024-11-07T19:17:51.854040677Z","level":"INFO","msg":"created new stream","id":"bjf5emmv"}
+{"time":"2024-11-07T19:17:51.854071916Z","level":"INFO","msg":"stream: started","id":"bjf5emmv"}
+{"time":"2024-11-07T19:17:51.854125568Z","level":"INFO","msg":"sender: started","stream_id":"bjf5emmv"}
+{"time":"2024-11-07T19:17:51.854107504Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bjf5emmv"}}
+{"time":"2024-11-07T19:17:51.854175778Z","level":"INFO","msg":"handler: started","stream_id":{"value":"bjf5emmv"}}
+{"time":"2024-11-07T19:17:51.991182907Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T19:18:03.568256743Z","level":"INFO","msg":"stream: closing","id":"bjf5emmv"}
+{"time":"2024-11-07T19:18:03.568280285Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T19:18:03.56904574Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T19:18:04.007498953Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T19:18:04.1123478Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"bjf5emmv"}}
+{"time":"2024-11-07T19:18:04.112413938Z","level":"INFO","msg":"sender: closed","stream_id":"bjf5emmv"}
+{"time":"2024-11-07T19:18:04.112392071Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"bjf5emmv"}}
+{"time":"2024-11-07T19:18:04.112504521Z","level":"INFO","msg":"stream: closed","id":"bjf5emmv"}

@@ -1,0 +1,6 @@
+**/__pycache__/
+evaluations
+./models/command-r-refresh
+models/test_del/
+models/command-r-refresh/**/*.pt
+models/command-r/**/*.pt

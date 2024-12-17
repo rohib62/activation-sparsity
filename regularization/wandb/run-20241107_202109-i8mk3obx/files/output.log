@@ -1,0 +1,6900 @@
+Loading model with tensor parallelism...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.32it/s]
+Loading tokenizer...
+Initializing trainer...
+Loading dataset...
+Setting up optimizer and scheduler...
+Starting training...
+Epoch 1:   0%|                                                                                                                                              | 0/13001 [00:00<?, ?it/s]
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(301)[0;36mtrain[0;34m()[0m
+[0;32m    300 [0;31m            [0;32mimport[0m [0mipdb[0m[0;34m;[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 301 [0;31m            [0mreg_loss[0m [0;34m=[0m [0mtrainer[0m[0;34m.[0m[0mget_regularization_loss[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    302 [0;31m[0;34m[0m[0m
+[0m
+*** NameError: name 'reg_loss' is not defined
+
+Layer: model.layers.0.self_attn.q_proj
+Loss: 1.1961757973022458e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.7900390625
+Activation max: 12.8515625
+
+Layer: model.layers.0.self_attn.k_proj
+Loss: 1.2081788347551026e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.96240234375
+Activation max: 14.4296875
+
+Layer: model.layers.0.self_attn.v_proj
+Loss: 1.1464868637789394e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.0230712890625
+Activation max: 0.50634765625
+
+Layer: model.layers.0.self_attn.o_proj
+Loss: 1.1281243994520906e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0026531219482421875
+Activation max: 0.2169189453125
+
+Layer: model.layers.0.mlp.gate_proj
+Loss: 1.1999594373701683e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1019287109375
+Activation max: 3.92578125
+
+Layer: model.layers.0.mlp.up_proj
+Loss: 1.1989551018665168e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.0780029296875
+Activation max: 2.33203125
+
+Layer: model.layers.0.mlp.down_proj
+Loss: 1.1533881488778874e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.01053619384765625
+Activation max: 2.72265625
+
+Layer: model.layers.1.self_attn.q_proj
+Loss: 1.2089636236556345e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.8603515625
+Activation max: 11.59375
+
+Layer: model.layers.1.self_attn.k_proj
+Loss: 1.2187717501888073e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.255859375
+Activation max: 11.2734375
+
+Layer: model.layers.1.self_attn.v_proj
+Loss: 1.202835886449094e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.04913330078125
+Activation max: 0.9609375
+
+Layer: model.layers.1.self_attn.o_proj
+Loss: 1.1667167232332076e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.004146575927734375
+Activation max: 0.2237548828125
+
+Layer: model.layers.1.mlp.gate_proj
+Loss: 1.221838186182822e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.0902099609375
+Activation max: 15.5859375
+
+Layer: model.layers.1.mlp.up_proj
+Loss: 1.2320187925407566e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.07171630859375
+Activation max: 23.765625
+
+Layer: model.layers.1.mlp.down_proj
+Loss: 1.1332045024570192e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.010772705078125
+Activation max: 225.625
+
+Layer: model.layers.2.self_attn.q_proj
+Loss: 1.1571276575805811e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.71826171875
+Activation max: 11.5703125
+
+Layer: model.layers.2.self_attn.k_proj
+Loss: 1.2036968644046908e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1806640625
+Activation max: 15.8984375
+
+Layer: model.layers.2.self_attn.v_proj
+Loss: 1.210960637321179e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.11517333984375
+Activation max: 1.6328125
+
+Layer: model.layers.2.self_attn.o_proj
+Loss: 1.1731114690771705e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0054473876953125
+Activation max: 0.525390625
+
+Layer: model.layers.2.mlp.gate_proj
+Loss: 1.2348037869980288e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.12335205078125
+Activation max: 6.3125
+
+Layer: model.layers.2.mlp.up_proj
+Loss: 1.2397236015537771e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.0911865234375
+Activation max: 1.8837890625
+
+Layer: model.layers.2.mlp.down_proj
+Loss: 1.2308747077138804e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0141448974609375
+Activation max: 0.488037109375
+
+Layer: model.layers.3.self_attn.q_proj
+Loss: 1.157466691936726e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.68896484375
+Activation max: 11.1875
+
+Layer: model.layers.3.self_attn.k_proj
+Loss: 1.1915884945423727e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.095703125
+Activation max: 17.625
+
+Layer: model.layers.3.self_attn.v_proj
+Loss: 1.225919088465588e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1387939453125
+Activation max: 2.232421875
+
+Layer: model.layers.3.self_attn.o_proj
+Loss: 1.223182388709887e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.00904083251953125
+Activation max: 0.662109375
+
+Layer: model.layers.3.mlp.gate_proj
+Loss: 1.2332031229522755e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.168701171875
+Activation max: 4.578125
+
+Layer: model.layers.3.mlp.up_proj
+Loss: 1.2373467528359328e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1082763671875
+Activation max: 2.2109375
+
+Layer: model.layers.3.mlp.down_proj
+Loss: 1.2459761000727099e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.016754150390625
+Activation max: 0.4501953125
+
+Layer: model.layers.4.self_attn.q_proj
+Loss: 1.1588653647809366e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.69677734375
+Activation max: 10.6328125
+
+Layer: model.layers.4.self_attn.k_proj
+Loss: 1.200795157751955e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1826171875
+Activation max: 18.21875
+
+Layer: model.layers.4.self_attn.v_proj
+Loss: 1.2282963535170666e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1451416015625
+Activation max: 1.7783203125
+
+Layer: model.layers.4.self_attn.o_proj
+Loss: 1.2249526393226517e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.01052093505859375
+Activation max: 0.63134765625
+
+Layer: model.layers.4.mlp.gate_proj
+Loss: 1.2383997993747897e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.222412109375
+Activation max: 4.23828125
+
+Layer: model.layers.4.mlp.up_proj
+Loss: 1.234100738267685e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.12188720703125
+Activation max: 2.16015625
+
+Layer: model.layers.4.mlp.down_proj
+Loss: 1.2422153583546702e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.02362060546875
+Activation max: 0.57373046875
+
+Layer: model.layers.5.self_attn.q_proj
+Loss: 1.167156093995203e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.681640625
+Activation max: 13.421875
+
+Layer: model.layers.5.self_attn.k_proj
+Loss: 1.2025701268125744e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.212890625
+Activation max: 17.609375
+
+Layer: model.layers.5.self_attn.v_proj
+Loss: 1.2218105693850845e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1458740234375
+Activation max: 2.640625
+
+Layer: model.layers.5.self_attn.o_proj
+Loss: 1.2235018553852228e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.012908935546875
+Activation max: 1.0869140625
+
+Layer: model.layers.5.mlp.gate_proj
+Loss: 1.2433315488280527e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.25
+Activation max: 4.27734375
+
+Layer: model.layers.5.mlp.up_proj
+Loss: 1.2347840805393417e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1353759765625
+Activation max: 2.80859375
+
+Layer: model.layers.5.mlp.down_proj
+Loss: 1.2497140822187447e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.02581787109375
+Activation max: 0.69140625
+
+Layer: model.layers.6.self_attn.q_proj
+Loss: 1.1585998827001731e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.6396484375
+Activation max: 14.53125
+
+Layer: model.layers.6.self_attn.k_proj
+Loss: 1.1914697006787378e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.203125
+Activation max: 16.859375
+
+Layer: model.layers.6.self_attn.v_proj
+Loss: 1.2257153625405692e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1407470703125
+Activation max: 1.8740234375
+
+Layer: model.layers.6.self_attn.o_proj
+Loss: 1.2160264462046655e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.01435089111328125
+Activation max: 0.96435546875
+
+Layer: model.layers.6.mlp.gate_proj
+Loss: 1.2413757521922975e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.2783203125
+Activation max: 5.1875
+
+Layer: model.layers.6.mlp.up_proj
+Loss: 1.2357688483621843e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.145263671875
+Activation max: 3.373046875
+
+Layer: model.layers.6.mlp.down_proj
+Loss: 1.2484380196298162e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.028411865234375
+Activation max: 1.025390625
+
+Layer: model.layers.7.self_attn.q_proj
+Loss: 1.1559284085471688e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.6337890625
+Activation max: 12.28125
+
+Layer: model.layers.7.self_attn.k_proj
+Loss: 1.195423343647306e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.208984375
+Activation max: 17.203125
+
+Layer: model.layers.7.self_attn.v_proj
+Loss: 1.2267045712555102e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.15380859375
+Activation max: 2.494140625
+
+Layer: model.layers.7.self_attn.o_proj
+Loss: 1.227004192694281e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.018096923828125
+Activation max: 1.2294921875
+
+Layer: model.layers.7.mlp.gate_proj
+Loss: 1.2398429505289243e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.279052734375
+Activation max: 4.1171875
+
+Layer: model.layers.7.mlp.up_proj
+Loss: 1.2334086529897093e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.15380859375
+Activation max: 3.412109375
+
+Layer: model.layers.7.mlp.down_proj
+Loss: 1.2484417666325243e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0304107666015625
+Activation max: 1.4931640625
+
+Layer: model.layers.8.self_attn.q_proj
+Loss: 1.1715658998490142e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.61083984375
+Activation max: 12.671875
+
+Layer: model.layers.8.self_attn.k_proj
+Loss: 1.1940126665166417e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1904296875
+Activation max: 17.75
+
+Layer: model.layers.8.self_attn.v_proj
+Loss: 1.227991458518929e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1649169921875
+Activation max: 2.24609375
+
+Layer: model.layers.8.self_attn.o_proj
+Loss: 1.21890442184025e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0162811279296875
+Activation max: 1.4501953125
+
+Layer: model.layers.8.mlp.gate_proj
+Loss: 1.2362902368501238e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.288818359375
+Activation max: 3.765625
+
+Layer: model.layers.8.mlp.up_proj
+Loss: 1.2354614553622412e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.15576171875
+Activation max: 2.44921875
+
+Layer: model.layers.8.mlp.down_proj
+Loss: 1.247558584216435e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0299530029296875
+Activation max: 1.44921875
+
+Layer: model.layers.9.self_attn.q_proj
+Loss: 1.172777014391002e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.58642578125
+Activation max: 9.953125
+
+Layer: model.layers.9.self_attn.k_proj
+Loss: 1.19757204153359e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1357421875
+Activation max: 18.03125
+
+Layer: model.layers.9.self_attn.v_proj
+Loss: 1.2163603457793215e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1832275390625
+Activation max: 2.78125
+
+Layer: model.layers.9.self_attn.o_proj
+Loss: 1.2219918132938545e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.018798828125
+Activation max: 1.123046875
+
+Layer: model.layers.9.mlp.gate_proj
+Loss: 1.2354997580565907e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.30029296875
+Activation max: 3.650390625
+
+Layer: model.layers.9.mlp.up_proj
+Loss: 1.2356739242935788e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.161865234375
+Activation max: 4.0546875
+
+Layer: model.layers.9.mlp.down_proj
+Loss: 1.2466544463407558e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.031829833984375
+Activation max: 1.5126953125
+
+Layer: model.layers.10.self_attn.q_proj
+Loss: 1.1789785814286802e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.63037109375
+Activation max: 12.9140625
+
+Layer: model.layers.10.self_attn.k_proj
+Loss: 1.2030834661835854e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.216796875
+Activation max: 17.34375
+
+Layer: model.layers.10.self_attn.v_proj
+Loss: 1.2244599778554743e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1676025390625
+Activation max: 2.08984375
+
+Layer: model.layers.10.self_attn.o_proj
+Loss: 1.2211638644732403e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0176544189453125
+Activation max: 0.93115234375
+
+Layer: model.layers.10.mlp.gate_proj
+Loss: 1.2382107839048473e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.294189453125
+Activation max: 5.19140625
+
+Layer: model.layers.10.mlp.up_proj
+Loss: 1.2367917801014983e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1627197265625
+Activation max: 3.7109375
+
+Layer: model.layers.10.mlp.down_proj
+Loss: 1.2443757135827127e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.031494140625
+Activation max: 1.4658203125
+
+Layer: model.layers.11.self_attn.q_proj
+Loss: 1.1758141682527423e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.5927734375
+Activation max: 11.015625
+
+Layer: model.layers.11.self_attn.k_proj
+Loss: 1.203775273905805e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1328125
+Activation max: 15.8828125
+
+Layer: model.layers.11.self_attn.v_proj
+Loss: 1.2263610960072668e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.17333984375
+Activation max: 2.53515625
+
+Layer: model.layers.11.self_attn.o_proj
+Loss: 1.2251265280038837e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0185546875
+Activation max: 0.8837890625
+
+Layer: model.layers.11.mlp.gate_proj
+Loss: 1.2355527712060166e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.30029296875
+Activation max: 6.03515625
+
+Layer: model.layers.11.mlp.up_proj
+Loss: 1.2373164992585117e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.16845703125
+Activation max: 4.8125
+
+Layer: model.layers.11.mlp.down_proj
+Loss: 1.2471257360147092e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0330810546875
+Activation max: 1.5576171875
+
+Layer: model.layers.12.self_attn.q_proj
+Loss: 1.1588537768281171e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.609375
+Activation max: 13.625
+
+Layer: model.layers.12.self_attn.k_proj
+Loss: 1.1827461232627456e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.103515625
+Activation max: 16.375
+
+Layer: model.layers.12.self_attn.v_proj
+Loss: 1.2377633640259234e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.177001953125
+Activation max: 1.99609375
+
+Layer: model.layers.12.self_attn.o_proj
+Loss: 1.2275411243045653e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.02154541015625
+Activation max: 1.732421875
+
+Layer: model.layers.12.mlp.gate_proj
+Loss: 1.2360286405499465e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.31103515625
+Activation max: 3.880859375
+
+Layer: model.layers.12.mlp.up_proj
+Loss: 1.2333517540596972e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1754150390625
+Activation max: 4.1484375
+
+Layer: model.layers.12.mlp.down_proj
+Loss: 1.2494719148214983e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.03662109375
+Activation max: 1.943359375
+
+Layer: model.layers.13.self_attn.q_proj
+Loss: 1.172714425567989e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.5966796875
+Activation max: 13.0703125
+
+Layer: model.layers.13.self_attn.k_proj
+Loss: 1.200978066995262e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.20703125
+Activation max: 15.3671875
+
+Layer: model.layers.13.self_attn.v_proj
+Loss: 1.2333155330335188e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.180908203125
+Activation max: 2.392578125
+
+Layer: model.layers.13.self_attn.o_proj
+Loss: 1.2114936831508771e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0216217041015625
+Activation max: 2.080078125
+
+Layer: model.layers.13.mlp.gate_proj
+Loss: 1.2432208040813464e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.34130859375
+Activation max: 6.03515625
+
+Layer: model.layers.13.mlp.up_proj
+Loss: 1.2344163191624347e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.180908203125
+Activation max: 5.02734375
+
+Layer: model.layers.13.mlp.down_proj
+Loss: 1.2485500133774252e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.042236328125
+Activation max: 1.783203125
+
+Layer: model.layers.14.self_attn.q_proj
+Loss: 1.171393537724441e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.609375
+Activation max: 10.453125
+
+Layer: model.layers.14.self_attn.k_proj
+Loss: 1.1864696725094603e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.224609375
+Activation max: 17.625
+
+Layer: model.layers.14.self_attn.v_proj
+Loss: 1.2316546393886796e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1895751953125
+Activation max: 2.19921875
+
+Layer: model.layers.14.self_attn.o_proj
+Loss: 1.2158954398877597e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.022796630859375
+Activation max: 1.365234375
+
+Layer: model.layers.14.mlp.gate_proj
+Loss: 1.238146529747297e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.365234375
+Activation max: 6.40625
+
+Layer: model.layers.14.mlp.up_proj
+Loss: 1.2342117605701475e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1829833984375
+Activation max: 2.701171875
+
+Layer: model.layers.14.mlp.down_proj
+Loss: 1.2486386924415172e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.041046142578125
+Activation max: 2.208984375
+
+Layer: model.layers.15.self_attn.q_proj
+Loss: 1.1560214591144202e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.654296875
+Activation max: 12.9453125
+
+Layer: model.layers.15.self_attn.k_proj
+Loss: 1.2055953457767998e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.2353515625
+Activation max: 16.796875
+
+Layer: model.layers.15.self_attn.v_proj
+Loss: 1.2314449460149035e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.191162109375
+Activation max: 2.2734375
+
+Layer: model.layers.15.self_attn.o_proj
+Loss: 1.1951205303173396e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0220489501953125
+Activation max: 1.53515625
+
+Layer: model.layers.15.mlp.gate_proj
+Loss: 1.2446209340932768e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.39892578125
+Activation max: 7.64453125
+
+Layer: model.layers.15.mlp.up_proj
+Loss: 1.2344610056391758e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.186767578125
+Activation max: 2.99609375
+
+Layer: model.layers.15.mlp.down_proj
+Loss: 1.2480066979847493e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.046173095703125
+Activation max: 2.3515625
+
+Layer: model.layers.16.self_attn.q_proj
+Loss: 1.1639537944585499e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.64111328125
+Activation max: 12.703125
+
+Layer: model.layers.16.self_attn.k_proj
+Loss: 1.189026516135172e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.2197265625
+Activation max: 19.046875
+
+Layer: model.layers.16.self_attn.v_proj
+Loss: 1.226373724794172e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.19189453125
+Activation max: 2.578125
+
+Layer: model.layers.16.self_attn.o_proj
+Loss: 1.1942734301495506e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0215911865234375
+Activation max: 2.900390625
+
+Layer: model.layers.16.mlp.gate_proj
+Loss: 1.241479835600856e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.384521484375
+Activation max: 6.58984375
+
+Layer: model.layers.16.mlp.up_proj
+Loss: 1.2366854762468904e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1905517578125
+Activation max: 4.51953125
+
+Layer: model.layers.16.mlp.down_proj
+Loss: 1.2470444121781554e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.05145263671875
+Activation max: 2.580078125
+
+Layer: model.layers.17.self_attn.q_proj
+Loss: 1.1549731310234179e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.6416015625
+Activation max: 12.484375
+
+Layer: model.layers.17.self_attn.k_proj
+Loss: 1.2084840073089964e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.177734375
+Activation max: 15.3203125
+
+Layer: model.layers.17.self_attn.v_proj
+Loss: 1.2284892547675952e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.1864013671875
+Activation max: 1.779296875
+
+Layer: model.layers.17.self_attn.o_proj
+Loss: 1.2093777368438197e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0213165283203125
+Activation max: 1.6201171875
+
+Layer: model.layers.17.mlp.gate_proj
+Loss: 1.244447045412045e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.397705078125
+Activation max: 6.5078125
+
+Layer: model.layers.17.mlp.up_proj
+Loss: 1.2388128023399503e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.19482421875
+Activation max: 3.818359375
+
+Layer: model.layers.17.mlp.down_proj
+Loss: 1.2450167286015557e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.050933837890625
+Activation max: 1.498046875
+
+Layer: model.layers.18.self_attn.q_proj
+Loss: 1.171833741153705e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.619140625
+Activation max: 13.3203125
+
+Layer: model.layers.18.self_attn.k_proj
+Loss: 1.207659250379578e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.216796875
+Activation max: 16.6875
+
+Layer: model.layers.18.self_attn.v_proj
+Loss: 1.22850479788994e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.200927734375
+Activation max: 3.599609375
+
+Layer: model.layers.18.self_attn.o_proj
+Loss: 1.1884003503492835e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0170135498046875
+Activation max: 0.98681640625
+
+Layer: model.layers.18.mlp.gate_proj
+Loss: 1.2425142859040506e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.375244140625
+Activation max: 6.80859375
+
+Layer: model.layers.18.mlp.up_proj
+Loss: 1.2415583838798483e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1953125
+Activation max: 4.26171875
+
+Layer: model.layers.18.mlp.down_proj
+Loss: 1.2432282980867626e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.048431396484375
+Activation max: 1.6416015625
+
+Layer: model.layers.19.self_attn.q_proj
+Loss: 1.168068836099323e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.6533203125
+Activation max: 13.4140625
+
+Layer: model.layers.19.self_attn.k_proj
+Loss: 1.2032654039817459e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1689453125
+Activation max: 16.109375
+
+Layer: model.layers.19.self_attn.v_proj
+Loss: 1.2344270050590467e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.22314453125
+Activation max: 2.62109375
+
+Layer: model.layers.19.self_attn.o_proj
+Loss: 1.1971150459810787e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.015411376953125
+Activation max: 1.1376953125
+
+Layer: model.layers.19.mlp.gate_proj
+Loss: 1.2429675344538538e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.373046875
+Activation max: 7.57421875
+
+Layer: model.layers.19.mlp.up_proj
+Loss: 1.2429682283432442e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1973876953125
+Activation max: 4.48828125
+
+Layer: model.layers.19.mlp.down_proj
+Loss: 1.2420733885853963e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.051422119140625
+Activation max: 2.099609375
+
+Layer: model.layers.20.self_attn.q_proj
+Loss: 1.1705342251033812e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.62646484375
+Activation max: 13.4375
+
+Layer: model.layers.20.self_attn.k_proj
+Loss: 1.203390165294138e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.224609375
+Activation max: 15.4921875
+
+Layer: model.layers.20.self_attn.v_proj
+Loss: 1.2238587920876398e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.2344970703125
+Activation max: 2.259765625
+
+Layer: model.layers.20.self_attn.o_proj
+Loss: 1.1962629498096788e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0158538818359375
+Activation max: 0.806640625
+
+Layer: model.layers.20.mlp.gate_proj
+Loss: 1.245145236916656e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.3701171875
+Activation max: 8.5078125
+
+Layer: model.layers.20.mlp.up_proj
+Loss: 1.2433483409513002e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.1982421875
+Activation max: 4.546875
+
+Layer: model.layers.20.mlp.down_proj
+Loss: 1.2426050466363137e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.04998779296875
+Activation max: 2.224609375
+
+Layer: model.layers.21.self_attn.q_proj
+Loss: 1.161535381766221e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.6591796875
+Activation max: 17.390625
+
+Layer: model.layers.21.self_attn.k_proj
+Loss: 1.1952128176062615e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1953125
+Activation max: 19.296875
+
+Layer: model.layers.21.self_attn.v_proj
+Loss: 1.2124654058531803e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.2161865234375
+Activation max: 3.048828125
+
+Layer: model.layers.21.self_attn.o_proj
+Loss: 1.179994296718334e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0192108154296875
+Activation max: 1.173828125
+
+Layer: model.layers.21.mlp.gate_proj
+Loss: 1.244926800536561e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.38720703125
+Activation max: 6.8515625
+
+Layer: model.layers.21.mlp.up_proj
+Loss: 1.2427255058344855e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.2071533203125
+Activation max: 3.943359375
+
+Layer: model.layers.21.mlp.down_proj
+Loss: 1.2405734772791277e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.054656982421875
+Activation max: 2.478515625
+
+Layer: model.layers.22.self_attn.q_proj
+Loss: 1.1659154197651844e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.619140625
+Activation max: 16.390625
+
+Layer: model.layers.22.self_attn.k_proj
+Loss: 1.1991148352041847e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.212890625
+Activation max: 16.90625
+
+Layer: model.layers.22.self_attn.v_proj
+Loss: 1.2239471935959756e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.25048828125
+Activation max: 3.015625
+
+Layer: model.layers.22.self_attn.o_proj
+Loss: 1.1770309726877315e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0182342529296875
+Activation max: 0.9775390625
+
+Layer: model.layers.22.mlp.gate_proj
+Loss: 1.2467925303294436e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.380859375
+Activation max: 8.5390625
+
+Layer: model.layers.22.mlp.up_proj
+Loss: 1.245718944664631e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.20703125
+Activation max: 4.03515625
+
+Layer: model.layers.22.mlp.down_proj
+Loss: 1.2406528582253884e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.05316162109375
+Activation max: 2.173828125
+
+Layer: model.layers.23.self_attn.q_proj
+Loss: 1.1699290147770824e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.65625
+Activation max: 15.5234375
+
+Layer: model.layers.23.self_attn.k_proj
+Loss: 1.201065497058451e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.193359375
+Activation max: 18.328125
+
+Layer: model.layers.23.self_attn.v_proj
+Loss: 1.2240572444532916e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.26171875
+Activation max: 3.181640625
+
+Layer: model.layers.23.self_attn.o_proj
+Loss: 1.1774868580172182e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0188446044921875
+Activation max: 0.982421875
+
+Layer: model.layers.23.mlp.gate_proj
+Loss: 1.2433207241535627e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.37158203125
+Activation max: 6.81640625
+
+Layer: model.layers.23.mlp.up_proj
+Loss: 1.2452469611012873e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.2091064453125
+Activation max: 4.890625
+
+Layer: model.layers.23.mlp.down_proj
+Loss: 1.2369863466865638e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.053131103515625
+Activation max: 2.49609375
+
+Layer: model.layers.24.self_attn.q_proj
+Loss: 1.1725749538005203e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.66552734375
+Activation max: 16.84375
+
+Layer: model.layers.24.self_attn.k_proj
+Loss: 1.1889311757329324e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.166015625
+Activation max: 17.703125
+
+Layer: model.layers.24.self_attn.v_proj
+Loss: 1.2193876464117182e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.298095703125
+Activation max: 4.74609375
+
+Layer: model.layers.24.self_attn.o_proj
+Loss: 1.1602856175851883e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.01806640625
+Activation max: 1.0810546875
+
+Layer: model.layers.24.mlp.gate_proj
+Loss: 1.2418162331773175e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.36669921875
+Activation max: 7.734375
+
+Layer: model.layers.24.mlp.up_proj
+Loss: 1.2442595564987613e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.2093505859375
+Activation max: 5.6796875
+
+Layer: model.layers.24.mlp.down_proj
+Loss: 1.2375950264598146e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.055267333984375
+Activation max: 2.0859375
+
+Layer: model.layers.25.self_attn.q_proj
+Loss: 1.1659516407913628e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.69189453125
+Activation max: 18.109375
+
+Layer: model.layers.25.self_attn.k_proj
+Loss: 1.1784924425217724e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1162109375
+Activation max: 20.15625
+
+Layer: model.layers.25.self_attn.v_proj
+Loss: 1.2191994636090442e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.299560546875
+Activation max: 4.17578125
+
+Layer: model.layers.25.self_attn.o_proj
+Loss: 1.181002934336206e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0196990966796875
+Activation max: 1.599609375
+
+Layer: model.layers.25.mlp.gate_proj
+Loss: 1.2385259484659628e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.381103515625
+Activation max: 8.59375
+
+Layer: model.layers.25.mlp.up_proj
+Loss: 1.2426018547451179e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.2178955078125
+Activation max: 5.34765625
+
+Layer: model.layers.25.mlp.down_proj
+Loss: 1.2419104633565325e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.056671142578125
+Activation max: 2.267578125
+
+Layer: model.layers.26.self_attn.q_proj
+Loss: 1.180059938654665e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.64306640625
+Activation max: 17.984375
+
+Layer: model.layers.26.self_attn.k_proj
+Loss: 1.1921133524772642e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1865234375
+Activation max: 17.890625
+
+Layer: model.layers.26.self_attn.v_proj
+Loss: 1.2057116416386293e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.272216796875
+Activation max: 3.146484375
+
+Layer: model.layers.26.self_attn.o_proj
+Loss: 1.1917176967468635e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.0238037109375
+Activation max: 3.587890625
+
+Layer: model.layers.26.mlp.gate_proj
+Loss: 1.2310953645400247e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.40673828125
+Activation max: 7.73046875
+
+Layer: model.layers.26.mlp.up_proj
+Loss: 1.241763913917282e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.228515625
+Activation max: 4.6171875
+
+Layer: model.layers.26.mlp.down_proj
+Loss: 1.2395341697502005e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.06158447265625
+Activation max: 2.359375
+
+Layer: model.layers.27.self_attn.q_proj
+Loss: 1.173565272738486e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.64697265625
+Activation max: 16.640625
+
+Layer: model.layers.27.self_attn.k_proj
+Loss: 1.1936790444977419e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.201171875
+Activation max: 18.1875
+
+Layer: model.layers.27.self_attn.v_proj
+Loss: 1.1919594478104756e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.36181640625
+Activation max: 3.970703125
+
+Layer: model.layers.27.self_attn.o_proj
+Loss: 1.1617955208986785e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.024261474609375
+Activation max: 3.466796875
+
+Layer: model.layers.27.mlp.gate_proj
+Loss: 1.2231632373627122e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.436279296875
+Activation max: 8.5078125
+
+Layer: model.layers.27.mlp.up_proj
+Loss: 1.2380869940376016e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.2435302734375
+Activation max: 5.30078125
+
+Layer: model.layers.27.mlp.down_proj
+Loss: 1.240883229502998e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.07080078125
+Activation max: 3.5390625
+
+Layer: model.layers.28.self_attn.q_proj
+Loss: 1.173164065892962e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.67431640625
+Activation max: 15.6015625
+
+Layer: model.layers.28.self_attn.k_proj
+Loss: 1.1951002687471401e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1865234375
+Activation max: 18.984375
+
+Layer: model.layers.28.self_attn.v_proj
+Loss: 1.2267119264830484e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.29833984375
+Activation max: 4.72265625
+
+Layer: model.layers.28.self_attn.o_proj
+Loss: 1.183032560803099e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.03228759765625
+Activation max: 4.30078125
+
+Layer: model.layers.28.mlp.gate_proj
+Loss: 1.2150537520572158e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.470703125
+Activation max: 11.578125
+
+Layer: model.layers.28.mlp.up_proj
+Loss: 1.228934731756226e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.268798828125
+Activation max: 6.296875
+
+Layer: model.layers.28.mlp.down_proj
+Loss: 1.2431272677915217e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.08770751953125
+Activation max: 3.150390625
+
+Layer: model.layers.29.self_attn.q_proj
+Loss: 1.1823154955070692e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.66552734375
+Activation max: 13.6875
+
+Layer: model.layers.29.self_attn.k_proj
+Loss: 1.1864431659347474e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.1787109375
+Activation max: 32.25
+
+Layer: model.layers.29.self_attn.v_proj
+Loss: 1.212814709772303e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.355224609375
+Activation max: 4.93359375
+
+Layer: model.layers.29.self_attn.o_proj
+Loss: 1.2278114636110615e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.04876708984375
+Activation max: 4.51171875
+
+Layer: model.layers.29.mlp.gate_proj
+Loss: 1.2038377239509401e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.48828125
+Activation max: 14.5390625
+
+Layer: model.layers.29.mlp.up_proj
+Loss: 1.2233064561328888e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.302490234375
+Activation max: 11.015625
+
+Layer: model.layers.29.mlp.down_proj
+Loss: 1.2400278026625244e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.10577392578125
+Activation max: 6.69921875
+
+Layer: model.layers.30.self_attn.q_proj
+Loss: 1.1660253318446223e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.66796875
+Activation max: 15.1171875
+
+Layer: model.layers.30.self_attn.k_proj
+Loss: 1.2061476817315508e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.2216796875
+Activation max: 16.765625
+
+Layer: model.layers.30.self_attn.v_proj
+Loss: 1.209326944140443e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.39892578125
+Activation max: 4.546875
+
+Layer: model.layers.30.self_attn.o_proj
+Loss: 1.1854255077548004e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.052520751953125
+Activation max: 9.140625
+
+Layer: model.layers.30.mlp.gate_proj
+Loss: 1.192178855635717e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.55419921875
+Activation max: 18.25
+
+Layer: model.layers.30.mlp.up_proj
+Loss: 1.208119437823285e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.363037109375
+Activation max: 11.953125
+
+Layer: model.layers.30.mlp.down_proj
+Loss: 1.2176064323465852e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.1636962890625
+Activation max: 9.3046875
+
+Layer: model.layers.31.self_attn.q_proj
+Loss: 1.1462440718812417e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.7744140625
+Activation max: 30.234375
+
+Layer: model.layers.31.self_attn.k_proj
+Loss: 1.1946674205454144e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 1.203125
+Activation max: 19.25
+
+Layer: model.layers.31.self_attn.v_proj
+Loss: 1.2069854837815086e-10
+Activation shape: (4, 166, 1024)
+Activation mean: 0.3828125
+Activation max: 8.5703125
+
+Layer: model.layers.31.self_attn.o_proj
+Loss: 1.1822237633296595e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.10321044921875
+Activation max: 9.9609375
+
+Layer: model.layers.31.mlp.gate_proj
+Loss: 1.1236505476075465e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.58447265625
+Activation max: 18.65625
+
+Layer: model.layers.31.mlp.up_proj
+Loss: 1.1606035577038654e-10
+Activation shape: (4, 166, 14336)
+Activation mean: 0.482177734375
+Activation max: 15.7890625
+
+Layer: model.layers.31.mlp.down_proj
+Loss: 1.1652598330691433e-10
+Activation shape: (4, 166, 4096)
+Activation mean: 0.381591796875
+Activation max: 224.375
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(143)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    142 [0;31m        [0;31m# Stack and mean while handling potential remaining infinities[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 143 [0;31m        [0mstacked_losses[0m [0;34m=[0m [0mtorch[0m[0;34m.[0m[0mstack[0m[0;34m([0m[0mlosses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    144 [0;31m        [0mfinite_mask[0m [0;34m=[0m [0;34m~[0m[0mtorch[0m[0;34m.[0m[0misinf[0m[0;34m([0m[0mstacked_losses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+*** NameError: name 'reg_loss' is not defined
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(301)[0;36mtrain[0;34m()[0m
+[0;32m    300 [0;31m            [0;32mimport[0m [0mipdb[0m[0;34m;[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 301 [0;31m            [0mreg_loss[0m [0;34m=[0m [0mtrainer[0m[0;34m.[0m[0mget_regularization_loss[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    302 [0;31m[0;34m[0m[0m
+[0m
+tensor(1.2116e-10, device='cuda:0', grad_fn=<MeanBackward0>)
+
+Layer: model.layers.0.self_attn.q_proj
+Loss: 1.1920608944393507e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.794921875
+Activation max: 13.34375
+
+Layer: model.layers.0.self_attn.k_proj
+Loss: 1.207986072282452e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.98388671875
+Activation max: 14.4296875
+
+Layer: model.layers.0.self_attn.v_proj
+Loss: 1.1465604160543208e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.023193359375
+Activation max: 0.498779296875
+
+Layer: model.layers.0.self_attn.o_proj
+Loss: 1.1312609876634738e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0029392242431640625
+Activation max: 0.243408203125
+
+Layer: model.layers.0.mlp.gate_proj
+Loss: 1.2060161203031328e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.09423828125
+Activation max: 3.92578125
+
+Layer: model.layers.0.mlp.up_proj
+Loss: 1.2076430133678429e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.07208251953125
+Activation max: 2.33203125
+
+Layer: model.layers.0.mlp.down_proj
+Loss: 1.1556713919169681e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0092926025390625
+Activation max: 2.72265625
+
+Layer: model.layers.1.self_attn.q_proj
+Loss: 1.2052497888603853e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.8837890625
+Activation max: 11.171875
+
+Layer: model.layers.1.self_attn.k_proj
+Loss: 1.2189710352217276e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.30859375
+Activation max: 10.875
+
+Layer: model.layers.1.self_attn.v_proj
+Loss: 1.2064850507531588e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.051300048828125
+Activation max: 1.3017578125
+
+Layer: model.layers.1.self_attn.o_proj
+Loss: 1.1761820684075275e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.00464630126953125
+Activation max: 0.24853515625
+
+Layer: model.layers.1.mlp.gate_proj
+Loss: 1.224983448011585e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.09375
+Activation max: 15.5859375
+
+Layer: model.layers.1.mlp.up_proj
+Loss: 1.2331355381256515e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.074951171875
+Activation max: 23.765625
+
+Layer: model.layers.1.mlp.down_proj
+Loss: 1.1122691656595407e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.01087188720703125
+Activation max: 225.625
+
+Layer: model.layers.2.self_attn.q_proj
+Loss: 1.1560378349040334e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.7431640625
+Activation max: 11.0703125
+
+Layer: model.layers.2.self_attn.k_proj
+Loss: 1.201248406301758e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2177734375
+Activation max: 14.40625
+
+Layer: model.layers.2.self_attn.v_proj
+Loss: 1.2123932413565797e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.11700439453125
+Activation max: 1.75
+
+Layer: model.layers.2.self_attn.o_proj
+Loss: 1.1815744216381319e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.005970001220703125
+Activation max: 0.472900390625
+
+Layer: model.layers.2.mlp.gate_proj
+Loss: 1.2341641597579667e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.1263427734375
+Activation max: 5.8515625
+
+Layer: model.layers.2.mlp.up_proj
+Loss: 1.2388094716708764e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.0927734375
+Activation max: 2.431640625
+
+Layer: model.layers.2.mlp.down_proj
+Loss: 1.2312303954153947e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.01380157470703125
+Activation max: 0.447509765625
+
+Layer: model.layers.3.self_attn.q_proj
+Loss: 1.1571836544543856e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.7080078125
+Activation max: 12.5
+
+Layer: model.layers.3.self_attn.k_proj
+Loss: 1.1901658825141936e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.125
+Activation max: 17.046875
+
+Layer: model.layers.3.self_attn.v_proj
+Loss: 1.2259727955044042e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1416015625
+Activation max: 2.076171875
+
+Layer: model.layers.3.self_attn.o_proj
+Loss: 1.2179535158196586e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.009765625
+Activation max: 0.71533203125
+
+Layer: model.layers.3.mlp.gate_proj
+Loss: 1.2345952038472774e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.1768798828125
+Activation max: 4.04296875
+
+Layer: model.layers.3.mlp.up_proj
+Loss: 1.2383249980985056e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.11041259765625
+Activation max: 2.19921875
+
+Layer: model.layers.3.mlp.down_proj
+Loss: 1.2454355602375955e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.01702880859375
+Activation max: 0.55029296875
+
+Layer: model.layers.4.self_attn.q_proj
+Loss: 1.1578238368059601e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.71630859375
+Activation max: 10.234375
+
+Layer: model.layers.4.self_attn.k_proj
+Loss: 1.1958042889226306e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2001953125
+Activation max: 16.546875
+
+Layer: model.layers.4.self_attn.v_proj
+Loss: 1.2295167661768858e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.146484375
+Activation max: 1.79296875
+
+Layer: model.layers.4.self_attn.o_proj
+Loss: 1.2232546919843656e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.01140594482421875
+Activation max: 0.74072265625
+
+Layer: model.layers.4.mlp.gate_proj
+Loss: 1.243456171362567e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2403564453125
+Activation max: 3.431640625
+
+Layer: model.layers.4.mlp.up_proj
+Loss: 1.235061358739742e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.12359619140625
+Activation max: 2.91015625
+
+Layer: model.layers.4.mlp.down_proj
+Loss: 1.2432228857495176e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0231170654296875
+Activation max: 0.66552734375
+
+Layer: model.layers.5.self_attn.q_proj
+Loss: 1.1658002341263796e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.71044921875
+Activation max: 12.6640625
+
+Layer: model.layers.5.self_attn.k_proj
+Loss: 1.201090060742871e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.244140625
+Activation max: 16.65625
+
+Layer: model.layers.5.self_attn.v_proj
+Loss: 1.2217182820961625e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1446533203125
+Activation max: 2.53125
+
+Layer: model.layers.5.self_attn.o_proj
+Loss: 1.224405993260902e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0138702392578125
+Activation max: 1.283203125
+
+Layer: model.layers.5.mlp.gate_proj
+Loss: 1.2493041323669019e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.269287109375
+Activation max: 4.16015625
+
+Layer: model.layers.5.mlp.up_proj
+Loss: 1.2340577171254807e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.135986328125
+Activation max: 2.859375
+
+Layer: model.layers.5.mlp.down_proj
+Loss: 1.2482417877102137e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.02587890625
+Activation max: 0.8896484375
+
+Layer: model.layers.6.self_attn.q_proj
+Loss: 1.1573485225735425e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.66748046875
+Activation max: 14.8203125
+
+Layer: model.layers.6.self_attn.k_proj
+Loss: 1.189086745734258e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.248046875
+Activation max: 16.34375
+
+Layer: model.layers.6.self_attn.v_proj
+Loss: 1.224692153245499e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.144775390625
+Activation max: 1.8349609375
+
+Layer: model.layers.6.self_attn.o_proj
+Loss: 1.2245850167236227e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.01580810546875
+Activation max: 0.97998046875
+
+Layer: model.layers.6.mlp.gate_proj
+Loss: 1.2461542908681622e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.298828125
+Activation max: 4.3125
+
+Layer: model.layers.6.mlp.up_proj
+Loss: 1.2353111589202825e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.1458740234375
+Activation max: 3.322265625
+
+Layer: model.layers.6.mlp.down_proj
+Loss: 1.248171149770272e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0283050537109375
+Activation max: 1.1357421875
+
+Layer: model.layers.7.self_attn.q_proj
+Loss: 1.1522699461252728e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.65771484375
+Activation max: 11.1796875
+
+Layer: model.layers.7.self_attn.k_proj
+Loss: 1.1920794906750132e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.263671875
+Activation max: 17.484375
+
+Layer: model.layers.7.self_attn.v_proj
+Loss: 1.2263071114126944e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1583251953125
+Activation max: 2.396484375
+
+Layer: model.layers.7.self_attn.o_proj
+Loss: 1.230278934283291e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.019683837890625
+Activation max: 1.29296875
+
+Layer: model.layers.7.mlp.gate_proj
+Loss: 1.243170566489482e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.30078125
+Activation max: 3.912109375
+
+Layer: model.layers.7.mlp.up_proj
+Loss: 1.2343163990902184e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.15576171875
+Activation max: 3.171875
+
+Layer: model.layers.7.mlp.down_proj
+Loss: 1.2482880007436137e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0302886962890625
+Activation max: 1.2412109375
+
+Layer: model.layers.8.self_attn.q_proj
+Loss: 1.1703026048248688e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.64306640625
+Activation max: 12.8671875
+
+Layer: model.layers.8.self_attn.k_proj
+Loss: 1.1902306917832561e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.240234375
+Activation max: 15.609375
+
+Layer: model.layers.8.self_attn.v_proj
+Loss: 1.2270971738725933e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1650390625
+Activation max: 2.24609375
+
+Layer: model.layers.8.self_attn.o_proj
+Loss: 1.226068274684522e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0181884765625
+Activation max: 1.337890625
+
+Layer: model.layers.8.mlp.gate_proj
+Loss: 1.2389450576577588e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.313232421875
+Activation max: 3.830078125
+
+Layer: model.layers.8.mlp.up_proj
+Loss: 1.2361049683828895e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.1583251953125
+Activation max: 2.814453125
+
+Layer: model.layers.8.mlp.down_proj
+Loss: 1.246878295058096e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0305633544921875
+Activation max: 1.587890625
+
+Layer: model.layers.9.self_attn.q_proj
+Loss: 1.1701013769016555e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.60693359375
+Activation max: 10.9140625
+
+Layer: model.layers.9.self_attn.k_proj
+Loss: 1.1942799527098202e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.19140625
+Activation max: 17.90625
+
+Layer: model.layers.9.self_attn.v_proj
+Loss: 1.2146059158446576e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.18798828125
+Activation max: 3.087890625
+
+Layer: model.layers.9.self_attn.o_proj
+Loss: 1.2254738890327133e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.02044677734375
+Activation max: 1.296875
+
+Layer: model.layers.9.mlp.gate_proj
+Loss: 1.2376238922584548e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.325927734375
+Activation max: 3.720703125
+
+Layer: model.layers.9.mlp.up_proj
+Loss: 1.2359364920389027e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.16357421875
+Activation max: 4.10546875
+
+Layer: model.layers.9.mlp.down_proj
+Loss: 1.2465159460184339e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.032379150390625
+Activation max: 1.4228515625
+
+Layer: model.layers.10.self_attn.q_proj
+Loss: 1.1759329621163772e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.650390625
+Activation max: 12.2890625
+
+Layer: model.layers.10.self_attn.k_proj
+Loss: 1.1982767555984708e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2646484375
+Activation max: 17.40625
+
+Layer: model.layers.10.self_attn.v_proj
+Loss: 1.2249611047732145e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.172119140625
+Activation max: 1.98828125
+
+Layer: model.layers.10.self_attn.o_proj
+Loss: 1.2262960091824482e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0194549560546875
+Activation max: 0.99755859375
+
+Layer: model.layers.10.mlp.gate_proj
+Loss: 1.2393587545123097e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.318359375
+Activation max: 6.828125
+
+Layer: model.layers.10.mlp.up_proj
+Loss: 1.237288604905018e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.1656494140625
+Activation max: 3.740234375
+
+Layer: model.layers.10.mlp.down_proj
+Loss: 1.2435669161092733e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.032257080078125
+Activation max: 1.3408203125
+
+Layer: model.layers.11.self_attn.q_proj
+Loss: 1.174414315796568e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.6123046875
+Activation max: 10.8359375
+
+Layer: model.layers.11.self_attn.k_proj
+Loss: 1.1987545678326939e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.181640625
+Activation max: 16.8125
+
+Layer: model.layers.11.self_attn.v_proj
+Loss: 1.228149942855694e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.18115234375
+Activation max: 2.46484375
+
+Layer: model.layers.11.self_attn.o_proj
+Loss: 1.2226875067966603e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.02020263671875
+Activation max: 1.3310546875
+
+Layer: model.layers.11.mlp.gate_proj
+Loss: 1.2353573719536826e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.32470703125
+Activation max: 9.6328125
+
+Layer: model.layers.11.mlp.up_proj
+Loss: 1.2373871371984535e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.1710205078125
+Activation max: 4.71484375
+
+Layer: model.layers.11.mlp.down_proj
+Loss: 1.2472078925185315e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.03411865234375
+Activation max: 1.8818359375
+
+Layer: model.layers.12.self_attn.q_proj
+Loss: 1.1537842903308615e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.63427734375
+Activation max: 14.3515625
+
+Layer: model.layers.12.self_attn.k_proj
+Loss: 1.1782280706640336e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.15625
+Activation max: 16.578125
+
+Layer: model.layers.12.self_attn.v_proj
+Loss: 1.2361932311133472e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1802978515625
+Activation max: 1.9072265625
+
+Layer: model.layers.12.self_attn.o_proj
+Loss: 1.2299233853596547e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.022735595703125
+Activation max: 1.9462890625
+
+Layer: model.layers.12.mlp.gate_proj
+Loss: 1.2346111633032564e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.331787109375
+Activation max: 4.85546875
+
+Layer: model.layers.12.mlp.up_proj
+Loss: 1.233846774750802e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.1781005859375
+Activation max: 4.1875
+
+Layer: model.layers.12.mlp.down_proj
+Loss: 1.248826736466313e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.03662109375
+Activation max: 2.3515625
+
+Layer: model.layers.13.self_attn.q_proj
+Loss: 1.17038989611018e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.607421875
+Activation max: 12.84375
+
+Layer: model.layers.13.self_attn.k_proj
+Loss: 1.198277310709983e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2392578125
+Activation max: 15.625
+
+Layer: model.layers.13.self_attn.v_proj
+Loss: 1.2329151588552634e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1845703125
+Activation max: 2.318359375
+
+Layer: model.layers.13.self_attn.o_proj
+Loss: 1.2112531810881677e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0245361328125
+Activation max: 2.3046875
+
+Layer: model.layers.13.mlp.gate_proj
+Loss: 1.2419462680490767e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.357177734375
+Activation max: 6.7734375
+
+Layer: model.layers.13.mlp.up_proj
+Loss: 1.2350413747252986e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.1846923828125
+Activation max: 5.53125
+
+Layer: model.layers.13.mlp.down_proj
+Loss: 1.2489888290279083e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.041229248046875
+Activation max: 1.8427734375
+
+Layer: model.layers.14.self_attn.q_proj
+Loss: 1.1688655598973696e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.623046875
+Activation max: 10.15625
+
+Layer: model.layers.14.self_attn.k_proj
+Loss: 1.1840434188670201e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2607421875
+Activation max: 17.25
+
+Layer: model.layers.14.self_attn.v_proj
+Loss: 1.2303850993600207e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1910400390625
+Activation max: 2.501953125
+
+Layer: model.layers.14.self_attn.o_proj
+Loss: 1.21985976875294e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0251617431640625
+Activation max: 1.935546875
+
+Layer: model.layers.14.mlp.gate_proj
+Loss: 1.2362748325056572e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.38427734375
+Activation max: 6.125
+
+Layer: model.layers.14.mlp.up_proj
+Loss: 1.2345136024549674e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.187744140625
+Activation max: 3.126953125
+
+Layer: model.layers.14.mlp.down_proj
+Loss: 1.2477696653689918e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.042266845703125
+Activation max: 1.802734375
+
+Layer: model.layers.15.self_attn.q_proj
+Loss: 1.1516067960348764e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.6708984375
+Activation max: 12.8984375
+
+Layer: model.layers.15.self_attn.k_proj
+Loss: 1.2049940212310872e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2783203125
+Activation max: 17.59375
+
+Layer: model.layers.15.self_attn.v_proj
+Loss: 1.2312759145594043e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.193359375
+Activation max: 2.333984375
+
+Layer: model.layers.15.self_attn.o_proj
+Loss: 1.2118589465259788e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0246429443359375
+Activation max: 1.5546875
+
+Layer: model.layers.15.mlp.gate_proj
+Loss: 1.2435888430140096e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.4228515625
+Activation max: 6.13671875
+
+Layer: model.layers.15.mlp.up_proj
+Loss: 1.2347006750346168e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.194580078125
+Activation max: 3.193359375
+
+Layer: model.layers.15.mlp.down_proj
+Loss: 1.2474463129130697e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0491943359375
+Activation max: 2.47265625
+
+Layer: model.layers.16.self_attn.q_proj
+Loss: 1.1593915411056699e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.65771484375
+Activation max: 13.125
+
+Layer: model.layers.16.self_attn.k_proj
+Loss: 1.1850119496781275e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2587890625
+Activation max: 18.4375
+
+Layer: model.layers.16.self_attn.v_proj
+Loss: 1.2268476512478088e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.19189453125
+Activation max: 2.306640625
+
+Layer: model.layers.16.self_attn.o_proj
+Loss: 1.2139590721549354e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0239410400390625
+Activation max: 2.65625
+
+Layer: model.layers.16.mlp.gate_proj
+Loss: 1.2420771355881044e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.408935546875
+Activation max: 6.9296875
+
+Layer: model.layers.16.mlp.up_proj
+Loss: 1.2373550795086175e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.196533203125
+Activation max: 4.96875
+
+Layer: model.layers.16.mlp.down_proj
+Loss: 1.246585473735351e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0517578125
+Activation max: 2.45703125
+
+Layer: model.layers.17.self_attn.q_proj
+Loss: 1.1487666373710681e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.6640625
+Activation max: 12.515625
+
+Layer: model.layers.17.self_attn.k_proj
+Loss: 1.2014265970972104e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2109375
+Activation max: 16.25
+
+Layer: model.layers.17.self_attn.v_proj
+Loss: 1.2311429653522055e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1939697265625
+Activation max: 2.125
+
+Layer: model.layers.17.self_attn.o_proj
+Loss: 1.2196813004017315e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.023681640625
+Activation max: 1.654296875
+
+Layer: model.layers.17.mlp.gate_proj
+Loss: 1.2451632780408062e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.426513671875
+Activation max: 7.30859375
+
+Layer: model.layers.17.mlp.up_proj
+Loss: 1.2389927972478176e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2032470703125
+Activation max: 3.1953125
+
+Layer: model.layers.17.mlp.down_proj
+Loss: 1.2449012654069946e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.053253173828125
+Activation max: 1.736328125
+
+Layer: model.layers.18.self_attn.q_proj
+Loss: 1.1686239476116356e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.64453125
+Activation max: 13.1015625
+
+Layer: model.layers.18.self_attn.k_proj
+Loss: 1.202709876135799e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2421875
+Activation max: 17.59375
+
+Layer: model.layers.18.self_attn.v_proj
+Loss: 1.2290958528726748e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.1978759765625
+Activation max: 3.57421875
+
+Layer: model.layers.18.self_attn.o_proj
+Loss: 1.206631045080897e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0181427001953125
+Activation max: 1.060546875
+
+Layer: model.layers.18.mlp.gate_proj
+Loss: 1.2444902053321272e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.400634765625
+Activation max: 6.80859375
+
+Layer: model.layers.18.mlp.up_proj
+Loss: 1.241092645321018e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.200927734375
+Activation max: 4.36328125
+
+Layer: model.layers.18.mlp.down_proj
+Loss: 1.2455123044041727e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.051025390625
+Activation max: 1.68359375
+
+Layer: model.layers.19.self_attn.q_proj
+Loss: 1.164295049260744e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.6748046875
+Activation max: 14.3828125
+
+Layer: model.layers.19.self_attn.k_proj
+Loss: 1.2014553241179726e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2080078125
+Activation max: 16.984375
+
+Layer: model.layers.19.self_attn.v_proj
+Loss: 1.2321485498567597e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.2225341796875
+Activation max: 2.66796875
+
+Layer: model.layers.19.self_attn.o_proj
+Loss: 1.2001921678717054e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.018798828125
+Activation max: 1.1826171875
+
+Layer: model.layers.19.mlp.gate_proj
+Loss: 1.2446310648783765e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.400390625
+Activation max: 6.1953125
+
+Layer: model.layers.19.mlp.up_proj
+Loss: 1.242639463550077e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2030029296875
+Activation max: 3.78125
+
+Layer: model.layers.19.mlp.down_proj
+Loss: 1.2436465746112901e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.053375244140625
+Activation max: 2.009765625
+
+Layer: model.layers.20.self_attn.q_proj
+Loss: 1.1668011001830791e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.650390625
+Activation max: 14.7734375
+
+Layer: model.layers.20.self_attn.k_proj
+Loss: 1.2005683946991752e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.248046875
+Activation max: 14.6796875
+
+Layer: model.layers.20.self_attn.v_proj
+Loss: 1.2265359561336453e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.231689453125
+Activation max: 2.505859375
+
+Layer: model.layers.20.self_attn.o_proj
+Loss: 1.2003510685421048e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0181121826171875
+Activation max: 1.1796875
+
+Layer: model.layers.20.mlp.gate_proj
+Loss: 1.2459148990284774e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.398193359375
+Activation max: 5.90234375
+
+Layer: model.layers.20.mlp.up_proj
+Loss: 1.2430374785044052e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2052001953125
+Activation max: 4.80859375
+
+Layer: model.layers.20.mlp.down_proj
+Loss: 1.2441393748563456e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.05364990234375
+Activation max: 1.4482421875
+
+Layer: model.layers.21.self_attn.q_proj
+Loss: 1.157640580617958e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.67626953125
+Activation max: 16.5625
+
+Layer: model.layers.21.self_attn.k_proj
+Loss: 1.1896918172826787e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.228515625
+Activation max: 17.96875
+
+Layer: model.layers.21.self_attn.v_proj
+Loss: 1.2207471145053717e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.22412109375
+Activation max: 2.833984375
+
+Layer: model.layers.21.self_attn.o_proj
+Loss: 1.190058190880805e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0237884521484375
+Activation max: 1.1611328125
+
+Layer: model.layers.21.mlp.gate_proj
+Loss: 1.2468956422928557e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.417724609375
+Activation max: 7.15234375
+
+Layer: model.layers.21.mlp.up_proj
+Loss: 1.2415540817656279e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2149658203125
+Activation max: 3.916015625
+
+Layer: model.layers.21.mlp.down_proj
+Loss: 1.2415167505164248e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.058868408203125
+Activation max: 2.55078125
+
+Layer: model.layers.22.self_attn.q_proj
+Loss: 1.1631902385733639e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.63623046875
+Activation max: 15.1171875
+
+Layer: model.layers.22.self_attn.k_proj
+Loss: 1.197325016910611e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2294921875
+Activation max: 16.234375
+
+Layer: model.layers.22.self_attn.v_proj
+Loss: 1.2253488501645649e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.2454833984375
+Activation max: 2.6953125
+
+Layer: model.layers.22.self_attn.o_proj
+Loss: 1.1933160015686894e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0202789306640625
+Activation max: 0.73974609375
+
+Layer: model.layers.22.mlp.gate_proj
+Loss: 1.2487846867692554e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.413330078125
+Activation max: 7.06640625
+
+Layer: model.layers.22.mlp.up_proj
+Loss: 1.2444426045199464e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2156982421875
+Activation max: 4.828125
+
+Layer: model.layers.22.mlp.down_proj
+Loss: 1.241399899543083e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.058441162109375
+Activation max: 2.74609375
+
+Layer: model.layers.23.self_attn.q_proj
+Loss: 1.167870106177915e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.6748046875
+Activation max: 17.0
+
+Layer: model.layers.23.self_attn.k_proj
+Loss: 1.1972509095237172e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2197265625
+Activation max: 18.859375
+
+Layer: model.layers.23.self_attn.v_proj
+Loss: 1.2259053494556582e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.254638671875
+Activation max: 3.125
+
+Layer: model.layers.23.self_attn.o_proj
+Loss: 1.1945359978948744e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0203857421875
+Activation max: 0.78369140625
+
+Layer: model.layers.23.mlp.gate_proj
+Loss: 1.2453221787112057e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.404052734375
+Activation max: 5.6796875
+
+Layer: model.layers.23.mlp.up_proj
+Loss: 1.2442014085678466e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2174072265625
+Activation max: 5.0234375
+
+Layer: model.layers.23.mlp.down_proj
+Loss: 1.237648872276509e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0594482421875
+Activation max: 2.580078125
+
+Layer: model.layers.24.self_attn.q_proj
+Loss: 1.1678889799693337e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.6767578125
+Activation max: 16.859375
+
+Layer: model.layers.24.self_attn.k_proj
+Loss: 1.1860032400612397e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.1845703125
+Activation max: 17.03125
+
+Layer: model.layers.24.self_attn.v_proj
+Loss: 1.222754397733894e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.282958984375
+Activation max: 3.783203125
+
+Layer: model.layers.24.self_attn.o_proj
+Loss: 1.1883080630603615e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0185394287109375
+Activation max: 0.88818359375
+
+Layer: model.layers.24.mlp.gate_proj
+Loss: 1.2445171282404743e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.399658203125
+Activation max: 9.4921875
+
+Layer: model.layers.24.mlp.up_proj
+Loss: 1.2442244456956075e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2176513671875
+Activation max: 5.6171875
+
+Layer: model.layers.24.mlp.down_proj
+Loss: 1.239938290931164e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.05999755859375
+Activation max: 1.9462890625
+
+Layer: model.layers.25.self_attn.q_proj
+Loss: 1.1624492340933656e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.7080078125
+Activation max: 17.03125
+
+Layer: model.layers.25.self_attn.k_proj
+Loss: 1.175380071050114e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.1533203125
+Activation max: 18.421875
+
+Layer: model.layers.25.self_attn.v_proj
+Loss: 1.223005030581703e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.297607421875
+Activation max: 4.39453125
+
+Layer: model.layers.25.self_attn.o_proj
+Loss: 1.2011597272376662e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.02349853515625
+Activation max: 1.5732421875
+
+Layer: model.layers.25.mlp.gate_proj
+Loss: 1.2401510374182578e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.412353515625
+Activation max: 7.22265625
+
+Layer: model.layers.25.mlp.up_proj
+Loss: 1.2424429540747184e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.2252197265625
+Activation max: 4.08203125
+
+Layer: model.layers.25.mlp.down_proj
+Loss: 1.2421488837510708e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.061553955078125
+Activation max: 2.13671875
+
+Layer: model.layers.26.self_attn.q_proj
+Loss: 1.1767595231582106e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.66259765625
+Activation max: 16.65625
+
+Layer: model.layers.26.self_attn.k_proj
+Loss: 1.190443577048228e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.21875
+Activation max: 17.828125
+
+Layer: model.layers.26.self_attn.v_proj
+Loss: 1.2152256978481546e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.2646484375
+Activation max: 3.26953125
+
+Layer: model.layers.26.self_attn.o_proj
+Loss: 1.208204647440425e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0273895263671875
+Activation max: 3.642578125
+
+Layer: model.layers.26.mlp.gate_proj
+Loss: 1.232206003898284e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.438720703125
+Activation max: 8.3671875
+
+Layer: model.layers.26.mlp.up_proj
+Loss: 1.2418538419822767e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.23583984375
+Activation max: 4.38671875
+
+Layer: model.layers.26.mlp.down_proj
+Loss: 1.2405779181712262e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.06585693359375
+Activation max: 2.404296875
+
+Layer: model.layers.27.self_attn.q_proj
+Loss: 1.1697642854358037e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.66259765625
+Activation max: 16.390625
+
+Layer: model.layers.27.self_attn.k_proj
+Loss: 1.1914266795365336e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2177734375
+Activation max: 17.40625
+
+Layer: model.layers.27.self_attn.v_proj
+Loss: 1.2031584062377476e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.3447265625
+Activation max: 3.51953125
+
+Layer: model.layers.27.self_attn.o_proj
+Loss: 1.1835436797280607e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0293121337890625
+Activation max: 2.859375
+
+Layer: model.layers.27.mlp.gate_proj
+Loss: 1.2235823465545081e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.4736328125
+Activation max: 8.3828125
+
+Layer: model.layers.27.mlp.up_proj
+Loss: 1.2376459579410692e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.251708984375
+Activation max: 4.84375
+
+Layer: model.layers.27.mlp.down_proj
+Loss: 1.2434184237797297e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0760498046875
+Activation max: 2.55078125
+
+Layer: model.layers.28.self_attn.q_proj
+Loss: 1.1694373247550516e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.69189453125
+Activation max: 15.15625
+
+Layer: model.layers.28.self_attn.k_proj
+Loss: 1.191233639508127e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.208984375
+Activation max: 19.171875
+
+Layer: model.layers.28.self_attn.v_proj
+Loss: 1.2315810871132982e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.303466796875
+Activation max: 3.6796875
+
+Layer: model.layers.28.self_attn.o_proj
+Loss: 1.2033060659000228e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0364990234375
+Activation max: 4.25
+
+Layer: model.layers.28.mlp.gate_proj
+Loss: 1.2143162864131085e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.5078125
+Activation max: 11.40625
+
+Layer: model.layers.28.mlp.up_proj
+Loss: 1.2286031914054973e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.28125
+Activation max: 6.63671875
+
+Layer: model.layers.28.mlp.down_proj
+Loss: 1.2453574282922375e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.0933837890625
+Activation max: 2.3828125
+
+Layer: model.layers.29.self_attn.q_proj
+Loss: 1.1761443208246902e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.68115234375
+Activation max: 11.296875
+
+Layer: model.layers.29.self_attn.k_proj
+Loss: 1.1809640765303442e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.203125
+Activation max: 31.21875
+
+Layer: model.layers.29.self_attn.v_proj
+Loss: 1.2182090058932005e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.356201171875
+Activation max: 5.390625
+
+Layer: model.layers.29.self_attn.o_proj
+Loss: 1.2314665953638837e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.051971435546875
+Activation max: 3.96484375
+
+Layer: model.layers.29.mlp.gate_proj
+Loss: 1.201615890122909e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.52099609375
+Activation max: 14.5390625
+
+Layer: model.layers.29.mlp.up_proj
+Loss: 1.2232077850615752e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.316162109375
+Activation max: 11.078125
+
+Layer: model.layers.29.mlp.down_proj
+Loss: 1.2429078599662802e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.10882568359375
+Activation max: 5.41796875
+
+Layer: model.layers.30.self_attn.q_proj
+Loss: 1.160862100890725e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.6845703125
+Activation max: 15.0234375
+
+Layer: model.layers.30.self_attn.k_proj
+Loss: 1.2018652739698155e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2275390625
+Activation max: 16.453125
+
+Layer: model.layers.30.self_attn.v_proj
+Loss: 1.212892841717661e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.377197265625
+Activation max: 4.28125
+
+Layer: model.layers.30.self_attn.o_proj
+Loss: 1.1961934220927617e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.05633544921875
+Activation max: 8.21875
+
+Layer: model.layers.30.mlp.gate_proj
+Loss: 1.1906042818310425e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.5888671875
+Activation max: 18.25
+
+Layer: model.layers.30.mlp.up_proj
+Loss: 1.2070114352447092e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.377685546875
+Activation max: 11.171875
+
+Layer: model.layers.30.mlp.down_proj
+Loss: 1.221846790411263e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.173095703125
+Activation max: 9.3828125
+
+Layer: model.layers.31.self_attn.q_proj
+Loss: 1.1408255590206196e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.78564453125
+Activation max: 34.1875
+
+Layer: model.layers.31.self_attn.k_proj
+Loss: 1.1911453767776692e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 1.2099609375
+Activation max: 18.015625
+
+Layer: model.layers.31.self_attn.v_proj
+Loss: 1.2023414208695016e-10
+Activation shape: (4, 132, 1024)
+Activation mean: 0.38623046875
+Activation max: 8.9375
+
+Layer: model.layers.31.self_attn.o_proj
+Loss: 1.1845377456687345e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.10784912109375
+Activation max: 8.6953125
+
+Layer: model.layers.31.mlp.gate_proj
+Loss: 1.1126832788477259e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.61083984375
+Activation max: 18.65625
+
+Layer: model.layers.31.mlp.up_proj
+Loss: 1.160874521510813e-10
+Activation shape: (4, 132, 14336)
+Activation mean: 0.51025390625
+Activation max: 15.7890625
+
+Layer: model.layers.31.mlp.down_proj
+Loss: 1.1833528601457033e-10
+Activation shape: (4, 132, 4096)
+Activation mean: 0.40185546875
+Activation max: 224.375
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(143)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    142 [0;31m        [0;31m# Stack and mean while handling potential remaining infinities[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 143 [0;31m        [0mstacked_losses[0m [0;34m=[0m [0mtorch[0m[0;34m.[0m[0mstack[0m[0;34m([0m[0mlosses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    144 [0;31m        [0mfinite_mask[0m [0;34m=[0m [0;34m~[0m[0mtorch[0m[0;34m.[0m[0misinf[0m[0;34m([0m[0mstacked_losses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+*** NameError: name 'reg_loss' is not defined
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(144)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    143 [0;31m        [0mstacked_losses[0m [0;34m=[0m [0mtorch[0m[0;34m.[0m[0mstack[0m[0;34m([0m[0mlosses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 144 [0;31m        [0mfinite_mask[0m [0;34m=[0m [0;34m~[0m[0mtorch[0m[0;34m.[0m[0misinf[0m[0;34m([0m[0mstacked_losses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    145 [0;31m        [0;32mif[0m [0mfinite_mask[0m[0;34m.[0m[0many[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m
+tensor([1.1921e-10, 1.2080e-10, 1.1466e-10, 1.1313e-10, 1.2060e-10, 1.2076e-10,
+        1.1557e-10, 1.2052e-10, 1.2190e-10, 1.2065e-10, 1.1762e-10, 1.2250e-10,
+        1.2331e-10, 1.1123e-10, 1.1560e-10, 1.2012e-10, 1.2124e-10, 1.1816e-10,
+        1.2342e-10, 1.2388e-10, 1.2312e-10, 1.1572e-10, 1.1902e-10, 1.2260e-10,
+        1.2180e-10, 1.2346e-10, 1.2383e-10, 1.2454e-10, 1.1578e-10, 1.1958e-10,
+        1.2295e-10, 1.2233e-10, 1.2435e-10, 1.2351e-10, 1.2432e-10, 1.1658e-10,
+        1.2011e-10, 1.2217e-10, 1.2244e-10, 1.2493e-10, 1.2341e-10, 1.2482e-10,
+        1.1573e-10, 1.1891e-10, 1.2247e-10, 1.2246e-10, 1.2462e-10, 1.2353e-10,
+        1.2482e-10, 1.1523e-10, 1.1921e-10, 1.2263e-10, 1.2303e-10, 1.2432e-10,
+        1.2343e-10, 1.2483e-10, 1.1703e-10, 1.1902e-10, 1.2271e-10, 1.2261e-10,
+        1.2389e-10, 1.2361e-10, 1.2469e-10, 1.1701e-10, 1.1943e-10, 1.2146e-10,
+        1.2255e-10, 1.2376e-10, 1.2359e-10, 1.2465e-10, 1.1759e-10, 1.1983e-10,
+        1.2250e-10, 1.2263e-10, 1.2394e-10, 1.2373e-10, 1.2436e-10, 1.1744e-10,
+        1.1988e-10, 1.2281e-10, 1.2227e-10, 1.2354e-10, 1.2374e-10, 1.2472e-10,
+        1.1538e-10, 1.1782e-10, 1.2362e-10, 1.2299e-10, 1.2346e-10, 1.2338e-10,
+        1.2488e-10, 1.1704e-10, 1.1983e-10, 1.2329e-10, 1.2113e-10, 1.2419e-10,
+        1.2350e-10, 1.2490e-10, 1.1689e-10, 1.1840e-10, 1.2304e-10, 1.2199e-10,
+        1.2363e-10, 1.2345e-10, 1.2478e-10, 1.1516e-10, 1.2050e-10, 1.2313e-10,
+        1.2119e-10, 1.2436e-10, 1.2347e-10, 1.2474e-10, 1.1594e-10, 1.1850e-10,
+        1.2268e-10, 1.2140e-10, 1.2421e-10, 1.2374e-10, 1.2466e-10, 1.1488e-10,
+        1.2014e-10, 1.2311e-10, 1.2197e-10, 1.2452e-10, 1.2390e-10, 1.2449e-10,
+        1.1686e-10, 1.2027e-10, 1.2291e-10, 1.2066e-10, 1.2445e-10, 1.2411e-10,
+        1.2455e-10, 1.1643e-10, 1.2015e-10, 1.2321e-10, 1.2002e-10, 1.2446e-10,
+        1.2426e-10, 1.2436e-10, 1.1668e-10, 1.2006e-10, 1.2265e-10, 1.2004e-10,
+        1.2459e-10, 1.2430e-10, 1.2441e-10, 1.1576e-10, 1.1897e-10, 1.2207e-10,
+        1.1901e-10, 1.2469e-10, 1.2416e-10, 1.2415e-10, 1.1632e-10, 1.1973e-10,
+        1.2253e-10, 1.1933e-10, 1.2488e-10, 1.2444e-10, 1.2414e-10, 1.1679e-10,
+        1.1973e-10, 1.2259e-10, 1.1945e-10, 1.2453e-10, 1.2442e-10, 1.2376e-10,
+        1.1679e-10, 1.1860e-10, 1.2228e-10, 1.1883e-10, 1.2445e-10, 1.2442e-10,
+        1.2399e-10, 1.1624e-10, 1.1754e-10, 1.2230e-10, 1.2012e-10, 1.2402e-10,
+        1.2424e-10, 1.2421e-10, 1.1768e-10, 1.1904e-10, 1.2152e-10, 1.2082e-10,
+        1.2322e-10, 1.2419e-10, 1.2406e-10, 1.1698e-10, 1.1914e-10, 1.2032e-10,
+        1.1835e-10, 1.2236e-10, 1.2376e-10, 1.2434e-10, 1.1694e-10, 1.1912e-10,
+        1.2316e-10, 1.2033e-10, 1.2143e-10, 1.2286e-10, 1.2454e-10, 1.1761e-10,
+        1.1810e-10, 1.2182e-10, 1.2315e-10, 1.2016e-10, 1.2232e-10, 1.2429e-10,
+        1.1609e-10, 1.2019e-10, 1.2129e-10, 1.1962e-10, 1.1906e-10, 1.2070e-10,
+        1.2218e-10, 1.1408e-10, 1.1911e-10, 1.2023e-10, 1.1845e-10, 1.1127e-10,
+        1.1609e-10, 1.1834e-10], device='cuda:0', grad_fn=<StackBackward0>)
+*** NameError: name 'reg_loss' is not defined
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(301)[0;36mtrain[0;34m()[0m
+[0;32m    300 [0;31m            [0;32mimport[0m [0mipdb[0m[0;34m;[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 301 [0;31m            [0mreg_loss[0m [0;34m=[0m [0mtrainer[0m[0;34m.[0m[0mget_regularization_loss[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    302 [0;31m[0;34m[0m[0m
+[0m
+tensor(1.2124e-10, device='cuda:0', grad_fn=<MeanBackward0>)
+
+Layer: model.layers.0.self_attn.q_proj
+Loss: 1.189495446585198e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.79736328125
+Activation max: 12.8671875
+
+Layer: model.layers.0.self_attn.k_proj
+Loss: 1.2077899791407276e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.99462890625
+Activation max: 14.1640625
+
+Layer: model.layers.0.self_attn.v_proj
+Loss: 1.1447968961686428e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.023040771484375
+Activation max: 0.49169921875
+
+Layer: model.layers.0.self_attn.o_proj
+Loss: 1.1365786090067331e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.003162384033203125
+Activation max: 0.2257080078125
+
+Layer: model.layers.0.mlp.gate_proj
+Loss: 1.2120017489625212e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.09051513671875
+Activation max: 3.92578125
+
+Layer: model.layers.0.mlp.up_proj
+Loss: 1.212279998608068e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.06915283203125
+Activation max: 2.33203125
+
+Layer: model.layers.0.mlp.down_proj
+Loss: 1.1642389829980004e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.008453369140625
+Activation max: 2.72265625
+
+Layer: model.layers.1.self_attn.q_proj
+Loss: 1.2045450747955044e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.91552734375
+Activation max: 11.9140625
+
+Layer: model.layers.1.self_attn.k_proj
+Loss: 1.2197422238902078e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.3525390625
+Activation max: 10.8984375
+
+Layer: model.layers.1.self_attn.v_proj
+Loss: 1.2122833292771418e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.052947998046875
+Activation max: 1.091796875
+
+Layer: model.layers.1.self_attn.o_proj
+Loss: 1.177855868395028e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.005023956298828125
+Activation max: 0.224853515625
+
+Layer: model.layers.1.mlp.gate_proj
+Loss: 1.2270867655317375e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.09576416015625
+Activation max: 15.5859375
+
+Layer: model.layers.1.mlp.up_proj
+Loss: 1.234642249547946e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.0767822265625
+Activation max: 23.765625
+
+Layer: model.layers.1.mlp.down_proj
+Loss: 1.0920164772443286e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.01081085205078125
+Activation max: 225.625
+
+Layer: model.layers.2.self_attn.q_proj
+Loss: 1.1539798283610736e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.76123046875
+Activation max: 11.453125
+
+Layer: model.layers.2.self_attn.k_proj
+Loss: 1.1985394621216727e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.232421875
+Activation max: 14.3203125
+
+Layer: model.layers.2.self_attn.v_proj
+Loss: 1.2137305049897407e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.11700439453125
+Activation max: 1.7119140625
+
+Layer: model.layers.2.self_attn.o_proj
+Loss: 1.182897668705607e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.006229400634765625
+Activation max: 0.54248046875
+
+Layer: model.layers.2.mlp.gate_proj
+Loss: 1.234827379237302e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.1287841796875
+Activation max: 5.4921875
+
+Layer: model.layers.2.mlp.up_proj
+Loss: 1.2392335768662832e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.09429931640625
+Activation max: 1.9111328125
+
+Layer: model.layers.2.mlp.down_proj
+Loss: 1.2378492675324537e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.01288604736328125
+Activation max: 0.362548828125
+
+Layer: model.layers.3.self_attn.q_proj
+Loss: 1.1565773339050622e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.72119140625
+Activation max: 12.25
+
+Layer: model.layers.3.self_attn.k_proj
+Loss: 1.1900415375354356e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.138671875
+Activation max: 16.515625
+
+Layer: model.layers.3.self_attn.v_proj
+Loss: 1.226704016143998e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.14599609375
+Activation max: 2.216796875
+
+Layer: model.layers.3.self_attn.o_proj
+Loss: 1.217495965155635e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.00926971435546875
+Activation max: 0.57861328125
+
+Layer: model.layers.3.mlp.gate_proj
+Loss: 1.2361595080889742e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.1759033203125
+Activation max: 4.57421875
+
+Layer: model.layers.3.mlp.up_proj
+Loss: 1.2394565929163548e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.11224365234375
+Activation max: 2.353515625
+
+Layer: model.layers.3.mlp.down_proj
+Loss: 1.2442774588450334e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.016815185546875
+Activation max: 0.50146484375
+
+Layer: model.layers.4.self_attn.q_proj
+Loss: 1.1573078606552656e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.72412109375
+Activation max: 10.9375
+
+Layer: model.layers.4.self_attn.k_proj
+Loss: 1.1950623823864248e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2080078125
+Activation max: 17.078125
+
+Layer: model.layers.4.self_attn.v_proj
+Loss: 1.2300852003654938e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1483154296875
+Activation max: 1.7783203125
+
+Layer: model.layers.4.self_attn.o_proj
+Loss: 1.2260466253355418e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.01214599609375
+Activation max: 0.8203125
+
+Layer: model.layers.4.mlp.gate_proj
+Loss: 1.2447558261907687e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.24365234375
+Activation max: 3.31640625
+
+Layer: model.layers.4.mlp.up_proj
+Loss: 1.2366943580310874e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.12548828125
+Activation max: 2.28515625
+
+Layer: model.layers.4.mlp.down_proj
+Loss: 1.2481486677540232e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0218658447265625
+Activation max: 0.74853515625
+
+Layer: model.layers.5.self_attn.q_proj
+Loss: 1.166076402103755e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.73486328125
+Activation max: 13.921875
+
+Layer: model.layers.5.self_attn.k_proj
+Loss: 1.2011962258196007e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.265625
+Activation max: 16.328125
+
+Layer: model.layers.5.self_attn.v_proj
+Loss: 1.2257658776881897e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1427001953125
+Activation max: 2.509765625
+
+Layer: model.layers.5.self_attn.o_proj
+Loss: 1.2333721544077747e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.01442718505859375
+Activation max: 0.84765625
+
+Layer: model.layers.5.mlp.gate_proj
+Loss: 1.2518977521303043e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.275146484375
+Activation max: 4.76953125
+
+Layer: model.layers.5.mlp.up_proj
+Loss: 1.2344042454870419e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.137939453125
+Activation max: 2.810546875
+
+Layer: model.layers.5.mlp.down_proj
+Loss: 1.2488182710157503e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.02606201171875
+Activation max: 0.82958984375
+
+Layer: model.layers.6.self_attn.q_proj
+Loss: 1.1589605664052982e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.68994140625
+Activation max: 12.7578125
+
+Layer: model.layers.6.self_attn.k_proj
+Loss: 1.1905883223750635e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2861328125
+Activation max: 17.03125
+
+Layer: model.layers.6.self_attn.v_proj
+Loss: 1.2281227423915908e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1485595703125
+Activation max: 1.8740234375
+
+Layer: model.layers.6.self_attn.o_proj
+Loss: 1.2287151851531064e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.016510009765625
+Activation max: 0.8564453125
+
+Layer: model.layers.6.mlp.gate_proj
+Loss: 1.248729036840146e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.305908203125
+Activation max: 4.67578125
+
+Layer: model.layers.6.mlp.up_proj
+Loss: 1.2352331657528026e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.146484375
+Activation max: 3.25
+
+Layer: model.layers.6.mlp.down_proj
+Loss: 1.2481027322763794e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0282745361328125
+Activation max: 1.080078125
+
+Layer: model.layers.7.self_attn.q_proj
+Loss: 1.153232856432318e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.68115234375
+Activation max: 11.2109375
+
+Layer: model.layers.7.self_attn.k_proj
+Loss: 1.193148496669849e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.294921875
+Activation max: 17.390625
+
+Layer: model.layers.7.self_attn.v_proj
+Loss: 1.2273392024919616e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1624755859375
+Activation max: 2.048828125
+
+Layer: model.layers.7.self_attn.o_proj
+Loss: 1.2348508326986973e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0198822021484375
+Activation max: 1.1064453125
+
+Layer: model.layers.7.mlp.gate_proj
+Loss: 1.246977937574556e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.305908203125
+Activation max: 3.955078125
+
+Layer: model.layers.7.mlp.up_proj
+Loss: 1.233536189859663e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.1561279296875
+Activation max: 3.140625
+
+Layer: model.layers.7.mlp.down_proj
+Loss: 1.248208619797353e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0300750732421875
+Activation max: 1.2705078125
+
+Layer: model.layers.8.self_attn.q_proj
+Loss: 1.1727169235697943e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.666015625
+Activation max: 12.5546875
+
+Layer: model.layers.8.self_attn.k_proj
+Loss: 1.1877347716460207e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.248046875
+Activation max: 15.90625
+
+Layer: model.layers.8.self_attn.v_proj
+Loss: 1.228307733303069e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1669921875
+Activation max: 2.24609375
+
+Layer: model.layers.8.self_attn.o_proj
+Loss: 1.229138874014879e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0184478759765625
+Activation max: 1.08984375
+
+Layer: model.layers.8.mlp.gate_proj
+Loss: 1.2427256446123636e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.318603515625
+Activation max: 3.27734375
+
+Layer: model.layers.8.mlp.up_proj
+Loss: 1.234878727052191e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.15869140625
+Activation max: 2.27734375
+
+Layer: model.layers.8.mlp.down_proj
+Loss: 1.2463967358211647e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0303192138671875
+Activation max: 1.634765625
+
+Layer: model.layers.9.self_attn.q_proj
+Loss: 1.1715488301700105e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.62451171875
+Activation max: 10.1328125
+
+Layer: model.layers.9.self_attn.k_proj
+Loss: 1.195174514911912e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.1962890625
+Activation max: 18.390625
+
+Layer: model.layers.9.self_attn.v_proj
+Loss: 1.2156974038557422e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1885986328125
+Activation max: 2.630859375
+
+Layer: model.layers.9.self_attn.o_proj
+Loss: 1.232001722861753e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0207061767578125
+Activation max: 1.345703125
+
+Layer: model.layers.9.mlp.gate_proj
+Loss: 1.2409548388880864e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.3349609375
+Activation max: 3.869140625
+
+Layer: model.layers.9.mlp.up_proj
+Loss: 1.2340913013719756e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.1632080078125
+Activation max: 4.07421875
+
+Layer: model.layers.9.mlp.down_proj
+Loss: 1.2459064335779146e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.032562255859375
+Activation max: 1.4697265625
+
+Layer: model.layers.10.self_attn.q_proj
+Loss: 1.17529874721356e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.67333984375
+Activation max: 11.3359375
+
+Layer: model.layers.10.self_attn.k_proj
+Loss: 1.1934687960124535e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2783203125
+Activation max: 17.015625
+
+Layer: model.layers.10.self_attn.v_proj
+Loss: 1.223289247676007e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1708984375
+Activation max: 1.955078125
+
+Layer: model.layers.10.self_attn.o_proj
+Loss: 1.229756713128083e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0198822021484375
+Activation max: 1.0634765625
+
+Layer: model.layers.10.mlp.gate_proj
+Loss: 1.2411431604686385e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.32666015625
+Activation max: 5.22265625
+
+Layer: model.layers.10.mlp.up_proj
+Loss: 1.2361335566257736e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.1654052734375
+Activation max: 3.716796875
+
+Layer: model.layers.10.mlp.down_proj
+Loss: 1.2448941877352127e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.03265380859375
+Activation max: 1.3466796875
+
+Layer: model.layers.11.self_attn.q_proj
+Loss: 1.1732220750459987e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.6279296875
+Activation max: 10.890625
+
+Layer: model.layers.11.self_attn.k_proj
+Loss: 1.1961787116376854e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.193359375
+Activation max: 16.265625
+
+Layer: model.layers.11.self_attn.v_proj
+Loss: 1.225723827991132e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.18017578125
+Activation max: 2.1875
+
+Layer: model.layers.11.self_attn.o_proj
+Loss: 1.2285628070429766e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.020477294921875
+Activation max: 1.109375
+
+Layer: model.layers.11.mlp.gate_proj
+Loss: 1.2366691004572772e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.33154296875
+Activation max: 7.01953125
+
+Layer: model.layers.11.mlp.up_proj
+Loss: 1.2365417023652014e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.170654296875
+Activation max: 4.765625
+
+Layer: model.layers.11.mlp.down_proj
+Loss: 1.2465858900689852e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.033966064453125
+Activation max: 1.5087890625
+
+Layer: model.layers.12.self_attn.q_proj
+Loss: 1.1531296056910278e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.65185546875
+Activation max: 13.390625
+
+Layer: model.layers.12.self_attn.k_proj
+Loss: 1.1768468144435218e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.16796875
+Activation max: 16.96875
+
+Layer: model.layers.12.self_attn.v_proj
+Loss: 1.233610713580191e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1778564453125
+Activation max: 2.08984375
+
+Layer: model.layers.12.self_attn.o_proj
+Loss: 1.230037599553313e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.023162841796875
+Activation max: 1.4638671875
+
+Layer: model.layers.12.mlp.gate_proj
+Loss: 1.2354146872173288e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.3359375
+Activation max: 4.34375
+
+Layer: model.layers.12.mlp.up_proj
+Loss: 1.232552115926211e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.1776123046875
+Activation max: 4.140625
+
+Layer: model.layers.12.mlp.down_proj
+Loss: 1.2475530331013118e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.03619384765625
+Activation max: 2.552734375
+
+Layer: model.layers.13.self_attn.q_proj
+Loss: 1.169363494923914e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.609375
+Activation max: 12.4609375
+
+Layer: model.layers.13.self_attn.k_proj
+Loss: 1.1926004628293185e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2421875
+Activation max: 15.7265625
+
+Layer: model.layers.13.self_attn.v_proj
+Loss: 1.2303687235704075e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1826171875
+Activation max: 2.078125
+
+Layer: model.layers.13.self_attn.o_proj
+Loss: 1.215673811616469e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.024139404296875
+Activation max: 2.234375
+
+Layer: model.layers.13.mlp.gate_proj
+Loss: 1.2424519746367935e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.3583984375
+Activation max: 6.4765625
+
+Layer: model.layers.13.mlp.up_proj
+Loss: 1.233836366409946e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.18359375
+Activation max: 5.22265625
+
+Layer: model.layers.13.mlp.down_proj
+Loss: 1.248317005320132e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.040130615234375
+Activation max: 1.857421875
+
+Layer: model.layers.14.self_attn.q_proj
+Loss: 1.166482882508646e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.630859375
+Activation max: 10.40625
+
+Layer: model.layers.14.self_attn.k_proj
+Loss: 1.1808086453068967e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2783203125
+Activation max: 16.8125
+
+Layer: model.layers.14.self_attn.v_proj
+Loss: 1.2288715878217005e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1905517578125
+Activation max: 2.3046875
+
+Layer: model.layers.14.self_attn.o_proj
+Loss: 1.221635709258706e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0259552001953125
+Activation max: 1.5283203125
+
+Layer: model.layers.14.mlp.gate_proj
+Loss: 1.2368708834920028e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.390869140625
+Activation max: 5.9140625
+
+Layer: model.layers.14.mlp.up_proj
+Loss: 1.232660362671112e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.1864013671875
+Activation max: 2.9453125
+
+Layer: model.layers.14.mlp.down_proj
+Loss: 1.2476199240385455e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.04229736328125
+Activation max: 2.021484375
+
+Layer: model.layers.15.self_attn.q_proj
+Loss: 1.1509957570376983e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.68115234375
+Activation max: 12.734375
+
+Layer: model.layers.15.self_attn.k_proj
+Loss: 1.2012353611812188e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.287109375
+Activation max: 16.78125
+
+Layer: model.layers.15.self_attn.v_proj
+Loss: 1.229518986622935e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1883544921875
+Activation max: 1.8857421875
+
+Layer: model.layers.15.self_attn.o_proj
+Loss: 1.2190469467210363e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0253143310546875
+Activation max: 1.615234375
+
+Layer: model.layers.15.mlp.gate_proj
+Loss: 1.2445393327009668e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.427978515625
+Activation max: 5.9375
+
+Layer: model.layers.15.mlp.up_proj
+Loss: 1.2336422161585148e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.193115234375
+Activation max: 3.0546875
+
+Layer: model.layers.15.mlp.down_proj
+Loss: 1.247681125082778e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.048248291015625
+Activation max: 2.337890625
+
+Layer: model.layers.16.self_attn.q_proj
+Loss: 1.1570398805726967e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.671875
+Activation max: 12.9921875
+
+Layer: model.layers.16.self_attn.k_proj
+Loss: 1.1818812595265626e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2802734375
+Activation max: 18.6875
+
+Layer: model.layers.16.self_attn.v_proj
+Loss: 1.2242307168008892e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.190185546875
+Activation max: 2.109375
+
+Layer: model.layers.16.self_attn.o_proj
+Loss: 1.2209816491193237e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0245819091796875
+Activation max: 2.705078125
+
+Layer: model.layers.16.mlp.gate_proj
+Loss: 1.2440197483254423e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.414306640625
+Activation max: 8.4765625
+
+Layer: model.layers.16.mlp.up_proj
+Loss: 1.2365722334983786e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.193603515625
+Activation max: 5.6015625
+
+Layer: model.layers.16.mlp.down_proj
+Loss: 1.245200192956375e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.052337646484375
+Activation max: 2.53125
+
+Layer: model.layers.17.self_attn.q_proj
+Loss: 1.146685038588835e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.67236328125
+Activation max: 12.296875
+
+Layer: model.layers.17.self_attn.k_proj
+Loss: 1.197911492223369e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2177734375
+Activation max: 15.9296875
+
+Layer: model.layers.17.self_attn.v_proj
+Loss: 1.2303488783338423e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1904296875
+Activation max: 1.7275390625
+
+Layer: model.layers.17.self_attn.o_proj
+Loss: 1.2181233799424263e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.024658203125
+Activation max: 1.6337890625
+
+Layer: model.layers.17.mlp.gate_proj
+Loss: 1.2453339748308423e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.42529296875
+Activation max: 6.86328125
+
+Layer: model.layers.17.mlp.up_proj
+Loss: 1.2388948200658945e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.2015380859375
+Activation max: 3.12890625
+
+Layer: model.layers.17.mlp.down_proj
+Loss: 1.24520560529362e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0533447265625
+Activation max: 1.8310546875
+
+Layer: model.layers.18.self_attn.q_proj
+Loss: 1.166054752754775e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.65380859375
+Activation max: 14.4765625
+
+Layer: model.layers.18.self_attn.k_proj
+Loss: 1.2010735461753796e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.26171875
+Activation max: 15.953125
+
+Layer: model.layers.18.self_attn.v_proj
+Loss: 1.2251541448016212e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.1973876953125
+Activation max: 3.630859375
+
+Layer: model.layers.18.self_attn.o_proj
+Loss: 1.2106576852133344e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0192413330078125
+Activation max: 1.041015625
+
+Layer: model.layers.18.mlp.gate_proj
+Loss: 1.2445630637181182e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.404052734375
+Activation max: 6.828125
+
+Layer: model.layers.18.mlp.up_proj
+Loss: 1.240289676518458e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.2003173828125
+Activation max: 4.40234375
+
+Layer: model.layers.18.mlp.down_proj
+Loss: 1.2456059794718755e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.051177978515625
+Activation max: 2.064453125
+
+Layer: model.layers.19.self_attn.q_proj
+Loss: 1.1621347634216406e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.6884765625
+Activation max: 13.7265625
+
+Layer: model.layers.19.self_attn.k_proj
+Loss: 1.1994698290163086e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2333984375
+Activation max: 16.625
+
+Layer: model.layers.19.self_attn.v_proj
+Loss: 1.2302814322850963e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.2225341796875
+Activation max: 2.69140625
+
+Layer: model.layers.19.self_attn.o_proj
+Loss: 1.1994488735567188e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.020111083984375
+Activation max: 0.9921875
+
+Layer: model.layers.19.mlp.gate_proj
+Loss: 1.2437766094830494e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.398681640625
+Activation max: 6.85546875
+
+Layer: model.layers.19.mlp.up_proj
+Loss: 1.2421912110038846e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.2022705078125
+Activation max: 3.595703125
+
+Layer: model.layers.19.mlp.down_proj
+Loss: 1.2431267126800094e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.05267333984375
+Activation max: 1.916015625
+
+Layer: model.layers.20.self_attn.q_proj
+Loss: 1.1641136665740959e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.666015625
+Activation max: 13.375
+
+Layer: model.layers.20.self_attn.k_proj
+Loss: 1.1990884674073499e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.275390625
+Activation max: 14.9296875
+
+Layer: model.layers.20.self_attn.v_proj
+Loss: 1.225048951170038e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.2286376953125
+Activation max: 2.529296875
+
+Layer: model.layers.20.self_attn.o_proj
+Loss: 1.2093771817323073e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0189971923828125
+Activation max: 1.0234375
+
+Layer: model.layers.20.mlp.gate_proj
+Loss: 1.2450374065053893e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.39697265625
+Activation max: 8.1640625
+
+Layer: model.layers.20.mlp.up_proj
+Loss: 1.242094205267108e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.20556640625
+Activation max: 4.60546875
+
+Layer: model.layers.20.mlp.down_proj
+Loss: 1.2424816731027022e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.055145263671875
+Activation max: 1.5458984375
+
+Layer: model.layers.21.self_attn.q_proj
+Loss: 1.1551469503157108e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.689453125
+Activation max: 16.15625
+
+Layer: model.layers.21.self_attn.k_proj
+Loss: 1.1882402006779813e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.25390625
+Activation max: 18.65625
+
+Layer: model.layers.21.self_attn.v_proj
+Loss: 1.219877671099212e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.224609375
+Activation max: 3.126953125
+
+Layer: model.layers.21.self_attn.o_proj
+Loss: 1.1995512916307405e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0250396728515625
+Activation max: 1.2626953125
+
+Layer: model.layers.21.mlp.gate_proj
+Loss: 1.2465513343773438e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.4150390625
+Activation max: 6.3515625
+
+Layer: model.layers.21.mlp.up_proj
+Loss: 1.2407246063883548e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.21435546875
+Activation max: 3.853515625
+
+Layer: model.layers.21.mlp.down_proj
+Loss: 1.2409921701372895e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0589599609375
+Activation max: 2.7890625
+
+Layer: model.layers.22.self_attn.q_proj
+Loss: 1.1597950377861821e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.64697265625
+Activation max: 16.203125
+
+Layer: model.layers.22.self_attn.k_proj
+Loss: 1.1936832078340842e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.236328125
+Activation max: 16.546875
+
+Layer: model.layers.22.self_attn.v_proj
+Loss: 1.2238172975020944e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.2427978515625
+Activation max: 2.880859375
+
+Layer: model.layers.22.self_attn.o_proj
+Loss: 1.1976847291705894e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0228424072265625
+Activation max: 0.99658203125
+
+Layer: model.layers.22.mlp.gate_proj
+Loss: 1.2482613553910227e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.41064453125
+Activation max: 6.53515625
+
+Layer: model.layers.22.mlp.up_proj
+Loss: 1.2431003448831746e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.2149658203125
+Activation max: 4.53125
+
+Layer: model.layers.22.mlp.down_proj
+Loss: 1.2394385517922046e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.05859375
+Activation max: 2.58203125
+
+Layer: model.layers.23.self_attn.q_proj
+Loss: 1.16361656421482e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.68505859375
+Activation max: 15.4453125
+
+Layer: model.layers.23.self_attn.k_proj
+Loss: 1.193874582527954e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2294921875
+Activation max: 17.828125
+
+Layer: model.layers.23.self_attn.v_proj
+Loss: 1.22284349313162e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.249267578125
+Activation max: 3.267578125
+
+Layer: model.layers.23.self_attn.o_proj
+Loss: 1.2021719730803682e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.02142333984375
+Activation max: 0.96240234375
+
+Layer: model.layers.23.mlp.gate_proj
+Loss: 1.2448091168959508e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.40087890625
+Activation max: 8.75
+
+Layer: model.layers.23.mlp.up_proj
+Loss: 1.2429667017865853e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.21484375
+Activation max: 4.83984375
+
+Layer: model.layers.23.mlp.down_proj
+Loss: 1.2384700209810973e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.058319091796875
+Activation max: 2.771484375
+
+Layer: model.layers.24.self_attn.q_proj
+Loss: 1.1632626112367817e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.68701171875
+Activation max: 18.484375
+
+Layer: model.layers.24.self_attn.k_proj
+Loss: 1.1843016844981236e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.1943359375
+Activation max: 17.296875
+
+Layer: model.layers.24.self_attn.v_proj
+Loss: 1.2209119826245285e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.27880859375
+Activation max: 3.802734375
+
+Layer: model.layers.24.self_attn.o_proj
+Loss: 1.1914708109017624e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.019287109375
+Activation max: 0.92529296875
+
+Layer: model.layers.24.mlp.gate_proj
+Loss: 1.2438089447286416e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.397216796875
+Activation max: 6.94140625
+
+Layer: model.layers.24.mlp.up_proj
+Loss: 1.242575625726161e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.215576171875
+Activation max: 5.5390625
+
+Layer: model.layers.24.mlp.down_proj
+Loss: 1.2378484348651853e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.060211181640625
+Activation max: 2.150390625
+
+Layer: model.layers.25.self_attn.q_proj
+Loss: 1.1575994329771078e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.72021484375
+Activation max: 18.28125
+
+Layer: model.layers.25.self_attn.k_proj
+Loss: 1.1734575811050973e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.1796875
+Activation max: 19.0
+
+Layer: model.layers.25.self_attn.v_proj
+Loss: 1.2226832046824399e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.300048828125
+Activation max: 4.453125
+
+Layer: model.layers.25.self_attn.o_proj
+Loss: 1.2037303098733076e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.02484130859375
+Activation max: 1.392578125
+
+Layer: model.layers.25.mlp.gate_proj
+Loss: 1.2385978354068072e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.409912109375
+Activation max: 9.53125
+
+Layer: model.layers.25.mlp.up_proj
+Loss: 1.2412794403449112e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.22216796875
+Activation max: 4.1875
+
+Layer: model.layers.25.mlp.down_proj
+Loss: 1.2405920735147902e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.06134033203125
+Activation max: 3.314453125
+
+Layer: model.layers.26.self_attn.q_proj
+Loss: 1.17164708490769e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.67333984375
+Activation max: 16.71875
+
+Layer: model.layers.26.self_attn.k_proj
+Loss: 1.1900076757331846e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2392578125
+Activation max: 18.65625
+
+Layer: model.layers.26.self_attn.v_proj
+Loss: 1.2152738537718477e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.257568359375
+Activation max: 3.267578125
+
+Layer: model.layers.26.self_attn.o_proj
+Loss: 1.2136355809211352e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.0267791748046875
+Activation max: 3.671875
+
+Layer: model.layers.26.mlp.gate_proj
+Loss: 1.2294218421082803e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.435791015625
+Activation max: 8.265625
+
+Layer: model.layers.26.mlp.up_proj
+Loss: 1.2405819427296905e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.2320556640625
+Activation max: 4.90625
+
+Layer: model.layers.26.mlp.down_proj
+Loss: 1.2388748360514512e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.06610107421875
+Activation max: 2.41796875
+
+Layer: model.layers.27.self_attn.q_proj
+Loss: 1.164682100762704e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.67431640625
+Activation max: 16.1875
+
+Layer: model.layers.27.self_attn.k_proj
+Loss: 1.189237736065607e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.232421875
+Activation max: 17.59375
+
+Layer: model.layers.27.self_attn.v_proj
+Loss: 1.205654048819227e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.335205078125
+Activation max: 3.51953125
+
+Layer: model.layers.27.self_attn.o_proj
+Loss: 1.1970360813684522e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.030548095703125
+Activation max: 2.546875
+
+Layer: model.layers.27.mlp.gate_proj
+Loss: 1.2196388343710396e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.473876953125
+Activation max: 9.0703125
+
+Layer: model.layers.27.mlp.up_proj
+Loss: 1.2359217815838264e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.2493896484375
+Activation max: 5.0
+
+Layer: model.layers.27.mlp.down_proj
+Loss: 1.2415871109006105e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.07659912109375
+Activation max: 2.86328125
+
+Layer: model.layers.28.self_attn.q_proj
+Loss: 1.1677764311102123e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.708984375
+Activation max: 15.390625
+
+Layer: model.layers.28.self_attn.k_proj
+Loss: 1.187231146726475e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.228515625
+Activation max: 18.0625
+
+Layer: model.layers.28.self_attn.v_proj
+Loss: 1.2278536520859973e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.301025390625
+Activation max: 3.935546875
+
+Layer: model.layers.28.self_attn.o_proj
+Loss: 1.2104262037127e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.037506103515625
+Activation max: 4.26171875
+
+Layer: model.layers.28.mlp.gate_proj
+Loss: 1.2099238277940572e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.50732421875
+Activation max: 10.515625
+
+Layer: model.layers.28.mlp.up_proj
+Loss: 1.2253109638038495e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.27783203125
+Activation max: 6.6796875
+
+Layer: model.layers.28.mlp.down_proj
+Loss: 1.2437356700090163e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.093505859375
+Activation max: 2.638671875
+
+Layer: model.layers.29.self_attn.q_proj
+Loss: 1.1723146065012457e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.6865234375
+Activation max: 11.0859375
+
+Layer: model.layers.29.self_attn.k_proj
+Loss: 1.176699571114881e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.208984375
+Activation max: 31.171875
+
+Layer: model.layers.29.self_attn.v_proj
+Loss: 1.215594153114452e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.3466796875
+Activation max: 5.06640625
+
+Layer: model.layers.29.self_attn.o_proj
+Loss: 1.2303158491988597e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.05364990234375
+Activation max: 5.09375
+
+Layer: model.layers.29.mlp.gate_proj
+Loss: 1.197073135061899e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.521484375
+Activation max: 14.5390625
+
+Layer: model.layers.29.mlp.up_proj
+Loss: 1.220344381103189e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.313232421875
+Activation max: 10.78125
+
+Layer: model.layers.29.mlp.down_proj
+Loss: 1.2423993778210018e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.1102294921875
+Activation max: 5.05078125
+
+Layer: model.layers.30.self_attn.q_proj
+Loss: 1.1570874813848775e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.69970703125
+Activation max: 14.4453125
+
+Layer: model.layers.30.self_attn.k_proj
+Loss: 1.1984928327546385e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.2294921875
+Activation max: 16.296875
+
+Layer: model.layers.30.self_attn.v_proj
+Loss: 1.2126039061755023e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.361328125
+Activation max: 3.9765625
+
+Layer: model.layers.30.self_attn.o_proj
+Loss: 1.1939609023681186e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.06298828125
+Activation max: 8.703125
+
+Layer: model.layers.30.mlp.gate_proj
+Loss: 1.1861182869221665e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.5888671875
+Activation max: 18.25
+
+Layer: model.layers.30.mlp.up_proj
+Loss: 1.2015906325490988e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.37939453125
+Activation max: 10.3828125
+
+Layer: model.layers.30.mlp.down_proj
+Loss: 1.2188484943553846e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.181396484375
+Activation max: 9.25
+
+Layer: model.layers.31.self_attn.q_proj
+Loss: 1.1378921416227428e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.80322265625
+Activation max: 34.90625
+
+Layer: model.layers.31.self_attn.k_proj
+Loss: 1.1896238161224204e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 1.22265625
+Activation max: 17.90625
+
+Layer: model.layers.31.self_attn.v_proj
+Loss: 1.1962629498096788e-10
+Activation shape: (4, 109, 1024)
+Activation mean: 0.38818359375
+Activation max: 8.7734375
+
+Layer: model.layers.31.self_attn.o_proj
+Loss: 1.1845266434384882e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.11163330078125
+Activation max: 8.421875
+
+Layer: model.layers.31.mlp.gate_proj
+Loss: 1.0969671004890102e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.6142578125
+Activation max: 18.859375
+
+Layer: model.layers.31.mlp.up_proj
+Loss: 1.1528961813001004e-10
+Activation shape: (4, 109, 14336)
+Activation mean: 0.52587890625
+Activation max: 16.03125
+
+Layer: model.layers.31.mlp.down_proj
+Loss: 1.1861686632919088e-10
+Activation shape: (4, 109, 4096)
+Activation mean: 0.43310546875
+Activation max: 224.375
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(143)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    142 [0;31m        [0;31m# Stack and mean while handling potential remaining infinities[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 143 [0;31m        [0mstacked_losses[0m [0;34m=[0m [0mtorch[0m[0;34m.[0m[0mstack[0m[0;34m([0m[0mlosses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    144 [0;31m        [0mfinite_mask[0m [0;34m=[0m [0;34m~[0m[0mtorch[0m[0;34m.[0m[0misinf[0m[0;34m([0m[0mstacked_losses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(144)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    143 [0;31m        [0mstacked_losses[0m [0;34m=[0m [0mtorch[0m[0;34m.[0m[0mstack[0m[0;34m([0m[0mlosses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 144 [0;31m        [0mfinite_mask[0m [0;34m=[0m [0;34m~[0m[0mtorch[0m[0;34m.[0m[0misinf[0m[0;34m([0m[0mstacked_losses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    145 [0;31m        [0;32mif[0m [0mfinite_mask[0m[0;34m.[0m[0many[0m[0;34m([0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m
+tensor([1.1895e-10, 1.2078e-10, 1.1448e-10, 1.1366e-10, 1.2120e-10, 1.2123e-10,
+        1.1642e-10, 1.2045e-10, 1.2197e-10, 1.2123e-10, 1.1779e-10, 1.2271e-10,
+        1.2346e-10, 1.0920e-10, 1.1540e-10, 1.1985e-10, 1.2137e-10, 1.1829e-10,
+        1.2348e-10, 1.2392e-10, 1.2378e-10, 1.1566e-10, 1.1900e-10, 1.2267e-10,
+        1.2175e-10, 1.2362e-10, 1.2395e-10, 1.2443e-10, 1.1573e-10, 1.1951e-10,
+        1.2301e-10, 1.2260e-10, 1.2448e-10, 1.2367e-10, 1.2481e-10, 1.1661e-10,
+        1.2012e-10, 1.2258e-10, 1.2334e-10, 1.2519e-10, 1.2344e-10, 1.2488e-10,
+        1.1590e-10, 1.1906e-10, 1.2281e-10, 1.2287e-10, 1.2487e-10, 1.2352e-10,
+        1.2481e-10, 1.1532e-10, 1.1931e-10, 1.2273e-10, 1.2349e-10, 1.2470e-10,
+        1.2335e-10, 1.2482e-10, 1.1727e-10, 1.1877e-10, 1.2283e-10, 1.2291e-10,
+        1.2427e-10, 1.2349e-10, 1.2464e-10, 1.1715e-10, 1.1952e-10, 1.2157e-10,
+        1.2320e-10, 1.2410e-10, 1.2341e-10, 1.2459e-10, 1.1753e-10, 1.1935e-10,
+        1.2233e-10, 1.2298e-10, 1.2411e-10, 1.2361e-10, 1.2449e-10, 1.1732e-10,
+        1.1962e-10, 1.2257e-10, 1.2286e-10, 1.2367e-10, 1.2365e-10, 1.2466e-10,
+        1.1531e-10, 1.1768e-10, 1.2336e-10, 1.2300e-10, 1.2354e-10, 1.2326e-10,
+        1.2476e-10, 1.1694e-10, 1.1926e-10, 1.2304e-10, 1.2157e-10, 1.2425e-10,
+        1.2338e-10, 1.2483e-10, 1.1665e-10, 1.1808e-10, 1.2289e-10, 1.2216e-10,
+        1.2369e-10, 1.2327e-10, 1.2476e-10, 1.1510e-10, 1.2012e-10, 1.2295e-10,
+        1.2190e-10, 1.2445e-10, 1.2336e-10, 1.2477e-10, 1.1570e-10, 1.1819e-10,
+        1.2242e-10, 1.2210e-10, 1.2440e-10, 1.2366e-10, 1.2452e-10, 1.1467e-10,
+        1.1979e-10, 1.2303e-10, 1.2181e-10, 1.2453e-10, 1.2389e-10, 1.2452e-10,
+        1.1661e-10, 1.2011e-10, 1.2252e-10, 1.2107e-10, 1.2446e-10, 1.2403e-10,
+        1.2456e-10, 1.1621e-10, 1.1995e-10, 1.2303e-10, 1.1994e-10, 1.2438e-10,
+        1.2422e-10, 1.2431e-10, 1.1641e-10, 1.1991e-10, 1.2250e-10, 1.2094e-10,
+        1.2450e-10, 1.2421e-10, 1.2425e-10, 1.1551e-10, 1.1882e-10, 1.2199e-10,
+        1.1996e-10, 1.2466e-10, 1.2407e-10, 1.2410e-10, 1.1598e-10, 1.1937e-10,
+        1.2238e-10, 1.1977e-10, 1.2483e-10, 1.2431e-10, 1.2394e-10, 1.1636e-10,
+        1.1939e-10, 1.2228e-10, 1.2022e-10, 1.2448e-10, 1.2430e-10, 1.2385e-10,
+        1.1633e-10, 1.1843e-10, 1.2209e-10, 1.1915e-10, 1.2438e-10, 1.2426e-10,
+        1.2378e-10, 1.1576e-10, 1.1735e-10, 1.2227e-10, 1.2037e-10, 1.2386e-10,
+        1.2413e-10, 1.2406e-10, 1.1716e-10, 1.1900e-10, 1.2153e-10, 1.2136e-10,
+        1.2294e-10, 1.2406e-10, 1.2389e-10, 1.1647e-10, 1.1892e-10, 1.2057e-10,
+        1.1970e-10, 1.2196e-10, 1.2359e-10, 1.2416e-10, 1.1678e-10, 1.1872e-10,
+        1.2279e-10, 1.2104e-10, 1.2099e-10, 1.2253e-10, 1.2437e-10, 1.1723e-10,
+        1.1767e-10, 1.2156e-10, 1.2303e-10, 1.1971e-10, 1.2203e-10, 1.2424e-10,
+        1.1571e-10, 1.1985e-10, 1.2126e-10, 1.1940e-10, 1.1861e-10, 1.2016e-10,
+        1.2188e-10, 1.1379e-10, 1.1896e-10, 1.1963e-10, 1.1845e-10, 1.0970e-10,
+        1.1529e-10, 1.1862e-10], device='cuda:0', grad_fn=<StackBackward0>)
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(301)[0;36mtrain[0;34m()[0m
+[0;32m    300 [0;31m            [0;32mimport[0m [0mipdb[0m[0;34m;[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 301 [0;31m            [0mreg_loss[0m [0;34m=[0m [0mtrainer[0m[0;34m.[0m[0mget_regularization_loss[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    302 [0;31m[0;34m[0m[0m
+[0m
+
+Layer: model.layers.0.self_attn.q_proj
+Loss: 1.1947348665941604e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.79296875
+Activation max: 13.34375
+
+Layer: model.layers.0.self_attn.k_proj
+Loss: 1.2075611344197767e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.9677734375
+Activation max: 14.4296875
+
+Layer: model.layers.0.self_attn.v_proj
+Loss: 1.1506226527124852e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.0233154296875
+Activation max: 0.497314453125
+
+Layer: model.layers.0.self_attn.o_proj
+Loss: 1.1329771149037882e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0028076171875
+Activation max: 0.2413330078125
+
+Layer: model.layers.0.mlp.gate_proj
+Loss: 1.1973955160726746e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.10186767578125
+Activation max: 3.92578125
+
+Layer: model.layers.0.mlp.up_proj
+Loss: 1.1993245285779608e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.0775146484375
+Activation max: 2.33203125
+
+Layer: model.layers.0.mlp.down_proj
+Loss: 1.1520710080370478e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0106658935546875
+Activation max: 2.72265625
+
+Layer: model.layers.1.self_attn.q_proj
+Loss: 1.2081145805975524e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.87255859375
+Activation max: 12.15625
+
+Layer: model.layers.1.self_attn.k_proj
+Loss: 1.2168165086645644e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.28125
+Activation max: 11.375
+
+Layer: model.layers.1.self_attn.v_proj
+Loss: 1.2034015450801405e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.05023193359375
+Activation max: 0.9306640625
+
+Layer: model.layers.1.self_attn.o_proj
+Loss: 1.1717926629017938e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.004375457763671875
+Activation max: 0.2255859375
+
+Layer: model.layers.1.mlp.gate_proj
+Loss: 1.2219115996803254e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.09332275390625
+Activation max: 15.5859375
+
+Layer: model.layers.1.mlp.up_proj
+Loss: 1.2312866004560163e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.07452392578125
+Activation max: 23.765625
+
+Layer: model.layers.1.mlp.down_proj
+Loss: 1.0994012644705009e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.012115478515625
+Activation max: 225.625
+
+Layer: model.layers.2.self_attn.q_proj
+Loss: 1.15861382987692e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.7236328125
+Activation max: 11.09375
+
+Layer: model.layers.2.self_attn.k_proj
+Loss: 1.202869609473467e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1923828125
+Activation max: 14.9453125
+
+Layer: model.layers.2.self_attn.v_proj
+Loss: 1.2096097734559663e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.117919921875
+Activation max: 1.7841796875
+
+Layer: model.layers.2.self_attn.o_proj
+Loss: 1.1757067541751098e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.005382537841796875
+Activation max: 0.517578125
+
+Layer: model.layers.2.mlp.gate_proj
+Loss: 1.234843199915403e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.12493896484375
+Activation max: 4.4765625
+
+Layer: model.layers.2.mlp.up_proj
+Loss: 1.2396997317587477e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.09368896484375
+Activation max: 2.087890625
+
+Layer: model.layers.2.mlp.down_proj
+Loss: 1.225105711322172e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.014984130859375
+Activation max: 0.387451171875
+
+Layer: model.layers.3.self_attn.q_proj
+Loss: 1.1604506244822232e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.6923828125
+Activation max: 12.328125
+
+Layer: model.layers.3.self_attn.k_proj
+Loss: 1.1911065189718073e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.0986328125
+Activation max: 16.265625
+
+Layer: model.layers.3.self_attn.v_proj
+Loss: 1.2252571179871552e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1392822265625
+Activation max: 2.1328125
+
+Layer: model.layers.3.self_attn.o_proj
+Loss: 1.2260820136944517e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0093231201171875
+Activation max: 0.70947265625
+
+Layer: model.layers.3.mlp.gate_proj
+Loss: 1.2323393694391171e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.171142578125
+Activation max: 4.19140625
+
+Layer: model.layers.3.mlp.up_proj
+Loss: 1.2379637592818682e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.11016845703125
+Activation max: 2.146484375
+
+Layer: model.layers.3.mlp.down_proj
+Loss: 1.244844921588495e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.017547607421875
+Activation max: 0.51708984375
+
+Layer: model.layers.4.self_attn.q_proj
+Loss: 1.1613791178755051e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.69482421875
+Activation max: 10.5390625
+
+Layer: model.layers.4.self_attn.k_proj
+Loss: 1.1988272874408068e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1748046875
+Activation max: 16.53125
+
+Layer: model.layers.4.self_attn.v_proj
+Loss: 1.2259875059594805e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1468505859375
+Activation max: 1.79296875
+
+Layer: model.layers.4.self_attn.o_proj
+Loss: 1.2270835736405417e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.01116180419921875
+Activation max: 0.6767578125
+
+Layer: model.layers.4.mlp.gate_proj
+Loss: 1.2396725312946444e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.2313232421875
+Activation max: 3.654296875
+
+Layer: model.layers.4.mlp.up_proj
+Loss: 1.2350238887126608e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.123779296875
+Activation max: 2.302734375
+
+Layer: model.layers.4.mlp.down_proj
+Loss: 1.2381211333956088e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.025115966796875
+Activation max: 0.71142578125
+
+Layer: model.layers.5.self_attn.q_proj
+Loss: 1.1683418121855027e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.67822265625
+Activation max: 13.5859375
+
+Layer: model.layers.5.self_attn.k_proj
+Loss: 1.2016065920050778e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.201171875
+Activation max: 16.734375
+
+Layer: model.layers.5.self_attn.v_proj
+Loss: 1.2186039677342109e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1458740234375
+Activation max: 2.501953125
+
+Layer: model.layers.5.self_attn.o_proj
+Loss: 1.2292497575394634e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0132293701171875
+Activation max: 0.90478515625
+
+Layer: model.layers.5.mlp.gate_proj
+Loss: 1.2463464982293004e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.260986328125
+Activation max: 5.33203125
+
+Layer: model.layers.5.mlp.up_proj
+Loss: 1.2349257727528595e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1376953125
+Activation max: 2.79296875
+
+Layer: model.layers.5.mlp.down_proj
+Loss: 1.248425252065033e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.026336669921875
+Activation max: 0.7255859375
+
+Layer: model.layers.6.self_attn.q_proj
+Loss: 1.1613585787495495e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.64599609375
+Activation max: 13.3125
+
+Layer: model.layers.6.self_attn.k_proj
+Loss: 1.1902229202220838e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.212890625
+Activation max: 16.265625
+
+Layer: model.layers.6.self_attn.v_proj
+Loss: 1.2250600534002842e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.140625
+Activation max: 1.978515625
+
+Layer: model.layers.6.self_attn.o_proj
+Loss: 1.2250854497519725e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0141754150390625
+Activation max: 0.96630859375
+
+Layer: model.layers.6.mlp.gate_proj
+Loss: 1.2433772067499405e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.284423828125
+Activation max: 4.62109375
+
+Layer: model.layers.6.mlp.up_proj
+Loss: 1.2364123613828326e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.146240234375
+Activation max: 3.375
+
+Layer: model.layers.6.mlp.down_proj
+Loss: 1.248137565523777e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.02886962890625
+Activation max: 1.193359375
+
+Layer: model.layers.7.self_attn.q_proj
+Loss: 1.157269488571977e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.634765625
+Activation max: 11.4453125
+
+Layer: model.layers.7.self_attn.k_proj
+Loss: 1.194533638670947e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.212890625
+Activation max: 16.0625
+
+Layer: model.layers.7.self_attn.v_proj
+Loss: 1.2255221837342845e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1536865234375
+Activation max: 2.0703125
+
+Layer: model.layers.7.self_attn.o_proj
+Loss: 1.2277850958142267e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0179595947265625
+Activation max: 1.1630859375
+
+Layer: model.layers.7.mlp.gate_proj
+Loss: 1.2408267469066203e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.2841796875
+Activation max: 4.2890625
+
+Layer: model.layers.7.mlp.up_proj
+Loss: 1.2340577171254807e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.15478515625
+Activation max: 3.291015625
+
+Layer: model.layers.7.mlp.down_proj
+Loss: 1.2474382637961412e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0300445556640625
+Activation max: 1.443359375
+
+Layer: model.layers.8.self_attn.q_proj
+Loss: 1.1736246696703034e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.61279296875
+Activation max: 11.6875
+
+Layer: model.layers.8.self_attn.k_proj
+Loss: 1.1924621012848746e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.17578125
+Activation max: 15.2109375
+
+Layer: model.layers.8.self_attn.v_proj
+Loss: 1.2265988225124147e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.164794921875
+Activation max: 2.24609375
+
+Layer: model.layers.8.self_attn.o_proj
+Loss: 1.223896400892599e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0164947509765625
+Activation max: 1.2685546875
+
+Layer: model.layers.8.mlp.gate_proj
+Loss: 1.2374687385907635e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.293212890625
+Activation max: 3.86328125
+
+Layer: model.layers.8.mlp.up_proj
+Loss: 1.2364405332920825e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1558837890625
+Activation max: 3.568359375
+
+Layer: model.layers.8.mlp.down_proj
+Loss: 1.2465951881868165e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.029296875
+Activation max: 1.5478515625
+
+Layer: model.layers.9.self_attn.q_proj
+Loss: 1.1753505113620832e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.58203125
+Activation max: 8.921875
+
+Layer: model.layers.9.self_attn.k_proj
+Loss: 1.1981536596206155e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1220703125
+Activation max: 17.453125
+
+Layer: model.layers.9.self_attn.v_proj
+Loss: 1.2147070849177766e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.18359375
+Activation max: 3.375
+
+Layer: model.layers.9.self_attn.o_proj
+Loss: 1.2224937728788632e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0190277099609375
+Activation max: 1.248046875
+
+Layer: model.layers.9.mlp.gate_proj
+Loss: 1.2359409329310012e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.3076171875
+Activation max: 3.751953125
+
+Layer: model.layers.9.mlp.up_proj
+Loss: 1.2355939882358058e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1611328125
+Activation max: 4.16796875
+
+Layer: model.layers.9.mlp.down_proj
+Loss: 1.2460246723300372e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.03173828125
+Activation max: 1.5166015625
+
+Layer: model.layers.10.self_attn.q_proj
+Loss: 1.1818024336918143e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.6328125
+Activation max: 11.2109375
+
+Layer: model.layers.10.self_attn.k_proj
+Loss: 1.202585531157041e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.2080078125
+Activation max: 16.515625
+
+Layer: model.layers.10.self_attn.v_proj
+Loss: 1.2215606304266657e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1680908203125
+Activation max: 1.955078125
+
+Layer: model.layers.10.self_attn.o_proj
+Loss: 1.2271635096983147e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0181884765625
+Activation max: 1.013671875
+
+Layer: model.layers.10.mlp.gate_proj
+Loss: 1.2371875746097771e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.302001953125
+Activation max: 5.49609375
+
+Layer: model.layers.10.mlp.up_proj
+Loss: 1.2372773638968937e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.16162109375
+Activation max: 3.57421875
+
+Layer: model.layers.10.mlp.down_proj
+Loss: 1.2452176789690128e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.031402587890625
+Activation max: 1.34375
+
+Layer: model.layers.11.self_attn.q_proj
+Loss: 1.1794527854380732e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.5927734375
+Activation max: 10.1796875
+
+Layer: model.layers.11.self_attn.k_proj
+Loss: 1.2022573214753862e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.12109375
+Activation max: 16.546875
+
+Layer: model.layers.11.self_attn.v_proj
+Loss: 1.2257780901414606e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1746826171875
+Activation max: 2.439453125
+
+Layer: model.layers.11.self_attn.o_proj
+Loss: 1.2265771731634345e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0196075439453125
+Activation max: 1.0908203125
+
+Layer: model.layers.11.mlp.gate_proj
+Loss: 1.2344875122138887e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.31103515625
+Activation max: 9.5859375
+
+Layer: model.layers.11.mlp.up_proj
+Loss: 1.2367779023136904e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.167236328125
+Activation max: 4.734375
+
+Layer: model.layers.11.mlp.down_proj
+Loss: 1.2473327926088018e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.032958984375
+Activation max: 1.408203125
+
+Layer: model.layers.12.self_attn.q_proj
+Loss: 1.1586726716972251e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.6103515625
+Activation max: 14.1796875
+
+Layer: model.layers.12.self_attn.k_proj
+Loss: 1.1787266995799683e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.0986328125
+Activation max: 15.9375
+
+Layer: model.layers.12.self_attn.v_proj
+Loss: 1.2334251675572006e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.172607421875
+Activation max: 1.927734375
+
+Layer: model.layers.12.self_attn.o_proj
+Loss: 1.2290787831936711e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.021697998046875
+Activation max: 1.427734375
+
+Layer: model.layers.12.mlp.gate_proj
+Loss: 1.2343097377520706e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.3212890625
+Activation max: 4.38671875
+
+Layer: model.layers.12.mlp.up_proj
+Loss: 1.2316983544202742e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1746826171875
+Activation max: 4.16015625
+
+Layer: model.layers.12.mlp.down_proj
+Loss: 1.247818098848441e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.035736083984375
+Activation max: 2.248046875
+
+Layer: model.layers.13.self_attn.q_proj
+Loss: 1.1735434846116277e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.5908203125
+Activation max: 12.234375
+
+Layer: model.layers.13.self_attn.k_proj
+Loss: 1.2013180727965533e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1845703125
+Activation max: 14.4609375
+
+Layer: model.layers.13.self_attn.v_proj
+Loss: 1.2326044351862464e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1773681640625
+Activation max: 1.91015625
+
+Layer: model.layers.13.self_attn.o_proj
+Loss: 1.2129734716648244e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.021392822265625
+Activation max: 2.060546875
+
+Layer: model.layers.13.mlp.gate_proj
+Loss: 1.241744207458595e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.34814453125
+Activation max: 5.6015625
+
+Layer: model.layers.13.mlp.up_proj
+Loss: 1.233445290349522e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1787109375
+Activation max: 5.23046875
+
+Layer: model.layers.13.mlp.down_proj
+Loss: 1.2472413379871483e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.040435791015625
+Activation max: 1.6474609375
+
+Layer: model.layers.14.self_attn.q_proj
+Loss: 1.1707979030717297e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.607421875
+Activation max: 10.046875
+
+Layer: model.layers.14.self_attn.k_proj
+Loss: 1.1845041614222396e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.203125
+Activation max: 16.09375
+
+Layer: model.layers.14.self_attn.v_proj
+Loss: 1.2278290884015775e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1865234375
+Activation max: 2.271484375
+
+Layer: model.layers.14.self_attn.o_proj
+Loss: 1.2213928479720693e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.02227783203125
+Activation max: 1.392578125
+
+Layer: model.layers.14.mlp.gate_proj
+Loss: 1.2362855184022692e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.374267578125
+Activation max: 6.3125
+
+Layer: model.layers.14.mlp.up_proj
+Loss: 1.2325075682273479e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1800537109375
+Activation max: 2.767578125
+
+Layer: model.layers.14.mlp.down_proj
+Loss: 1.2493624190756947e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.040252685546875
+Activation max: 1.8486328125
+
+Layer: model.layers.15.self_attn.q_proj
+Loss: 1.1572249408731139e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.654296875
+Activation max: 12.828125
+
+Layer: model.layers.15.self_attn.k_proj
+Loss: 1.2062158216696872e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.2294921875
+Activation max: 16.234375
+
+Layer: model.layers.15.self_attn.v_proj
+Loss: 1.23042631638981e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.1903076171875
+Activation max: 2.330078125
+
+Layer: model.layers.15.self_attn.o_proj
+Loss: 1.201507365822252e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.022186279296875
+Activation max: 1.40625
+
+Layer: model.layers.15.mlp.gate_proj
+Loss: 1.2428948148457408e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.41259765625
+Activation max: 5.67578125
+
+Layer: model.layers.15.mlp.up_proj
+Loss: 1.2329309795333643e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.185791015625
+Activation max: 3.2109375
+
+Layer: model.layers.15.mlp.down_proj
+Loss: 1.2493153733750262e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0478515625
+Activation max: 2.31640625
+
+Layer: model.layers.16.self_attn.q_proj
+Loss: 1.1623333545651704e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.638671875
+Activation max: 13.3984375
+
+Layer: model.layers.16.self_attn.k_proj
+Loss: 1.187831361049163e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.2099609375
+Activation max: 18.296875
+
+Layer: model.layers.16.self_attn.v_proj
+Loss: 1.2222171885678534e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.18798828125
+Activation max: 1.9345703125
+
+Layer: model.layers.16.self_attn.o_proj
+Loss: 1.2052803199935624e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0220184326171875
+Activation max: 2.26953125
+
+Layer: model.layers.16.mlp.gate_proj
+Loss: 1.2418321926332965e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.3994140625
+Activation max: 6.640625
+
+Layer: model.layers.16.mlp.up_proj
+Loss: 1.2360137913169922e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1873779296875
+Activation max: 4.39453125
+
+Layer: model.layers.16.mlp.down_proj
+Loss: 1.2456738418542557e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.050811767578125
+Activation max: 2.59375
+
+Layer: model.layers.17.self_attn.q_proj
+Loss: 1.15263264210963e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.6376953125
+Activation max: 11.453125
+
+Layer: model.layers.17.self_attn.k_proj
+Loss: 1.205185257147079e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1689453125
+Activation max: 15.5234375
+
+Layer: model.layers.17.self_attn.v_proj
+Loss: 1.2235104596136637e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.18701171875
+Activation max: 1.9765625
+
+Layer: model.layers.17.self_attn.o_proj
+Loss: 1.2113202108032795e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.021575927734375
+Activation max: 1.6865234375
+
+Layer: model.layers.17.mlp.gate_proj
+Loss: 1.2454821896046298e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.4189453125
+Activation max: 6.30078125
+
+Layer: model.layers.17.mlp.up_proj
+Loss: 1.2375234170747262e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.192626953125
+Activation max: 2.845703125
+
+Layer: model.layers.17.mlp.down_proj
+Loss: 1.2448489461469592e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.051116943359375
+Activation max: 1.7724609375
+
+Layer: model.layers.18.self_attn.q_proj
+Loss: 1.1703370217386322e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.619140625
+Activation max: 13.1015625
+
+Layer: model.layers.18.self_attn.k_proj
+Loss: 1.2071350863340768e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.2080078125
+Activation max: 16.546875
+
+Layer: model.layers.18.self_attn.v_proj
+Loss: 1.225574641772198e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.2027587890625
+Activation max: 3.720703125
+
+Layer: model.layers.18.self_attn.o_proj
+Loss: 1.199500498927364e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.01580810546875
+Activation max: 0.7421875
+
+Layer: model.layers.18.mlp.gate_proj
+Loss: 1.2448082842286823e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.39453125
+Activation max: 6.80859375
+
+Layer: model.layers.18.mlp.up_proj
+Loss: 1.2407183613838413e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.192138671875
+Activation max: 4.21875
+
+Layer: model.layers.18.mlp.down_proj
+Loss: 1.2446807473587285e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.049041748046875
+Activation max: 2.5
+
+Layer: model.layers.19.self_attn.q_proj
+Loss: 1.1678100153567073e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.650390625
+Activation max: 13.1328125
+
+Layer: model.layers.19.self_attn.k_proj
+Loss: 1.2032991270061189e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1630859375
+Activation max: 16.484375
+
+Layer: model.layers.19.self_attn.v_proj
+Loss: 1.230879287383857e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.221435546875
+Activation max: 2.55859375
+
+Layer: model.layers.19.self_attn.o_proj
+Loss: 1.199516735939099e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.01544952392578125
+Activation max: 1.3134765625
+
+Layer: model.layers.19.mlp.gate_proj
+Loss: 1.245615971479097e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.392822265625
+Activation max: 5.6875
+
+Layer: model.layers.19.mlp.up_proj
+Loss: 1.2423609363487742e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1947021484375
+Activation max: 3.51171875
+
+Layer: model.layers.19.mlp.down_proj
+Loss: 1.242964481340536e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0506591796875
+Activation max: 1.93359375
+
+Layer: model.layers.20.self_attn.q_proj
+Loss: 1.169366825592988e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.62158203125
+Activation max: 13.09375
+
+Layer: model.layers.20.self_attn.k_proj
+Loss: 1.202567628810769e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.2099609375
+Activation max: 13.6328125
+
+Layer: model.layers.20.self_attn.v_proj
+Loss: 1.2196957333010516e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.232177734375
+Activation max: 2.14453125
+
+Layer: model.layers.20.self_attn.o_proj
+Loss: 1.1956716172711879e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.01494598388671875
+Activation max: 0.74169921875
+
+Layer: model.layers.20.mlp.gate_proj
+Loss: 1.2475273591938674e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.390869140625
+Activation max: 5.10546875
+
+Layer: model.layers.20.mlp.up_proj
+Loss: 1.2426008832999713e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.1959228515625
+Activation max: 5.0078125
+
+Layer: model.layers.20.mlp.down_proj
+Loss: 1.2427497919631492e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.051483154296875
+Activation max: 1.400390625
+
+Layer: model.layers.21.self_attn.q_proj
+Loss: 1.1605243849244218e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.654296875
+Activation max: 15.5390625
+
+Layer: model.layers.21.self_attn.k_proj
+Loss: 1.1941668487391865e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.189453125
+Activation max: 18.234375
+
+Layer: model.layers.21.self_attn.v_proj
+Loss: 1.211143685342364e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.220947265625
+Activation max: 2.828125
+
+Layer: model.layers.21.self_attn.o_proj
+Loss: 1.1739265115551234e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0223541259765625
+Activation max: 1.3037109375
+
+Layer: model.layers.21.mlp.gate_proj
+Loss: 1.247004582927147e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.416748046875
+Activation max: 7.5859375
+
+Layer: model.layers.21.mlp.up_proj
+Loss: 1.241076547087161e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.208251953125
+Activation max: 3.681640625
+
+Layer: model.layers.21.mlp.down_proj
+Loss: 1.240430119731073e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.057373046875
+Activation max: 2.66015625
+
+Layer: model.layers.22.self_attn.q_proj
+Loss: 1.1652795395278304e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.61767578125
+Activation max: 16.390625
+
+Layer: model.layers.22.self_attn.k_proj
+Loss: 1.197748011882993e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.205078125
+Activation max: 16.265625
+
+Layer: model.layers.22.self_attn.v_proj
+Loss: 1.218218859122544e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.251953125
+Activation max: 2.6953125
+
+Layer: model.layers.22.self_attn.o_proj
+Loss: 1.1780504349800935e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.018218994140625
+Activation max: 0.7822265625
+
+Layer: model.layers.22.mlp.gate_proj
+Loss: 1.2496138845907723e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.4111328125
+Activation max: 7.11328125
+
+Layer: model.layers.22.mlp.up_proj
+Loss: 1.2435423524248534e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.209716796875
+Activation max: 5.4140625
+
+Layer: model.layers.22.mlp.down_proj
+Loss: 1.233402963096708e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.058380126953125
+Activation max: 2.353515625
+
+Layer: model.layers.23.self_attn.q_proj
+Loss: 1.1698800261861209e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.65380859375
+Activation max: 15.6875
+
+Layer: model.layers.23.self_attn.k_proj
+Loss: 1.2018055994822419e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.189453125
+Activation max: 16.609375
+
+Layer: model.layers.23.self_attn.v_proj
+Loss: 1.220019779646364e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.263916015625
+Activation max: 3.384765625
+
+Layer: model.layers.23.self_attn.o_proj
+Loss: 1.1681855482947867e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0196533203125
+Activation max: 0.8251953125
+
+Layer: model.layers.23.mlp.gate_proj
+Loss: 1.2461602583169196e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.4013671875
+Activation max: 6.5625
+
+Layer: model.layers.23.mlp.up_proj
+Loss: 1.244170183545279e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.2130126953125
+Activation max: 4.953125
+
+Layer: model.layers.23.mlp.down_proj
+Loss: 1.2267938054311145e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.060302734375
+Activation max: 2.59375
+
+Layer: model.layers.24.self_attn.q_proj
+Loss: 1.1705932057015644e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.6591796875
+Activation max: 16.40625
+
+Layer: model.layers.24.self_attn.k_proj
+Loss: 1.1879276728965493e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1572265625
+Activation max: 17.890625
+
+Layer: model.layers.24.self_attn.v_proj
+Loss: 1.2140483063305396e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.293212890625
+Activation max: 3.923828125
+
+Layer: model.layers.24.self_attn.o_proj
+Loss: 1.1778004960216748e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0167236328125
+Activation max: 0.955078125
+
+Layer: model.layers.24.mlp.gate_proj
+Loss: 1.2444124897204034e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.394287109375
+Activation max: 6.3046875
+
+Layer: model.layers.24.mlp.up_proj
+Loss: 1.243731506672674e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.2156982421875
+Activation max: 5.765625
+
+Layer: model.layers.24.mlp.down_proj
+Loss: 1.2343107091972172e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0589599609375
+Activation max: 1.9638671875
+
+Layer: model.layers.25.self_attn.q_proj
+Loss: 1.1656027532058744e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.69287109375
+Activation max: 17.703125
+
+Layer: model.layers.25.self_attn.k_proj
+Loss: 1.1776478403557888e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.115234375
+Activation max: 18.5
+
+Layer: model.layers.25.self_attn.v_proj
+Loss: 1.2144731054153368e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.30126953125
+Activation max: 4.31640625
+
+Layer: model.layers.25.self_attn.o_proj
+Loss: 1.1912519581880332e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.019775390625
+Activation max: 1.4716796875
+
+Layer: model.layers.25.mlp.gate_proj
+Loss: 1.2414222427814536e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.405029296875
+Activation max: 8.0390625
+
+Layer: model.layers.25.mlp.up_proj
+Loss: 1.242008718094212e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.2227783203125
+Activation max: 4.24609375
+
+Layer: model.layers.25.mlp.down_proj
+Loss: 1.2376054348006704e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.061126708984375
+Activation max: 2.109375
+
+Layer: model.layers.26.self_attn.q_proj
+Loss: 1.1791775889058442e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.64453125
+Activation max: 16.21875
+
+Layer: model.layers.26.self_attn.k_proj
+Loss: 1.1939715882647306e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1806640625
+Activation max: 17.53125
+
+Layer: model.layers.26.self_attn.v_proj
+Loss: 1.204388117015398e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.268798828125
+Activation max: 3.974609375
+
+Layer: model.layers.26.self_attn.o_proj
+Loss: 1.1986564518728926e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.024017333984375
+Activation max: 3.3125
+
+Layer: model.layers.26.mlp.gate_proj
+Loss: 1.235081203976307e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.430419921875
+Activation max: 7.71875
+
+Layer: model.layers.26.mlp.up_proj
+Loss: 1.241781538707798e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.233642578125
+Activation max: 4.33203125
+
+Layer: model.layers.26.mlp.down_proj
+Loss: 1.2370869606481705e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.06536865234375
+Activation max: 2.6171875
+
+Layer: model.layers.27.self_attn.q_proj
+Loss: 1.1738372773795192e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.64990234375
+Activation max: 16.796875
+
+Layer: model.layers.27.self_attn.k_proj
+Loss: 1.192665272098381e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.2021484375
+Activation max: 16.546875
+
+Layer: model.layers.27.self_attn.v_proj
+Loss: 1.1915218811608952e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.361328125
+Activation max: 3.580078125
+
+Layer: model.layers.27.self_attn.o_proj
+Loss: 1.1750078687811083e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.0266876220703125
+Activation max: 2.609375
+
+Layer: model.layers.27.mlp.gate_proj
+Loss: 1.2279641192769475e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.462158203125
+Activation max: 8.5
+
+Layer: model.layers.27.mlp.up_proj
+Loss: 1.2377295022236723e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.2496337890625
+Activation max: 4.8515625
+
+Layer: model.layers.27.mlp.down_proj
+Loss: 1.23800261708773e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.07470703125
+Activation max: 3.349609375
+
+Layer: model.layers.28.self_attn.q_proj
+Loss: 1.1726136728285041e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.6787109375
+Activation max: 15.2265625
+
+Layer: model.layers.28.self_attn.k_proj
+Loss: 1.193054266490634e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1845703125
+Activation max: 17.359375
+
+Layer: model.layers.28.self_attn.v_proj
+Loss: 1.2266405946537162e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.301513671875
+Activation max: 3.75390625
+
+Layer: model.layers.28.self_attn.o_proj
+Loss: 1.1765588503465096e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.034149169921875
+Activation max: 5.3515625
+
+Layer: model.layers.28.mlp.gate_proj
+Loss: 1.2199848076210884e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.493896484375
+Activation max: 10.125
+
+Layer: model.layers.28.mlp.up_proj
+Loss: 1.2286140160799874e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.276611328125
+Activation max: 6.89453125
+
+Layer: model.layers.28.mlp.down_proj
+Loss: 1.2426683293487173e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.09039306640625
+Activation max: 2.837890625
+
+Layer: model.layers.29.self_attn.q_proj
+Loss: 1.1816703171518839e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.66552734375
+Activation max: 12.21875
+
+Layer: model.layers.29.self_attn.k_proj
+Loss: 1.1867777593987938e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.181640625
+Activation max: 31.0
+
+Layer: model.layers.29.self_attn.v_proj
+Loss: 1.2144651950762864e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.364990234375
+Activation max: 5.734375
+
+Layer: model.layers.29.self_attn.o_proj
+Loss: 1.2291608009196153e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.050872802734375
+Activation max: 4.828125
+
+Layer: model.layers.29.mlp.gate_proj
+Loss: 1.2082634892607302e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.50390625
+Activation max: 14.5390625
+
+Layer: model.layers.29.mlp.up_proj
+Loss: 1.2239613489395396e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.309814453125
+Activation max: 10.5625
+
+Layer: model.layers.29.mlp.down_proj
+Loss: 1.241193675616259e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.107177734375
+Activation max: 5.28515625
+
+Layer: model.layers.30.self_attn.q_proj
+Loss: 1.1644754605022456e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.669921875
+Activation max: 15.7109375
+
+Layer: model.layers.30.self_attn.k_proj
+Loss: 1.2066123100673565e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.2119140625
+Activation max: 15.4609375
+
+Layer: model.layers.30.self_attn.v_proj
+Loss: 1.2063368359793714e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.39501953125
+Activation max: 5.8359375
+
+Layer: model.layers.30.self_attn.o_proj
+Loss: 1.1908851682562727e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.05206298828125
+Activation max: 8.1796875
+
+Layer: model.layers.30.mlp.gate_proj
+Loss: 1.1964434998290585e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.5712890625
+Activation max: 18.25
+
+Layer: model.layers.30.mlp.up_proj
+Loss: 1.209589511885767e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.3720703125
+Activation max: 12.1875
+
+Layer: model.layers.30.mlp.down_proj
+Loss: 1.217705380973655e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.171875
+Activation max: 9.171875
+
+Layer: model.layers.31.self_attn.q_proj
+Loss: 1.1444029057727789e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.775390625
+Activation max: 32.09375
+
+Layer: model.layers.31.self_attn.k_proj
+Loss: 1.1929231213958502e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 1.1943359375
+Activation max: 18.578125
+
+Layer: model.layers.31.self_attn.v_proj
+Loss: 1.20360305055911e-10
+Activation shape: (4, 113, 1024)
+Activation mean: 0.38330078125
+Activation max: 8.484375
+
+Layer: model.layers.31.self_attn.o_proj
+Loss: 1.183476788790827e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.1044921875
+Activation max: 9.7109375
+
+Layer: model.layers.31.mlp.gate_proj
+Loss: 1.1201996968912553e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.60400390625
+Activation max: 18.65625
+
+Layer: model.layers.31.mlp.up_proj
+Loss: 1.1649156639315095e-10
+Activation shape: (4, 113, 14336)
+Activation mean: 0.49853515625
+Activation max: 15.7890625
+
+Layer: model.layers.31.mlp.down_proj
+Loss: 1.1715951819812886e-10
+Activation shape: (4, 113, 4096)
+Activation mean: 0.4091796875
+Activation max: 224.375
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(143)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    142 [0;31m        [0;31m# Stack and mean while handling potential remaining infinities[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 143 [0;31m        [0mstacked_losses[0m [0;34m=[0m [0mtorch[0m[0;34m.[0m[0mstack[0m[0;34m([0m[0mlosses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    144 [0;31m        [0mfinite_mask[0m [0;34m=[0m [0;34m~[0m[0mtorch[0m[0;34m.[0m[0misinf[0m[0;34m([0m[0mstacked_losses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(301)[0;36mtrain[0;34m()[0m
+[0;32m    300 [0;31m            [0;32mimport[0m [0mipdb[0m[0;34m;[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 301 [0;31m            [0mreg_loss[0m [0;34m=[0m [0mtrainer[0m[0;34m.[0m[0mget_regularization_loss[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    302 [0;31m[0;34m[0m[0m
+[0m
+
+Layer: model.layers.0.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.0.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.0.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.0.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.0.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.0.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.0.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.1.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.1.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.1.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.1.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.1.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.1.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.1.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.2.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.2.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.2.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.2.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.2.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.2.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.2.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.3.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.3.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.3.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.3.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.3.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.3.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.3.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.4.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.4.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.4.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.4.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.4.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.4.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.4.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.5.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.5.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.5.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.5.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.5.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.5.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.5.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.6.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.6.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.6.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.6.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.6.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.6.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.6.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.7.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.7.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.7.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.7.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.7.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.7.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.7.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.8.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.8.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.8.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.8.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.8.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.8.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.8.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.9.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.9.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.9.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.9.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.9.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.9.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.9.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.10.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.10.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.10.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.10.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.10.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.10.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.10.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.11.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.11.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.11.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.11.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.11.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.11.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.11.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.12.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.12.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.12.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.12.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.12.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.12.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.12.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.13.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.13.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.13.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.13.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.13.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.13.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.13.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.14.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.14.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.14.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.14.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.14.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.14.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.14.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.15.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.15.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.15.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.15.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.15.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.15.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.15.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.16.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.16.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.16.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.16.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.16.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.16.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.16.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.17.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.17.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.17.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.17.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.17.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.17.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.17.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.18.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.18.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.18.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.18.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.18.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.18.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.18.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.19.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.19.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.19.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.19.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.19.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.19.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.19.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.20.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.20.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.20.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.20.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.20.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.20.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.20.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.21.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.21.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.21.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.21.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.21.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.21.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.21.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.22.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.22.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.22.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.22.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.22.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.22.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.22.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.23.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.23.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.23.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.23.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.23.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.23.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.23.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.24.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.24.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.24.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.24.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.24.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.24.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.24.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.25.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.25.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.25.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.25.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.25.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.25.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.25.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.26.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.26.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.26.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.26.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.26.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.26.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.26.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.27.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.27.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.27.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.27.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.27.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.27.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.27.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.28.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.28.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.28.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.28.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.28.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.28.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.28.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.29.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.29.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.29.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.29.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.29.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.29.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.29.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.30.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.30.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.30.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.30.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.30.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.30.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.30.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.31.self_attn.q_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.31.self_attn.k_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.31.self_attn.v_proj
+Loss: nan
+Activation shape: (4, 139, 1024)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.31.self_attn.o_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.31.mlp.gate_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.31.mlp.up_proj
+Loss: nan
+Activation shape: (4, 139, 14336)
+Activation mean: nan
+Activation max: nan
+
+Layer: model.layers.31.mlp.down_proj
+Loss: nan
+Activation shape: (4, 139, 4096)
+Activation mean: nan
+Activation max: nan
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(143)[0;36mget_regularization_loss[0;34m()[0m
+[0;32m    142 [0;31m        [0;31m# Stack and mean while handling potential remaining infinities[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 143 [0;31m        [0mstacked_losses[0m [0;34m=[0m [0mtorch[0m[0;34m.[0m[0mstack[0m[0;34m([0m[0mlosses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    144 [0;31m        [0mfinite_mask[0m [0;34m=[0m [0;34m~[0m[0mtorch[0m[0;34m.[0m[0misinf[0m[0;34m([0m[0mstacked_losses[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m
+> [0;32m/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py[0m(301)[0;36mtrain[0;34m()[0m
+[0;32m    300 [0;31m            [0;32mimport[0m [0mipdb[0m[0;34m;[0m [0mipdb[0m[0;34m.[0m[0mset_trace[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m--> 301 [0;31m            [0mreg_loss[0m [0;34m=[0m [0mtrainer[0m[0;34m.[0m[0mget_regularization_loss[0m[0;34m([0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m    302 [0;31m[0;34m[0m[0m
+[0m
+*** NameError: name 'exit90' is not defined
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/IPython/core/debugger.py", line 179, in BdbQuit_excepthook
+    raise ValueError(
+ValueError: `BdbQuit_excepthook` is deprecated since version 5.1. It is still around only because it is still imported by ipdb.
+
+Original exception was:
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 422, in <module>
+    model = train(
+    ^^^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 406, in main
+    dataset,
+        ^^^^
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/act_reg.py", line 301, in train
+    task_loss = outputs.loss
+               ^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 90, in trace_dispatch
+    return self.dispatch_line(frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/bdb.py", line 115, in dispatch_line
+    if self.quitting: raise BdbQuit
+                      ^^^^^^^^^^^^^
+bdb.BdbQuit

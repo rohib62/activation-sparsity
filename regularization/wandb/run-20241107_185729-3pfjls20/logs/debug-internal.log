@@ -1,0 +1,16 @@
+{"time":"2024-11-07T18:57:29.455568118Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-07T18:57:29.455575957Z","level":"INFO","msg":"created symlink","path":"/home/riyasatohib_cohere_com/repos/teal_clone/regularization/wandb/run-20241107_185729-3pfjls20/logs/debug-core.log"}
+{"time":"2024-11-07T18:57:29.658899557Z","level":"INFO","msg":"created new stream","id":"3pfjls20"}
+{"time":"2024-11-07T18:57:29.658920854Z","level":"INFO","msg":"stream: started","id":"3pfjls20"}
+{"time":"2024-11-07T18:57:29.658971261Z","level":"INFO","msg":"sender: started","stream_id":"3pfjls20"}
+{"time":"2024-11-07T18:57:29.658953265Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"3pfjls20"}}
+{"time":"2024-11-07T18:57:29.659064417Z","level":"INFO","msg":"handler: started","stream_id":{"value":"3pfjls20"}}
+{"time":"2024-11-07T18:57:29.827430988Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-07T19:02:35.745416368Z","level":"INFO","msg":"stream: closing","id":"3pfjls20"}
+{"time":"2024-11-07T19:02:35.745447128Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-07T19:02:35.746029869Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-07T19:02:36.047871966Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-07T19:02:36.126752268Z","level":"INFO","msg":"handler: closed","stream_id":{"value":"3pfjls20"}}
+{"time":"2024-11-07T19:02:36.126782363Z","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"3pfjls20"}}
+{"time":"2024-11-07T19:02:36.126834368Z","level":"INFO","msg":"sender: closed","stream_id":"3pfjls20"}
+{"time":"2024-11-07T19:02:36.126854823Z","level":"INFO","msg":"stream: closed","id":"3pfjls20"}

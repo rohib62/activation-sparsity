@@ -1,0 +1,20 @@
+Loading model from /home/riyasatohib_cohere_com/repos/models/meta-llama/Meta-Llama-3-8B...
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:03<00:00,  1.20it/s]
+Traceback (most recent call last):
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 224, in <module>
+    main()
+  File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 197, in main
+    model, optimizer, train_dataloader, scheduler = accelerator.prepare(
+                                                    ^^^^^^^^^^^^^^^^^^^^
+  File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/accelerator.py", line 1300, in prepare
+    raise ValueError(
+ValueError: You can't train a model that has been loaded with `device_map='auto'` in any distributed mode. Please rerun your script specifying `--num_processes=1` or by launching with `python {{myscript.py}}`.
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 224, in <module>
+[rank0]:     main()
+[rank0]:   File "/home/riyasatohib_cohere_com/repos/teal_clone/regularization/finetune.py", line 197, in main
+[rank0]:     model, optimizer, train_dataloader, scheduler = accelerator.prepare(
+[rank0]:                                                     ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/home/riyasatohib_cohere_com/.conda/envs/teal/lib/python3.11/site-packages/accelerate/accelerator.py", line 1300, in prepare
+[rank0]:     raise ValueError(
+[rank0]: ValueError: You can't train a model that has been loaded with `device_map='auto'` in any distributed mode. Please rerun your script specifying `--num_processes=1` or by launching with `python {{myscript.py}}`.
